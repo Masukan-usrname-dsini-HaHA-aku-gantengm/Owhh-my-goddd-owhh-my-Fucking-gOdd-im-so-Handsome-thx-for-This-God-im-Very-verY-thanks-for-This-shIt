@@ -30,10 +30,9 @@ check_pip() {
 # Jalankan Verifikasi
 check_pkg git
 check_pkg python
-check_pkg rich
 check_pkg zlib
 check_pkg curl
-check_pkg selenium
+check_pkg ffmpeg
 # Note: Karena script murni menggunakan standard library bawaan python untuk performa optimal di Termux,
 # penambahan modul tambahan pip bersifat opsional jika diperlukan ke depannya.
 check_pip requests 2>/dev/null || pip install requests --quiet
