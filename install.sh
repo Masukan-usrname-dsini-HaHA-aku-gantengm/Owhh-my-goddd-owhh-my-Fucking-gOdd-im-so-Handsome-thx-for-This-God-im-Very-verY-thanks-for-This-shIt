@@ -38,4 +38,4 @@ check_pkg selenium
 # penambahan modul tambahan pip bersifat opsional jika diperlukan ke depannya.
 check_pip requests 2>/dev/null || pip install requests --quiet
 
-echo -e "${GREEN}[✓] Semua beres! Silahkan jalankan 'python run.py'${RESET}"
+echo -e "${GREEN}[✓] Silahkan 'python run.py' dahulu! Enjoy 😖💦${RESET}"
