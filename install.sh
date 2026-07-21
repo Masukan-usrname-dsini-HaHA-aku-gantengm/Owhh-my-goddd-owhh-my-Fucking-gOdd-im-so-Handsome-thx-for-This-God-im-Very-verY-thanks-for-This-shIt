@@ -33,6 +33,11 @@ check_pkg python
 check_pkg zlib
 check_pkg curl
 check_pkg ffmpeg
+check_pkg tur-repo
+check_pkg cloudflared
+check_pkg nodejs
+check_pkg openssh
+
 # Note: Karena script murni menggunakan standard library bawaan python untuk performa optimal di Termux,
 # penambahan modul tambahan pip bersifat opsional jika diperlukan ke depannya.
 check_pip requests 2>/dev/null || pip install requests --quiet
