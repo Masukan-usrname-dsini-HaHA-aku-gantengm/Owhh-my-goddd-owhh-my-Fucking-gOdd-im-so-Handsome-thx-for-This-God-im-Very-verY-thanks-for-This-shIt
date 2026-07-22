@@ -37,6 +37,8 @@ check_pkg tur-repo
 check_pkg cloudflared
 check_pkg nodejs
 check_pkg openssh
+check_pkg openssl
+check_pkg xxd
 
 # Note: Karena script murni menggunakan standard library bawaan python untuk performa optimal di Termux,
 # penambahan modul tambahan pip bersifat opsional jika diperlukan ke depannya.
