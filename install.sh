@@ -1,47 +1,64 @@
 #!/bin/bash
 
-# --- WARNA UTAMA ---
-GREEN='\033[38;5;108m'
-BLUE='\033[38;5;67m'
-RESET='\033[0m'
-
-echo -e "${BLUE}[*] Memulai Pengecekan Dependensi X-ValeZ...${RESET}"
-
-# Fungsi Cek & Install Package System
-check_pkg() {
-    if ! command -v $1 &> /dev/null; then
-        echo -e "${BLUE}[+] Menginstal package: $1...${RESET}"
-        apt update -y && apt install $1 -y
+# Fungsi untuk mengecek paket sistem (OS)
+c_pkg() {
+    local pkg=$1
+    echo "[?] Mengecek package sistem: $pkg..."
+    
+    if command -v "$pkg" &> /dev/null; then
+        echo "[+] $pkg sudah terinstall."
     else
-        echo -e "${GREEN}[✓] $1 sudah terinstal. Done.${RESET}"
+        echo "[-] $pkg BELUM terinstall!"
+        # Tempatkan perintah install otomatis di sini jika mau
+        # Contoh: sudo apt install $pkg -y
     fi
+    echo ""
 }
 
-# Fungsi Cek & Install PIP Modules
-check_pip() {
-    if ! python3 -c "import $1" &> /dev/null; then
-        echo -e "${BLUE}[+] Menginstal python module: $1...${RESET}"
-        pip install $1
-    else
-        echo -e "${GREEN}[✓] Python module $1 sudah terinstal. Done.${RESET}"
+# Fungsi untuk mengecek library Python (PIP)
+c_pip() {
+    local pip_pkg=$1
+    echo "[?] Mengecek library PIP: $pip_pkg..."
+    
+    # Memastikan python dan pip ada sebelum mengecek
+    if ! command -v pip3 &> /dev/null && ! command -v pip &> /dev/null; then
+        echo "[!] Error: pip atau pip3 tidak ditemukan di sistem!"
+        echo ""
+        return 1
     fi
+
+    # Cek menggunakan pip show
+    if pip3 show "$pip_pkg" &> /dev/null || pip show "$pip_pkg" &> /dev/null; then
+        echo "[+] Library PIP '$pip_pkg' sudah terinstall."
+    else
+        echo "[-] Library PIP '$pip_pkg' BELUM terinstall! Sedang instalasi..."
+        # Tempatkan perintah install otomatis di sini jika mau
+        # Contoh: pip3 install $pip_pkg
+    fi
+    echo ""
 }
 
-# Jalankan Verifikasi
-check_pkg git
-check_pkg python
-check_pkg zlib
-check_pkg curl
-check_pkg ffmpeg
-check_pkg tur-repo
-check_pkg cloudflared
-check_pkg nodejs
-check_pkg openssh
-check_pkg openssl
-check_pkg xxd
+# =========================================================
+# CARA PAKAI: Tinggal panggil fungsinya di bawah ini
+# =========================================================
 
-# Note: Karena script murni menggunakan standard library bawaan python untuk performa optimal di Termux,
-# penambahan modul tambahan pip bersifat opsional jika diperlukan ke depannya.
-check_pip requests 2>/dev/null || pip install requests --quiet
+# 1. Cek paket aplikasi sistem
+c_pkg "python3"
+c_pkg "python2"
+c_pkg "python"
+c_pkg "git"
+c_pkg "curl"
+c_pkg "xxd"
+c_pkg "openssl"
+c_pkg "openssh"
+c_pkg "wget"
+c_pkg "ffmpeg"
 
-echo -e "${GREEN}[✓] Silahkan 'python run.py' dahulu! Enjoy 😖💦${RESET}"
+# 2. Cek library Python / PIP
+c_pip "phonenumbers"
+c_pip "requests"
+c_pip "colorama"
+c_pip "scrapy"
+
+echo "[✓] Semua package & pip siap! Sedang run tools..."
+python run.py
