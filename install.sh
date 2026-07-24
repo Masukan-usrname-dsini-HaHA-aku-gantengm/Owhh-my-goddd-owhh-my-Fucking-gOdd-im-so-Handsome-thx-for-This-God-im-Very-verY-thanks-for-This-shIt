@@ -1,8 +1,11 @@
 #!/bin/bash
 
+clear
+
 # Fungsi untuk mengecek paket sistem (OS)
 c_pkg() {
     local pkg=$1
+    clear
     echo "[?] Mengecek package sistem: $pkg..."
     
     if command -v "$pkg" &> /dev/null; then
@@ -18,6 +21,7 @@ c_pkg() {
 # Fungsi untuk mengecek library Python (PIP)
 c_pip() {
     local pip_pkg=$1
+    clear
     echo "[?] Mengecek library PIP: $pip_pkg..."
     
     # Memastikan python dan pip ada sebelum mengecek
@@ -29,11 +33,11 @@ c_pip() {
 
     # Cek menggunakan pip show
     if pip3 show "$pip_pkg" &> /dev/null || pip show "$pip_pkg" &> /dev/null; then
+        clear
         echo "[+] Library PIP '$pip_pkg' sudah terinstall."
     else
         echo "[-] Library PIP '$pip_pkg' BELUM terinstall! Sedang instalasi..."
-        # Tempatkan perintah install otomatis di sini jika mau
-        # Contoh: pip3 install $pip_pkg
+        clear
     fi
     echo ""
 }
@@ -60,5 +64,6 @@ c_pip "requests"
 c_pip "colorama"
 c_pip "scrapy"
 
+clear
 echo "[✓] Semua package & pip siap! Sedang run tools..."
 python run.py
