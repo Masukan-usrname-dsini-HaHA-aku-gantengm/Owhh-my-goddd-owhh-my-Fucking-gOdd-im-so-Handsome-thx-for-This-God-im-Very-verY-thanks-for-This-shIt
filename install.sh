@@ -242,6 +242,7 @@ main() {
             openssh
             wget
             ffmpeg
+            jq
         )
 
         for p in "${TERMUX_PKGS[@]}"; do
@@ -288,6 +289,7 @@ main() {
         requests
         colorama
         scrapy
+        python-dotenv
     )
 
     for lib in "${PIP_LIBS[@]}"; do
