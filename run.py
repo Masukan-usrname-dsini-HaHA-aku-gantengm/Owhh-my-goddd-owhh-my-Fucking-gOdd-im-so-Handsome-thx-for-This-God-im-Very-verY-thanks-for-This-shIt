@@ -13,7 +13,7 @@ except ImportError:
     print("PyCryptodome tidak ada. Install: pip install pycryptodome")
     sys.exit(1)
 os.system("clear")
-print("Pastikan "bash install.sh" dulu biar semua package dan pip yang diperlukan agar berjalan dengan lancar!\n")
+print('Pastikan "bash install.sh" dulu biar semua package dan pip yang diperlukan agar berjalan dengan lancar!\n')
 time.sleep(1)
 
 key = bytes.fromhex("23a6ccbe02853b21580cadb59cc497209aeeacaa2bc20264fd40c6c56e1d44ba")
