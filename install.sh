@@ -1,16 +1,6 @@
 #!/usr/bin/env bash
 
-# =========================================================
-#  X-ValeZ Installer - Auto Detect Termux / Kali Linux
-#  Colorful + Animated + Auto Install Dependencies
-#  FIXED: no more stuck after OS detection
-# =========================================================
-
 set -uo pipefail
-# NOTE: 'set -e' sengaja DIHILANGKAN.
-# Kalau -e aktif, satu command gagal (misal pkg gak ketemu) bikin
-# seluruh script mati tanpa pesan jelas. Kita handle error manual
-# lewat exit code tiap fungsi, jadi lebih predictable.
 
 RED="\e[31m"
 GREEN="\e[32m"
@@ -22,12 +12,6 @@ WHITE="\e[97m"
 BOLD="\e[1m"
 RESET="\e[0m"
 
-# -----------------------------------------------------------------
-# Spinner: HANYA dipakai untuk command yang PASTI non-interaktif
-# dan tidak butuh sudo password. Untuk command sudo/apt/pkg update,
-# JANGAN pakai spinner -- jalankan langsung di foreground supaya
-# prompt password bisa muncul dan diisi user.
-# -----------------------------------------------------------------
 spinner() {
     local pid=$1
     local delay=0.1
@@ -40,7 +24,7 @@ spinner() {
     done
     printf "\r      \r"
 }
-
+clear
 banner() {
     clear
     echo -e "${CYAN}${BOLD}"
@@ -62,10 +46,6 @@ msg_warn()  { echo -e "${YELLOW}[!]${RESET} $1"; }
 msg_info()  { echo -e "${BLUE}[•]${RESET} $1"; }
 msg_err()   { echo -e "${RED}[x]${RESET} $1"; }
 
-# -----------------------------------------------------------------
-# run_cmd_silent: untuk command ringan, non-interaktif, tidak perlu
-# password. Pakai spinner, output disembunyikan.
-# -----------------------------------------------------------------
 run_cmd_silent() {
     local title="$1"
     shift
@@ -82,13 +62,6 @@ run_cmd_silent() {
     fi
 }
 
-# -----------------------------------------------------------------
-# run_cmd_fg: untuk command yang BUTUH sudo password atau interaksi
-# (apt update, apt upgrade, termux-change-repo, dsb).
-# Dijalankan LANGSUNG di foreground, tanpa background & tanpa
-# redirect ke /dev/null, supaya prompt bisa muncul dan diisi.
-# Ini FIX UTAMA untuk masalah "stuck setelah deteksi OS".
-# -----------------------------------------------------------------
 run_cmd_fg() {
     local title="$1"
     shift
@@ -107,7 +80,6 @@ detect_os() {
         OS="termux"
         PKG="pkg"
     elif [ -f /etc/os-release ]; then
-        # shellcheck disable=SC1091
         . /etc/os-release
         case "${ID:-}" in
             kali|debian|ubuntu|parrot|linuxmint)
@@ -130,10 +102,7 @@ detect_os() {
 
 install_base() {
     if [ "$OS" = "termux" ]; then
-        # termux-change-repo itu INTERAKTIF (buka dialog pilih mirror).
-        # Kalau mau full otomatis tanpa dialog, SKIP command ini.
-        # Kalau mau tetap ada, jalankan foreground (bukan run_cmd lama).
-        if command -v termux-change-repo >/dev/null 2>&1; then
+            if command -v termux-change-repo >/dev/null 2>&1; then
             msg_warn "termux-change-repo bersifat interaktif, dilewati agar tidak stuck."
             msg_warn "Jalankan manual 'termux-change-repo' kalau mau ganti mirror."
         fi
@@ -142,10 +111,6 @@ install_base() {
         run_cmd_fg "Upgrade packages (pkg upgrade)..." pkg upgrade -y
 
     elif [ "$OS" = "kali" ]; then
-        # INI FIX PALING PENTING: sudo apt update/upgrade WAJIB foreground
-        # supaya prompt password sudo bisa muncul & bisa diisi user.
-        # Versi lama menjalankan ini di background -> nunggu password
-        # yang gak pernah bisa masuk -> script kelihatan "stuck".
         run_cmd_fg "Update package list (sudo apt update)..." sudo apt update -y
         run_cmd_fg "Upgrade packages (sudo apt upgrade)..." sudo apt upgrade -y
     else
@@ -160,7 +125,6 @@ install_pkg_termux() {
         msg_ok "$pkg sudah terinstall."
     else
         msg_warn "$pkg belum ada, install sekarang..."
-        # pkg install biasanya non-interaktif dengan -y, aman pakai silent+spinner
         if run_cmd_silent "Install $pkg" pkg install "$pkg" -y; then
             :
         else
@@ -175,8 +139,6 @@ install_pkg_kali() {
         msg_ok "$pkg sudah terinstall."
     else
         msg_warn "$pkg belum ada, install sekarang..."
-        # sudo apt install BUTUH password kalau sudo timestamp expired,
-        # jadi jalankan foreground juga supaya aman.
         run_cmd_fg "Install $pkg" sudo apt install "$pkg" -y
     fi
 }
@@ -209,10 +171,6 @@ install_pip_pkg() {
         msg_ok "PIP '$pip_pkg' sudah terinstall."
     else
         msg_warn "PIP '$pip_pkg' belum ada, install sekarang..."
-        # pip install non-interaktif, aman pakai spinner.
-        # Tambah --break-system-packages sebagai fallback untuk distro
-        # yang pakai PEP 668 (externally-managed-environment), umum di
-        # Kali/Debian terbaru.
         if run_cmd_silent "Install pip package $pip_pkg" "$PIP_CMD" install "$pip_pkg"; then
             :
         elif run_cmd_silent "Install pip package $pip_pkg (break-system-packages)" \
@@ -299,7 +257,17 @@ main() {
     echo
     echo -e "${GREEN}${BOLD}[✓] Semua package & pip siap!${RESET}"
     echo -e "${CYAN}Sedang menjalankan tools...${RESET}"
+    echo -e "${GREEN}${BOLD}SABAR DULU YA PUKI 🐷${RESET}"
     echo
+    echo
+    echo
+    echo
+    clear
+    echo
+    echo
+    echo
+    echo
+    echo -e "${BLUE}${BOLD}BENTAR BANG! DIKIT LAGI 🗿${RESET}"
 
     if [ -f "run.py" ]; then
         python3 run.py || python run.py
