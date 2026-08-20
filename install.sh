@@ -262,15 +262,18 @@ main() {
     echo
     echo
     echo
+    echo
+    echo
+    echo
+    echo
     clear
-    echo
-    echo
-    echo
-    echo
     echo -e "${BLUE}${BOLD}BENTAR BANG! DIKIT LAGI 🗿${RESET}"
-
-    if [ -f "run.py" ]; then
-        python3 run.py || python run.py
+    export PYENV_ROOT="$HOME/.pyenv"
+    [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init -)"
+    
+if [ -f "run.py" ]; then
+        pyenv global 3.13.5 && python --version && cd $HOME/valez &&  python3 run.py || pyenv global 3.13.5 && python --version && cd $HOME/valez python run.py
     else
         msg_err "run.py tidak ditemukan di folder ini."
         exit 1
