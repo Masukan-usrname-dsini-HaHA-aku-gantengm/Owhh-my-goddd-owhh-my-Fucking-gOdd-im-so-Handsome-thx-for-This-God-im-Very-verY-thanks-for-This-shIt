@@ -279,5 +279,7 @@ if [ -f "run.py" ]; then
         exit 1
     fi
 }
-
+clear
+echo -e '${RED}${BOLD}JIKA TIDAK BISA DI RUN MAKA KETIK:\n${RESET}"bash fix.sh"\n${BLUE}Untuk instalasi Python 3.13.5 dan pyenv${RESET}'
+sleep 3
 main "$@"
