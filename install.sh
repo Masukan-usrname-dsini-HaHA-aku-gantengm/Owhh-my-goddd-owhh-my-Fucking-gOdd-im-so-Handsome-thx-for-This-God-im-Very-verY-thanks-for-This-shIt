@@ -268,12 +268,9 @@ main() {
     echo
     clear
     echo -e "${BLUE}${BOLD}BENTAR BANG! DIKIT LAGI 🗿${RESET}"
-    export PYENV_ROOT="$HOME/.pyenv"
-    [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-    eval "$(pyenv init -)"
-    
+   
 if [ -f "run.py" ]; then
-        pyenv global 3.13.5 && python --version &&  python3 run.py || pyenv global 3.13.5 && python --version python run.py
+        pyenv global 3.13.5 &&  python3 run.py || pyenv global 3.13.5 && python run.py
     else
         msg_err "run.py tidak ditemukan di folder ini."
         exit 1
@@ -281,5 +278,4 @@ if [ -f "run.py" ]; then
 }
 clear
 echo -e '${RED}${BOLD}JIKA TIDAK BISA DI RUN MAKA KETIK:\n${RESET}"bash fix.sh"\n${BLUE}Untuk instalasi Python 3.13.5 dan pyenv${RESET}'
-sleep 3
 main "$@"
