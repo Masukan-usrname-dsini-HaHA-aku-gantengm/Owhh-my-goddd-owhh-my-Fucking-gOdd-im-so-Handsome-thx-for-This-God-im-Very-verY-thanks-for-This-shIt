@@ -273,7 +273,7 @@ main() {
     eval "$(pyenv init -)"
     
 if [ -f "run.py" ]; then
-        pyenv global 3.13.5 && python --version && cd $HOME/valez &&  python3 run.py || pyenv global 3.13.5 && python --version && cd $HOME/valez python run.py
+        pyenv global 3.13.5 && python --version &&  python3 run.py || pyenv global 3.13.5 && python --version python run.py
     else
         msg_err "run.py tidak ditemukan di folder ini."
         exit 1
