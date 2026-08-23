@@ -270,7 +270,7 @@ main() {
     echo -e "${BLUE}${BOLD}BENTAR BANG! DIKIT LAGI 🗿${RESET}"
    
 if [ -f "run.py" ]; then
-        pyenv global 3.13.5 &&  python3 run.py || pyenv global 3.13.5 && python run.py
+        python3 run.py || python run.py
     else
         msg_err "run.py tidak ditemukan di folder ini."
         exit 1
