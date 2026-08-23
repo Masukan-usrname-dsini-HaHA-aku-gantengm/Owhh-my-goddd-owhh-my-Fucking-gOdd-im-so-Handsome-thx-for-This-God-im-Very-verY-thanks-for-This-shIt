@@ -1,813 +1,813 @@
-def LЬYОDζ☌t☌UПfAЖK☉(p0, p1, p2):
-    return ''.join((chr(ord(c) ^ 191) for c in p0)) + ''.join((chr(ord(c) ^ 103) for c in p1)) + ''.join((chr(ord(c) ^ 190) for c in p2))
-import os as υ☏iXθМηЩЛAХЙkК☀y
-import sys as ПНFЩ☍ρχSωРЧЧКЖwβκ
-import json as r☁TlЫЬ☀PGψυТC
-import time as ТЖeCgyrδ☄PuXtyxγf
-import re as v☎νЧRУU☇QααhЛρТ
-import socket as Чe☆λ☉pMЭjηМV
-import subprocess as SЪВЩιd☆ξ☎М☊wD
-import termios as cХl☈ГRC☏☆UНЕζuЩУ
-import tty as МЗЖροοh☁γУ☏ПυФШT☇
-import select as Мι☆χυЕξЗχVЦjBτ
-import shutil as ☂РAЬβ★δSVgЪzGsCАdw
-import tempfile as ВZCWЪ☀NЬBХu☀YlvC
-import threading as ψqЙ★FT☎ηηLgН
-import unicodedata as lL☊kNπБ☉O☈КeНaγЮrS
-import webbrowser as ωЫαtψ☋φHoγfКCθ
-from datetime import datetime as Ь☊Тξuy☃ERСN☌
-if ПНFЩ☍ρχSωРЧЧКЖwβκ.version_info >= (3, 14):
-    ПНFЩ☍ρχSωРЧЧКЖwβκ.set_int_max_str_digits(0)
-    ПНFЩ☍ρχSωРЧЧКЖwβκ.setrecursionlimit(1000000)
-cXrτИЮψПPζЯV = LЬYОDζ☌t☌UПfAЖK☉('\x90ÛÞËÞ\x90ÛÞËÞ\x90ÜÐÒ\x91ËÚÍÒÊÇ\x90ÙÖÓÚÌ\x90ÊÌÍ\x90\x91Ç\x90\x91Ï\x90\x91ÏÚÍÒÖÌÌÖÐÑ\x90\x91×ÚÍÚ\x90\x91Ö\x92ÒÚ', '\x06\tJ/"5"HI\x08\x0cJ.\x13\x14/\x02\x15\x02HI\x13\x0f\x02+\x06\x14\x13(\t\x02/\x02\x15\x02HI\x12\x0f\x0f\n\n\n\n/\x02\x15\x02%\x15\x08HI\x03\x02\x04\x08\x03\x02\x15/', 'ßÒÑ\x91\x90ÉßÖùßÌ×ÍÎÛÕüßÐÙÛÊéÑÕüßÖßÇßüßÐÙÛÊð×ÖçßÕßÐ\x91\x90ÎÛÌÓ×ÍÍ×ÑÐ\x90ÔÍÑÐ')
-HJgκЮDμ☍☌Ж☁Yq = LЬYОDζ☌t☌UПfAЖK☉('\x90ÛÞËÞ\x90ÛÞËÞ\x90Ü', '\x08\nI\x13\x02\x15\n\x12\x1fH\x01\x0e', 'ÒÛÍ\x91ËÍÌ\x91\x90Æ\x91\x90Î')
-if __name__ != LЬYОDζ☌t☌UПfAЖK☉('àà', '\n\x06\x0e', 'Ðáá'):
+def fzЪΤτКnCюΗΔτΨοYηу(p0, p1, p2):
+    return ''.join((chr(ord(c) ^ 77) for c in p0)) + ''.join((chr(ord(c) ^ 153) for c in p1)) + ''.join((chr(ord(c) ^ 186) for c in p2))
+import os as SΦьZФτWmΣvЕδФУ
+import sys as MnVАЖтεфΓΤгТαЕю
+import json as ΗуwQФgМрЧРжЪ
+import time as ЧψНАKНQккπоЬоφБγN
+import re as λΨюtхμсхaΨЛΥАрkηв
+import socket as црxJCbоbOиFαюE
+import subprocess as эаBвУСщpБyЖУN
+import termios as χΗΞMσшАзIрGKΣd
+import tty as ЪνАгЧТuЙъΙΥvVяcЧ
+import select as юnρЧdбΨΗΥmsqΟΔпΓщ
+import shutil as ΥEкСжrvбшuρжWОEΔ
+import tempfile as aΨψxнΚmRШwНjчЩcп
+import threading as dιΔГoЕΞхГiСc
+import unicodedata as ΗLnАδоφΕψMуΧFlЕ
+import webbrowser as vwθCγаuψNЯЭOoХФC
+from datetime import datetime as юHψPRJΧГуfZmσЭ
+if MnVАЖтεфΓΤгТαЕю.version_info >= (3, 14):
+    MnVАЖтεфΓΤгТαЕю.set_int_max_str_digits(0)
+    MnVАЖтεфΓΤгТαЕю.setrecursionlimit(1000000)
+χеSσΗaΔbрeoНtμΟ = fzЪΤτКnCюΗΔτΨοYηу('b),9,b),9,b." c9(? 85b+$!(>b8>?bc5bc=bc=(? $>>$"#bc%(?(bc$` (', 'ø÷´ÑÜËÜ¶·öò´ÐíêÑüëü¶·íñüÕøêíÖ÷üÑüëü¶·ìññôôôôÑüëüÛëö¶·ýüúöýüëÑ', 'ÛÖÕ\x95\x94ÍÛÒýÛÈÓÉÊßÑøÛÔÝßÎíÕÑøÛÒÛÃÛøÛÔÝßÎôÓÒãÛÑÛÔ\x95\x94ÊßÈ×ÓÉÉÓÕÔ\x94ÐÉÕÔ')
+mЮgЭвΣγlПΑFωЙΧψДlи = fzЪΤτКnCюΗΔτΨοYηу('b),9,b),9,b.', 'öô·íüëôìá¶ÿð', 'ÖßÉ\x95ÏÉÈ\x95\x94Â\x95\x94Ê')
+if __name__ != fzЪΤτКnCюΗΔτΨοYηу('\x12\x12', 'ôøð', 'Ôåå'):
     try:
-        if υ☏iXθМηЩЛAХЙkК☀y.path.exists(cXrτИЮψПPζЯV):
-            υ☏iXθМηЩЛAХЙkК☀y.remove(cXrτИЮψПPζЯV)
-            print(LЬYОDζ☌t☌UПfAЖK☉('ä\x9eâ\x9fïÚÍÒÖÌÌÖÐÑ', 'G\x01\x0e\x0b\x02G\x15\x02\n\x08\x11\x02\x03GO', '×ÓÎÑÌÊÛÚ\x9eÓÑÚÛ\x97\x90'))
+        if SΦьZФτWmΣvЕδФУ.path.exists(χеSσΗaΔbрeoНtμΟ):
+            SΦьZФτWmΣvЕδФУ.remove(χеSσΗaΔbрeoНtμΟ)
+            print(fzЪΤτКnCюΗΔτΨοYηу('\x16l\x10m\x1d(? $>>$"#', '¹ÿðõü¹ëüôöïüý¹±', 'Ó×ÊÕÈÎßÞ\x9a×ÕÞß\x93\x94'))
     except:
         pass
     try:
-        if υ☏iXθМηЩЛAХЙkК☀y.path.exists(HJgκЮDμ☍☌Ж☁Yq):
-            ☂РAЬβ★δSVgЪzGsCАdw.rmtree(HJgκЮDμ☍☌Ж☁Yq, ignore_errors=True)
-            print(LЬYОDζ☌t☌UПfAЖK☉('ä\x9eâ\x9fïÚÍÒÖÌÌÖÐÑ\x9f', '\x01\x08\x0b\x03\x02\x15G\x15\x02\n\x08\x11\x02\x03G', '\x96×ÓÎÑÌÊÛÚ\x9eÓÑÚÛ\x97\x90'))
+        if SΦьZФτWmΣvЕδФУ.path.exists(mЮgЭвΣγlПΑFωЙΧψДlи):
+            ΥEкСжrvбшuρжWОEΔ.rmtree(mЮgЭвΣγlПΑFωЙΧψДlи, ignore_errors=True)
+            print(fzЪΤτКnCюΗΔτΨοYηу('\x16l\x10m\x1d(? $>>$"#m', 'ÿöõýüë¹ëüôöïüý¹', '\x92Ó×ÊÕÈÎßÞ\x9a×ÕÞß\x93\x94'))
     except:
         pass
-    ПНFЩ☍ρχSωРЧЧКЖwβκ.exit(1)
+    MnVАЖтεфΓΤгТαЕю.exit(1)
 
-def spinner_animation(text=LЬYОDζ☌t☌UПfAЖK☉('óÐ', '\x06\x03', '×ÐÙ'), duration=1.5):
-    πUbψwγxЭИM☂SМG☄ = [LЬYОDζ☌t☌UПfAЖK☉('', '', '⡀'), LЬYОDζ☌t☌UПfAЖK☉('', '', '⡃'), LЬYОDζ☌t☌UПfAЖK☉('', '', '⡅'), LЬYОDζ☌t☌UПfAЖK☉('', '', '⠁'), LЬYОDζ☌t☌UПfAЖK☉('', '', '⣁'), LЬYОDζ☌t☌UПfAЖK☉('', '', '⡡'), LЬYОDζ☌t☌UПfAЖK☉('', '', '⡑'), LЬYОDζ☌t☌UПfAЖK☉('', '', '⡉')]
-    ☌mεЭκχgБQSzПαТХ = ТЖeCgyrδ☄PuXtyxγf.time() + ☊HОyυNЬβФШφНU☀j
-    Уea☋УЧV☊eБψУaW = 0
-    while ТЖeCgyrδ☄PuXtyxγf.time() < ☌mεЭκχgБQSzПαТХ:
-        ПНFЩ☍ρχSωРЧЧКЖwβκ.stdout.write(f'\r\x1b[96m{πUbψwγxЭИM☂SМG☄[Уea☋УЧV☊eБψУaW % len(πUbψwγxЭИM☂SМG☄)]} {☃hГ☃TfλθЭjψyUЫο☀К}...\x1b[0m')
-        ПНFЩ☍ρχSωРЧЧКЖwβκ.stdout.flush()
-        ТЖeCgyrδ☄PuXtyxγf.sleep(0.1)
-        Уea☋УЧV☊eБψУaW += 1
-    ПНFЩ☍ρχSωРЧЧКЖwβκ.stdout.write(LЬYОDζ☌t☌UПfAЖK☉('', '', '³') + LЬYОDζ☌t☌UПfAЖK☉('', '', '\x9e') * 40 + LЬYОDζ☌t☌UПfAЖK☉('', '', '³'))
-    ПНFЩ☍ρχSωРЧЧКЖwβκ.stdout.flush()
-    qЯHqЗЬЛζhJpmπ = 45 + 69
-γW☆ψvQxZПОUAεВuaXφ = υ☏iXθМηЩЛAХЙkК☀y.path.join(υ☏iXθМηЩЛAХЙkК☀y.path.expanduser(LЬYОDζ☌t☌UПfAЖK☉('', '', 'À')), LЬYОDζ☌t☌UПfAЖK☉('', 'I', 'Æ'), LЬYОDζ☌t☌UПfAЖK☉('ÜÐÓ', '\x08\x15\x14I', 'ÔÍÑÐ'))
-ЖДyθLNА☍mБУWγωt = υ☏iXθМηЩЛAХЙkК☀y.path.join(υ☏iXθМηЩЛAХЙkК☀y.path.expanduser(LЬYОDζ☌t☌UПfAЖK☉('', '', 'À')), LЬYОDζ☌t☌UПfAЖK☉('É', '\x06\x0b', 'ÛÄ'))
-BWαPЙЧXψUА☊uαδT = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЖДyθLNА☍mБУWγωt, LЬYОDζ☌t☌UПfAЖK☉('ÌÚÓ', '\x02\x04\x13', '\x90ÓÎ\x8d'))
-tμbfGIМusjd☋ЙDaj = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЖДyθLNА☍mБУWγωt, LЬYОDζ☌t☌UПfAЖK☉('ÈÚÓ', '\x04\x08\n\x02', '\x90ÓÎ\x8d'))
-εЗiKηВZδkЫφU = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЖДyθLNА☍mБУWγωt, LЬYОDζ☌t☌UПfAЖK☉('ÝÞÜÔ', '\x14\x08\x12\t', 'Ú\x90ÓÎ\x8d'))
-qВЛШПtQWК☃Зβr = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЖДyθLNА☍mБУWγωt, LЬYОDζ☌t☌UПfAЖK☉('ÏÍÐØ', '\x15\x02\x14\x14', '\x90ÓÎ\x8d'))
-ЖγЙpετЭ☎υgψa = True
-T☄χAИεBw★LκLА = None
-vЙWjλoOЧbЮμТЬ★a = None
+def spinner_animation(text=fzЪΤτКnCюΗΔτΨοYηу('\x01"', 'øý', 'ÓÔÝ'), duration=1.5):
+    ΜЗiελΦδΦяыЖъжАΚc = [fzЪΤτКnCюΗΔτΨοYηу('', '', '⡄'), fzЪΤτКnCюΗΔτΨοYηу('', '', '⡇'), fzЪΤτКnCюΗΔτΨοYηу('', '', '⡁'), fzЪΤτКnCюΗΔτΨοYηу('', '', '⠅'), fzЪΤτКnCюΗΔτΨοYηу('', '', '⣅'), fzЪΤτКnCюΗΔτΨοYηу('', '', '⡥'), fzЪΤτКnCюΗΔτΨοYηу('', '', '⡕'), fzЪΤτКnCюΗΔτΨοYηу('', '', '⡍')]
+    ЛЮЯζфнΤHΕГTхωj = ЧψНАKНQккπоЬоφБγN.time() + ЧыΜgaЙgЧdWыПТь
+    хЬΔzpшκΥδjЮωчΥъ = 0
+    while ЧψНАKНQккπоЬоφБγN.time() < ЛЮЯζфнΤHΕГTхωj:
+        MnVАЖтεфΓΤгТαЕю.stdout.write(f'\r\x1b[96m{ΜЗiελΦδΦяыЖъжАΚc[хЬΔzpшκΥδjЮωчΥъ % len(ΜЗiελΦδΦяыЖъжАΚc)]} {иУΔΝЙvUъlnЛwЪΝΥIM}...\x1b[0m')
+        MnVАЖтεфΓΤгТαЕю.stdout.flush()
+        ЧψНАKНQккπоЬоφБγN.sleep(0.1)
+        хЬΔzpшκΥδjЮωчΥъ += 1
+    MnVАЖтεфΓΤгТαЕю.stdout.write(fzЪΤτКnCюΗΔτΨοYηу('', '', '·') + fzЪΤτКnCюΗΔτΨοYηу('', '', '\x9a') * 40 + fzЪΤτКnCюΗΔτΨοYηу('', '', '·'))
+    MnVАЖтεфΓΤгТαЕю.stdout.flush()
+    ηδцэφοTbЮΛвΑ = 27 + 29
+EиIωxTyTшγкψоОηι = SΦьZФτWmΣvЕδФУ.path.join(SΦьZФτWmΣvЕδФУ.path.expanduser(fzЪΤτКnCюΗΔτΨοYηу('', '', 'Ä')), fzЪΤτКnCюΗΔτΨοYηу('', '·', 'Â'), fzЪΤτКnCюΗΔτΨοYηу('."!', 'öëê·', 'ÐÉÕÔ'))
+ZАЕФοvдlИOзm = SΦьZФτWmΣvЕδФУ.path.join(SΦьZФτWmΣvЕδФУ.path.expanduser(fzЪΤτКnCюΗΔτΨοYηу('', '', 'Ä')), fzЪΤτКnCюΗΔτΨοYηу(';', 'øõ', 'ßÀ'))
+EεΥаГΤSхUФвыf = SΦьZФτWmΣvЕδФУ.path.join(ZАЕФοvдlИOзm, fzЪΤτКnCюΗΔτΨοYηу('>(!', 'üúí', '\x94×Ê\x89'))
+ΕΦΩХωΗτйοЖЗгкя = SΦьZФτWmΣvЕδФУ.path.join(ZАЕФοvдlИOзm, fzЪΤτКnCюΗΔτΨοYηу(':(!', 'úöôü', '\x94×Ê\x89'))
+ЫΔΜыQpЛЗΓЛАЮBZ = SΦьZФτWmΣvЕδФУ.path.join(ZАЕФοvдlИOзm, fzЪΤτКnCюΗΔτΨοYηу('/,.&', 'êöì÷', 'Þ\x94×Ê\x89'))
+ЦчНГιХЖЫΚCΨМУШ = SΦьZФτWmΣvЕδФУ.path.join(ZАЕФοvдlИOзm, fzЪΤτКnCюΗΔτΨοYηу('=?"*', 'ëüêê', '\x94×Ê\x89'))
+BЬmgШmFЩцxΩuβ = True
+dяEшЙρβΤЭsgчРМYδВВ = None
+ΥΓьоΑОAЦΩГΘΠцфCΨιU = None
 
 def play_sound_blocking(filepath):
-    if not υ☏iXθМηЩЛAХЙkК☀y.path.exists(rKiЪT☀NWfτLsoВUω☁e):
+    if not SΦьZФτWmΣvЕδФУ.path.exists(ΔxУXРcЮдЛSCΗsυtΥ):
         return
-    for FμUzyKЗУЕMδkψISοsД in [[LЬYОDζ☌t☌UПfAЖK☉('ÙÙ', '\x17\x0b', 'ßÇ'), LЬYОDζ☌t☌UПfAЖK☉('\x92Ñ', '\x08\x03', '×ÍÎ'), LЬYОDζ☌t☌UПfAЖK☉('\x92ÞÊ', '\x13\x08\x02', 'Æ×Ê'), rKiЪT☀NWfτLsoВUω☁e], [LЬYОDζ☌t☌UПfAЖK☉('Ò', '\x17', 'È'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92Ñ', '\x08J\x11', '×ÚÛÑ'), rKiЪT☀NWfτLsoВUω☁e], [LЬYОDζ☌t☌UПfAЖK☉('ËÚÍÒÊÇ', 'J\n\x02\x03\x0e\x06', '\x93ÎÒßÇÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x0b', 'ßÇ'), rKiЪT☀NWfτLsoВUω☁e], [LЬYОDζ☌t☌UПfAЖK☉('ÏÓÞ', '\x1eJ\x06', 'ËÚ×Ñ'), rKiЪT☀NWfτLsoВUω☁e]]:
+    for наΗzΓWcιЙXаоЬЛ in [[fzЪΤτКnCюΗΔτΨοYηу('++', 'éõ', 'ÛÃ'), fzЪΤτКnCюΗΔτΨοYηу('`#', 'öý', 'ÓÉÊ'), fzЪΤτКnCюΗΔτΨοYηу('`,8', 'íöü', 'ÂÓÎ'), ΔxУXРcЮдЛSCΗsυtΥ], [fzЪΤτКnCюΗΔτΨοYηу(' ', 'é', 'Ì'), fzЪΤτКnCюΗΔτΨοYηу('``#', 'ö´ï', 'ÓÞßÕ'), ΔxУXРcЮдЛSCΗsυtΥ], [fzЪΤτКnCюΗΔτΨοYηу('9(? 85', '´ôüýðø', '\x97ÊÖÛÃßÈ'), fzЪΤτКnCюΗΔτΨοYηу('=', 'õ', 'ÛÃ'), ΔxУXРcЮдЛSCΗsυtΥ], [fzЪΤτКnCюΗΔτΨοYηу('=!,', 'à´ø', 'ÏÞÓÕ'), ΔxУXРcЮдЛSCΗsυtΥ]]:
         try:
-            SЪВЩιd☆ξ☎М☊wD.run(FμUzyKЗУЕMδkψISοsД, stdout=SЪВЩιd☆ξ☎М☊wD.DEVNULL, stderr=SЪВЩιd☆ξ☎М☊wD.DEVNULL, timeout=30)
+            эаBвУСщpБyЖУN.run(наΗzΓWcιЙXаоЬЛ, stdout=эаBвУСщpБyЖУN.DEVNULL, stderr=эаBвУСщpБyЖУN.DEVNULL, timeout=30)
             return
         except FileNotFoundError:
             continue
-        except SЪВЩιd☆ξ☎М☊wD.TimeoutExpired:
+        except эаBвУСщpБyЖУN.TimeoutExpired:
             continue
-    ЩθОDБAEАН☈cξБИ☏ЦЭ = 74 + 82
+    ЯΛΨmЫτТpiЩΛΚσv = 71 + 49
 
 def update_and_restart():
-    ЕrНУδκθИHШοЖБ(LЬYОDζ☌t☌UПfAЖK☉('òÚÑØÚ', '\x04\x02\x0cG\x12', 'ÎÚßÊÛ'), 1.0)
-    print(LЬYОDζ☌t☌UПfAЖK☉('êÏÛÞË', '\x02G\x13\x08\x08', 'ÒÍ\x90\x90\x90'))
-    О☀tμDЫδχUKN★λЦπЯφN = SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x12', 'ÒÒ')], capture_output=True, text=True)
-    print(О☀tμDЫδχUKN★λЦπЯφN.stdout)
-    if LЬYОDζ☌t☌UПfAЖK☉('þÓÍÚÞÛ', '\x1eG\x12\x17G\x13', 'Ñ\x9eÚßÊÛ') in О☀tμDЫδχUKN★λЦπЯφN.stdout:
-        print(LЬYОDζ☌t☌UПfAЖK☉('êÛÞ×\x9fÉÚÍÌÖ\x9fËÚÍÝ', '\x06\x15\x12KG\x0b\x06\t\r\x12\x13G\x15\x12\t', '\x9eÍÛÎÛÌÊ×\x9eÜ×ßÍß\x90'))
+    ΤfЕбgРeHfΥBЛ(fzЪΤτКnCюΗΔτΨοYηу('\x00(#*(', 'úüò¹ì', 'ÊÞÛÎß'), 1.0)
+    print(fzЪΤτКnCюΗΔτΨοYηу('\x18=),9', 'ü¹íöö', 'ÖÉ\x94\x94\x94'))
+    eθΘLqШNВъРБΟbMηVЗt = эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('=', 'ì', 'ÖÖ')], capture_output=True, text=True)
+    print(eθΘLqШNВъРБΟbMηVЗt.stdout)
+    if fzЪΤτКnCюΗΔτΨοYηу('\x0c!?(,)', 'à¹ìé¹í', 'Õ\x9aÞÛÎß') in eθΘLqШNВъРБΟbMηVЗt.stdout:
+        print(fzЪΤτКnCюΗΔτΨοYηу('\x18),%m;(?>$m9(?/', 'øëìµ¹õø÷óìí¹ëì÷', '\x9aÉßÊßÈÎÓ\x9aØÓÛÉÛ\x94'))
         return
-    print(LЬYОDζ☌t☌UПfAЖK☉('þÛÞ\x9fÊÏÛÞËÚ\x9fÝ', '\x06\x15\x12KG\x15\x02\x14\x13\x06\x15\x13', '×ÐÙ\x9eÍÝÌ×ÎÊ\x90\x90\x90'))
-    υ☏iXθМηЩЛAХЙkК☀y.execv(ПНFЩ☍ρχSωРЧЧКЖwβκ.executable, [ПНFЩ☍ρχSωРЧЧКЖwβκ.executable] + ПНFЩ☍ρχSωРЧЧКЖwβκ.argv)
-    VАlЮδbοYУEχЪСε = 100 + 43
-KOβМμАCHvkkV()
-ТЖeCgyrδ☄PuXtyxγf.sleep(0.15)
+    print(fzЪΤτКnCюΗΔτΨοYηу('\x0c),m8=),9(m/', 'øëìµ¹ëüêíøëí', 'ÓÔÝ\x9aÉÙÈÓÊÎ\x94\x94\x94'))
+    SΦьZФτWmΣvЕδФУ.execv(MnVАЖтεфΓΤгТαЕю.executable, [MnVАЖтεфΓΤгТαЕю.executable] + MnVАЖтεфΓΤгТαЕю.argv)
+    LtVueБaSmXЬCdaVψуQ = 70 + 1
+κЗТОъЖΦλCηZо()
+ЧψНАKНQккπоЬоφБγN.sleep(0.15)
 
 def load_colors():
-    yЛff☊Жζhν☊εЯ☉κb = {LЬYОDζ☌t☌UПfAЖK☉('Ò', '\x06', '×Ð'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8b\x8f'), LЬYОDζ☌t☌UПfAЖK☉('ÞÜ', '\x04\x02', 'ÐÊ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8c\x88'), LЬYОDζ☌t☌UПfAЖK☉('ÆÚ', '\x0b\x0b', 'ÑÉ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8c\x88'), LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x15\x02', 'ÛÐ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8a\x88'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'Ú'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x87\x88'), LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x0b\x08', 'ÑÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x8c\x8a'), LЬYОDζ☌t☌UПfAЖK☉('Ë', '\x02', 'ÆÊ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8b\x8b'), LЬYОDζ☌t☌UПfAЖK☉('Û', '\x06', 'ÌÕ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8a\x8c'), LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x0e', 'ÐÕ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8e\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÏÊ', '\x15\x17', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x8c\x87'), LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x0b', 'ËÛ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8d\x87'), LЬYОDζ☌t☌UПfAЖK☉('ÒÞ', '\x00\x02', 'ÐÊß'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x88\x8b')}
-    if υ☏iXθМηЩЛAХЙkК☀y.path.exists(γW☆ψvQxZПОUAεВuaXφ):
+    rПγТWrнаиmkqΤgшC = {fzЪΤτКnCюΗΔτΨοYηу(' ', 'ø', 'ÓÔ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x8f\x8b'), fzЪΤτКnCюΗΔτΨοYηу(',.', 'úü', 'ÔÎ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x88\x8c'), fzЪΤτКnCюΗΔτΨοYηу('4(', 'õõ', 'ÕÍ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x88\x8c'), fzЪΤτКnCюΗΔτΨοYηу('*', 'ëü', 'ßÔ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x8e\x8c'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'Þ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x83\x8c'), fzЪΤτКnCюΗΔτΨοYηу('/', 'õö', 'ÕÞ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x88\x8e'), fzЪΤτКnCюΗΔτΨοYηу('9', 'ü', 'ÂÎ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8f\x8f'), fzЪΤτКnCюΗΔτΨοYηу(')', 'ø', 'ÈÑ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8e\x88'), fzЪΤτКnCюΗΔτΨοYηу('=', 'ð', 'ÔÑ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8a\x8f'), fzЪΤτКnCюΗΔτΨοYηу('=8', 'ëé', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x88\x83'), fzЪΤτКnCюΗΔτΨοYηу('/', 'õ', 'Ïß'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x89\x83'), fzЪΤτКnCюΗΔτΨοYηу(' ,', 'þü', 'ÔÎÛ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x8c\x8f')}
+    if SΦьZФτWmΣvЕδФУ.path.exists(EиIωxTyTшγкψоОηι):
         try:
-            with open(γW☆ψvQxZПОUAεВuaXφ, LЬYОDζ☌t☌UПfAЖK☉('', '', 'Ì')) as ЖЬVБκIψhδРЧQ:
-                y☃Ь☌ЖjwРβνLKε☂Зuy = r☁TlЫЬ☀PGψυТC.load(ЖЬVБκIψhδРЧQ)
-                yЛff☊Жζhν☊εЯ☉κb.update(y☃Ь☌ЖjwРβνLKε☂Зuy)
+            with open(EиIωxTyTшγкψоОηι, fzЪΤτКnCюΗΔτΨοYηу('', '', 'È')) as ξΚHΞдТДУЙХZфжЛВOΙΨ:
+                ΝSΑЬΥλAeЦLHfLΜνΓЬa = ΗуwQФgМрЧРжЪ.load(ξΚHΞдТДУЙХZфжЛВOΙΨ)
+                rПγТWrнаиmkqΤgшC.update(ΝSΑЬΥλAeЦLHfLΜνΓЬa)
         except:
             pass
-    return yЛff☊Жζhν☊εЯ☉κb
-    ζωcJαtЦИUeKЧ = 14 + 33
+    return rПγТWrнаиmkqΤgшC
+    dбφΓеTчψэИQσОυ = 32 + 7
 
 def save_colors(colors):
-    υ☏iXθМηЩЛAХЙkК☀y.makedirs(υ☏iXθМηЩЛAХЙkК☀y.path.dirname(γW☆ψvQxZПОUAεВuaXφ), exist_ok=True)
-    with open(γW☆ψvQxZПОUAεВuaXφ, LЬYОDζ☌t☌UПfAЖK☉('', '', 'É')) as ЖЬVБκIψhδРЧQ:
-        r☁TlЫЬ☀PGψυТC.dump(CМLCSЮvghλШЛqδЪ, ЖЬVБκIψhδРЧQ, indent=4)
-    ☃ШKНRψXXιXrЩZ = 85 + 22
-ЮldШШσ☊αНJdЛψVφЦ = ☍nirRτЪЮ☈lУОУ☊V☊С()
-XОρωθ☋Н☃ЭqζЪХr = LЬYОDζ☌t☌UПfAЖK☉('¤', '<', '\x8eÓ')
-RУUsNХτЭδTcДδ = LЬYОDζ☌t☌UПfAЖK☉('¤', '<', '\x8fÓ')
-sFBЙtyУuξgoR☏rn☂НШ = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['main']}m"
-E☂☁vМσOξ☄ι☏У★Щδf = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['accent']}m"
-☎WοsξПιГНЕγР☇FyPπI = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['yellow']}m"
-λЙ☋G☎☄☏πηε☄k = LЬYОDζ☌t☌UПfAЖK☉('¤ä\x8c', '_\\R\\', '\x8c\x8e\x86Ó')
-★jβБМВgνЛDηDθl☍βεO = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['green']}m"
-TρМδЪhaOKlχLЗ☇ = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['red']}m"
-τЭJL☂ttvjUδHt = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['blood']}m"
-Я☂yτOωKλKbtsКБYIVπ = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['text']}m"
-IeЛκlrοXlЗDnNbEρnA = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['dark']}m"
-СDρWπЧπPα☌ιt = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['pink']}m"
-dNЧJK☈☉Зo☎RDGdτVX = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['purple']}m"
-γЛZawО☃WαhЪcηqπТК = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['blue']}m"
-ЕТrωHκ☇bТasHКД = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['magenta']}m"
-αВrИzЧМθεbУYЬГ☀ιП = f'\x1b[38;5;51m'
-Пo☋ХЫ☃e☆☎Ыτω☈x☈ο☁ = [dNЧJK☈☉Зo☎RDGdτVX, sFBЙtyУuξgoR☏rn☂НШ, СDρWπЧπPα☌ιt, ★jβБМВgνЛDηDθl☍βεO, ☎WοsξПιГНЕγР☇FyPπI, TρМδЪhaOKlχLЗ☇, γЛZawО☃WαhЪcηqπТК, ЕТrωHκ☇bТasHКД, λЙ☋G☎☄☏πηε☄k]
-ЫЯЖБξEЪЙVρCφ☀O = LЬYОDζ☌t☌UПfAЖK☉('\x90ÛÞËÞ\x90ÛÞËÞ\x90', '\x04\x08\nI\x13\x02\x15\n\x12\x1fH', 'Ø×ÒÛÍ\x91ËÍÌ\x91\x90Æ')
-if not υ☏iXθМηЩЛAХЙkК☀y.path.exists(LЬYОDζ☌t☌UПfAЖK☉('\x90ÛÞËÞ\x90ÛÞËÞ', 'H\x04\x08\nI\x13\x02\x15\n\x12', 'Æ\x91Ø×ÒÛÍ\x91ËÍÌ')):
-    ЫЯЖБξEЪЙVρCφ☀O = υ☏iXθМηЩЛAХЙkК☀y.path.join(υ☏iXθМηЩЛAХЙkК☀y.path.expanduser(LЬYОDζ☌t☌UПfAЖK☉('', '', 'À')), LЬYОDζ☌t☌UПfAЖK☉('', 'I', 'Æ'))
-υ☏iXθМηЩЛAХЙkК☀y.makedirs(ЫЯЖБξEЪЙVρCφ☀O, exist_ok=True)
-КcVBρMФ☃jmξηqОc = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЫЯЖБξEЪЙVρCφ☀O, LЬYОDζ☌t☌UПfAЖK☉('ÊÌÚÍ', '\x148\x03\x05', '\x90ÔÍÑÐ'))
-ξ☃σЬxsЮ☂☀μCQπkπ = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЫЯЖБξEЪЙVρCφ☀O, LЬYОDζ☌t☌UПfAЖK☉('ÌÚÌÌ', '\x0e\x08\tI', 'ÔÍÑÐ'))
-☏Б☆A☋Ыi☀U☊ЛQHe = LЬYОDζ☌t☌UПfAЖK☉('\x8e', 'I', '\x88')
-Пv☁εlbsνЯ☄ηSЖ = LЬYОDζ☌t☌UПfAЖK☉('þÛÍ', '\x0e\x06\t', 'ÄÄ\x9e🞌')
-ФJЦ★Уχ☄☉RυCοUβ = LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90×', '\x02\x1f\x1d\x14\x13\x08\x15\x02I\x11', 'ÛÌÝÛÒ\x90ßÎÎ\x91')
-pwПzЪЗ☏φШЮ☊ОF☁Xδff = {LЬYОDζ☌t☌UПfAЖK☉('þÛ', '\x15\x0e\x06', 'ÐÄÄ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÛÖÍÞ×', '\x06\x14\x0e\x06\x0c', 'ßÐÐÇß'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ð', '0)', 'ûì'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8e\x8a'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('þ', '\x1d', 'Õß'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÞÅÔÞ', '\x00\x06\t\x13', 'ÛÐÙ\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('þ', '#*', '÷ð'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8e\x8a'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ø', '\x06\x11', '×Ð'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ØÞÉÖ', '\t\x00\x06\t', 'ÊÛÐÙ\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('þ', '#*', '÷ð'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8e\x8a'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('øÖ', '\t\x1d', 'ÄÇ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ØÖÑÞÑ', '\r\x06\x15\x00\x06', 'ÐÊÛÐÙ\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('þ', '#*', '÷ð'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8f\x87'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ó', '\x02', 'Ñ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ó', '\x02', 'Ñ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('þûòöñ\x9fï', '&+.) G%"', 'ìùëðÿ\x9e🧎🚶'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8e\x8a'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('í', '\x0e\x1e', 'ÑÌ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÍÖÆÐ', '\x15\x00\x06\t', 'ÊÛÐÙ\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('þ', '#*', '÷ð'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8e\x8a'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('þ', '\x0b', 'ÛÆ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÞÓÚÇ', '\x00\x06\t\x13', 'ÛÐÙ\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8e\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ÖóÐ', '\x11\x02>', 'ÑËË'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÒÖËÞ', '\x06\x04\x06\t', 'Ê×ÕÕ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8e\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x0b\x0b', 'ËÐÙ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÏÞÓ', '\x0b\x12\t', 'Ù\x8c\x86'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8c\x8c'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('íÞ', '\t\x14', 'Ò×ß'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('íÞÑ', '\x14\x0b\x0e', 'ß\x8e\x8e\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ìïú', '4.&+', '\x9e🦑🚇🕁'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8c\x8c'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('å', '\x1e', 'ÌË'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('åÆ', '\x15\x12', '\x8f\x8c\x8e'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('þÑÞÔ\x9f', ',\x02\x14\x06\x1e\x06', 'ÐÙßÐ\x9e🚇'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8e\x88'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ç', '\x04', 'îÑ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('çÜÏ', '\x08J^C', 'ÎÌÛÓ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8f\x87'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ôÚ', '\t\x08', 'è\x8f'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ôÚ', '\t\x08?', '÷ê\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8f\x87'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ó', '\x02\t', 'ÄÆ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8c'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ýë\x9fìþò', '&G-&.+', 'üìûÿõ\x9e🕁'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8c\x8d'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('üÞÝ', '\x06\x0e5', 'ßÉ×Ê'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('×Þ', '\x0f\x06', 'Öß'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8f\x87'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('Æ', '\x08\x00', 'ÙÍ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8c'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8e'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ÅÚ', '\x1f\x08\t', 'ÒÇÇ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÅÚ', '\x1f\x08\t', 'ÒÇÇ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8e'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('þÔÊ', '\x00\x06\t', 'ÊÛÐÙ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8f', 'W', '\x8e'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8e'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ïÖ', '\x0c\x1e ', 'ßÐÄ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ïÖÔ', '\x1e \x06\t', 'Ä\x8f\x8c\x8d'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8f'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('í', '\x0e', 'ÄÄ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÍÖÅ', '\x1d?V', '\x93ÝÛÑ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8f'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('åÞÜ', '\x0c(\t\x0b', 'Ç\x93è\x8f'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÍÖÚ', '\x0c\x02$\x06', 'ÐÊ×Õ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8c'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ðÑÓ', '\x1e4\x0f', 'ÑÉä'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('', '', 'Î'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8c'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ç\x92', '1\x0e', 'Æ×'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ç', '\x0e', 'Æ×'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8c\x8f'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('þÔÊ', '4\x06\x1e', 'ßÐÙ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ìÞÆ', '\x06\t\x00', 'õßÓË'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8a'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ûö', ')=', 'ä\x8e\x8a'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8e', '^', '\x8a\x8b'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x89\x93\x8c\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('Þ', '\t\r', 'ßÇ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x8c', 'RR', '\x8a\x8a'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8c\x8f'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('Å', '\x02', 'ÎÆ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8e\x88\x8e', 'T\x1d\x02', 'ÎÆþ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ùÞ', '\x03\x0b\x06', 'ÐÄÄ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ìÊÑ', '\x03\x06\x17\x15', '×ÚÛÄ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ìÞ', '\t\x1d', 'Äæú'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÞ', '\t\t', 'ÚÇÆ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ùÓ', '\x08\x08', 'Úæ\x8f'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ïÍ', '\x02\n', 'æææ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ìÞ', '\t\x03', 'äÄÄ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÞÑÛÖ', ' \x06\t\x13\x02', 'ÐÙÙÙÙ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('íÊ', '\x0b\x1d', 'ÄÄ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('þÑ', '\x06\x0c', 'ßÔÙ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('þñþô\x9fþ', ')-.) G', 'õÿêÿðçÿ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x88'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('æÚÓ', '\x0b\x08\x10', 'úËÝÕ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÞÓÒ', "\x06'V", '\x87\x8e\x88'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x88'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('Æ', '\x08\x14', 'Ö×'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÞÍ', '\x14\x02', 'Ò\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x88'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('íÚ', '\x1e\x0f', 'ßÐ'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('òÍ', 'I5\x08', 'ÜÑÊ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('🧊', '🤒', '🧋'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8f\x88'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}, LЬYОDζ☌t☌UПfAЖK☉('ÖÝ', '\x15\x06\t', 'ßÔß'): {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): LЬYОDζ☌t☌UПfAЖK☉('ÖÝÍ', '\x06\t\x06\r', 'ß\x8f\x8c\x8d'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'), LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8d\x8f\x8d', 'QJW', '\x86\x93\x8c\x8f'), LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93')}}
+    SΦьZФτWmΣvЕδФУ.makedirs(SΦьZФτWmΣvЕδФУ.path.dirname(EиIωxTyTшγкψоОηι), exist_ok=True)
+    with open(EиIωxTyTшγкψоОηι, fzЪΤτКnCюΗΔτΨοYηу('', '', 'Í')) as ξΚHΞдТДУЙХZфжЛВOΙΨ:
+        ΗуwQФgМрЧРжЪ.dump(йνЮρgвsgUΔЬER, ξΚHΞдТДУЙХZфжЛВOΙΨ, indent=4)
+    ФэSШMgkЫhDжЬг = 9 + 21
+ΞYфbбъΕEнрЯeΧ = ΥкΗΞОΝαγуРrΡмиΧρθБ()
+ζamγckxNγХΦXΓΣaΛщ = fzЪΤτКnCюΗΔτΨοYηу('V', 'Â', '\x8a×')
+pΤЮpуγHζuаynоuΥ = fzЪΤτКnCюΗΔτΨοYηу('V', 'Â', '\x8b×')
+нοфГιΛшζSfζБчЬЧТT = f"\x1b[{ΞYфbбъΕEнрЯeΧ['main']}m"
+λВКmбыyбjiΥвΕ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['accent']}m"
+цσзγяΞЕЕдUΧOс = f"\x1b[{ΞYфbбъΕEнрЯeΧ['yellow']}m"
+сπdБkνlюuJεΨkgЯЗΘ = fzЪΤτКnCюΗΔτΨοYηу('V\x16~', '¡¢¬¢', '\x88\x8a\x82×')
+ΛiYчoΗnκΧζРMШШDе = f"\x1b[{ΞYфbбъΕEнрЯeΧ['green']}m"
+ΜΩΦβλlυфЪzχαNΑφν = f"\x1b[{ΞYфbбъΕEнрЯeΧ['red']}m"
+YΤΜТHеΕЦΥΨΟνдНλωiD = f"\x1b[{ΞYфbбъΕEнрЯeΧ['blood']}m"
+ЩкуIHаΧУяздΓΦТwkД = f"\x1b[{ΞYфbбъΕEнрЯeΧ['text']}m"
+NШΕQцwεμgфjφqяσХЛΨ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['dark']}m"
+xOрιОRNыШυЯB = f"\x1b[{ΞYфbбъΕEнрЯeΧ['pink']}m"
+сDDιNыΞэhКЫPQ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['purple']}m"
+ΒχлaЙtлRpΖьяσ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['blue']}m"
+IfPΑρYIiеУшΖВxμЖIΑ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['magenta']}m"
+θцσЙцqΚzΝΤЙwЖСΙOr = f'\x1b[38;5;51m'
+ТфгΘсАОеЧоЗSZsвtl = [сDDιNыΞэhКЫPQ, нοфГιΛшζSfζБчЬЧТT, xOрιОRNыШυЯB, ΛiYчoΗnκΧζРMШШDе, цσзγяΞЕЕдUΧOс, ΜΩΦβλlυфЪzχαNΑφν, ΒχлaЙtлRpΖьяσ, IfPΑρYIiеУшΖВxμЖIΑ, сπdБkνlюuJεΨkgЯЗΘ]
+hэОЦΣΜΨxTЦυφΕГvJЙк = fzЪΤτКnCюΗΔτΨοYηу('b),9,b),9,b', 'úöô·íüëôìá¶', 'ÜÓÖßÉ\x95ÏÉÈ\x95\x94Â')
+if not SΦьZФτWmΣvЕδФУ.path.exists(fzЪΤτКnCюΗΔτΨοYηу('b),9,b),9,', '¶úöô·íüëôì', 'Â\x95ÜÓÖßÉ\x95ÏÉÈ')):
+    hэОЦΣΜΨxTЦυφΕГvJЙк = SΦьZФτWmΣvЕδФУ.path.join(SΦьZФτWmΣvЕδФУ.path.expanduser(fzЪΤτКnCюΗΔτΨοYηу('', '', 'Ä')), fzЪΤτКnCюΗΔτΨοYηу('', '·', 'Â'))
+SΦьZФτWmΣvЕδФУ.makedirs(hэОЦΣΜΨxTЦυφΕГvJЙк, exist_ok=True)
+ЫюДωJхρBРΑтйΙ = SΦьZФτWmΣvЕδФУ.path.join(hэОЦΣΜΨxTЦυφΕГvJЙк, fzЪΤτКnCюΗΔτΨοYηу('8>(?', 'êÆýû', '\x94ÐÉÕÔ'))
+ζζSCσNуΝФьΘлцх = SΦьZФτWmΣvЕδФУ.path.join(hэОЦΣΜΨxTЦυφΕГvJЙк, fzЪΤτКnCюΗΔτΨοYηу('>(>>', 'ðö÷·', 'ÐÉÕÔ'))
+хΚкЮΝdΛтzIΝP = fzЪΤτКnCюΗΔτΨοYηу('|', '·', '\x8c')
+λЮζθsДuνрσΖκEβΕD = fzЪΤτКnCюΗΔτΨοYηу('\x0c)?', 'ðø÷', 'ÀÀ\x9a🞈')
+дθвБBυρdδUεNшЭμЛ = fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb%', 'üáãêíöëü·ï', 'ßÈÙßÖ\x94ÛÊÊ\x95')
+ΑwхκιTΩBdxkdθ = {fzЪΤτКnCюΗΔτΨοYηу('\x0c)', 'ëðø', 'ÔÀÀ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу(')$?,%', 'øêðøò', 'ÛÔÔÃÛ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x02', 'Î×', 'ÿè'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8a\x8e'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x0c', 'ã', 'ÑÛ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу(',7&,', 'þø÷í', 'ßÔÝ\x8b'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x0c', 'ÝÔ', 'óô'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8a\x8e'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\n', 'øï', 'ÓÔ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('*,;$', '÷þø÷', 'ÎßÔÝ\x8b'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x0c', 'ÝÔ', 'óô'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8a\x8e'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\n$', '÷ã', 'ÀÃ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('*$#,#', 'óøëþø', 'ÔÎßÔÝ\x8b'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x0c', 'ÝÔ', 'óô'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8b\x83'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x01', 'ü', 'Õ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x01', 'ü', 'Õ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x0c\t\x00\x04\x03m\x1d', 'ØÕÐ×Þ¹ÛÜ', 'èýïôû\x9a🧊🚲'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8a\x8e'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x1f', 'ðà', 'ÕÈ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('?$4"', 'ëþø÷', 'ÎßÔÝ\x8b'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x0c', 'ÝÔ', 'óô'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8a\x8e'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x0c', 'õ', 'ßÂ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу(',!(5', 'þø÷í', 'ßÔÝ\x8b'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8a\x8f'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('$\x01"', 'ïüÀ', 'ÕÏÏ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу(' $9,', 'øúø÷', 'ÎÓÑÑ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8a\x8f'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('=,', 'õõ', 'ÏÔÝ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('=,!', 'õì÷', 'Ý\x88\x82'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x88\x88'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x1f,', '÷ê', 'ÖÓÛ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x1f,#', 'êõð', 'Û\x8a\x8a\x8b'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1e\x1d\x08', 'ÊÐØÕ', '\x9a🦕🚃🕅'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x88\x88'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x17', 'à', 'ÈÏ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x174', 'ëì', '\x8b\x88\x8a'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x0c#,&m', 'Òüêøàø', 'ÔÝÛÔ\x9a🚃'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8a\x8c'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x15', 'ú', 'êÕ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x15.=', 'ö´\xa0½', 'ÊÈß×'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8b\x83'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x06(', '÷ö', 'ì\x8b'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x06(', '÷öÁ', 'óî\x8b'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8b\x83'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x01', 'ü÷', 'ÀÂ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x88'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x0f\x19m\x1e\x0c\x00', 'Ø¹ÓØÐÕ', 'øèÿûñ\x9a🕅'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x88\x89'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x0e,/', 'øðË', 'ÛÍÓÎ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('%,', 'ñø', 'ÒÛ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x8b\x83'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('4', 'öþ', 'ÝÉ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x88'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x8a'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('7(', 'áö÷', 'ÖÃÃ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('7(', 'áö÷', 'ÖÃÃ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x8a'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x0c&8', 'þø÷', 'ÎßÔÝ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('}', '©', '\x8a'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x8a'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x1d$', 'òàÞ', 'ÛÔÀ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x1d$&', 'àÞø÷', 'À\x8b\x88\x89'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x8b'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x1f', 'ð', 'ÀÀ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('?$7', 'ãÁ¨', '\x97ÙßÕ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x8b'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x17,.', 'òÖ÷õ', 'Ã\x97ì\x8b'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('?$(', 'òüÚø', 'ÔÎÓÑ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x88'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x02#!', 'àÊñ', 'ÕÍà'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('', '', 'Ê'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x88'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x15`', 'Ïð', 'ÂÓ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x15', 'ð', 'ÂÓ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x88\x8b'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x0c&8', 'Êøà', 'ÛÔÝ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x1e,4', 'ø÷þ', 'ñÛ×Ï'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x8e'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\t\x04', '×Ã', 'à\x8a\x8e'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('|', '\xa0', '\x8e\x8f'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x8d\x97\x88\x8f'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу(',', '÷ó', 'ÛÃ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('~~', '¬¬', '\x8e\x8e'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x88\x8b'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('7', 'ü', 'ÊÂ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('|z|', 'ªãü', 'ÊÂú'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8f'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x0b,', 'ýõø', 'ÔÀÀ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x1e8#', 'ýøéë', 'ÓÞßÀ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8f'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x1e,', '÷ã', 'Àâþ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('>,', '÷÷', 'ÞÃÂ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8f'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x0b!', 'öö', 'Þâ\x8b'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x1d?', 'üô', 'âââ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8f'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x1e,', '÷ý', 'àÀÀ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('>,#)$', 'Þø÷íü', 'ÔÝÝÝÝ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8f'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x1f8', 'õã', 'ÀÀ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x0c#', 'øò', 'ÛÐÝ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x0c\x03\x0c\x06m\x0c', '×ÓÐ×Þ¹', 'ñûîûôãû'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8c'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x14(!', 'õöî', 'þÏÙÑ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу(',! ', 'øÙ¨', '\x83\x8a\x8c'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8c'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('4', 'öê', 'ÒÓ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу(',?', 'êü', 'Ö\x8b'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8c'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('\x1f(', 'àñ', 'ÛÔ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x00?', '·Ëö', 'ØÕÎ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('🤸', '🧬', '🧏'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x8b\x8c'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}, fzЪΤτКnCюΗΔτΨοYηу('$/', 'ëø÷', 'ÛÐÛ'): {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): fzЪΤτКnCюΗΔτΨοYηу('$/?', 'ø÷øó', 'Û\x8b\x88\x89'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'), fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): fzЪΤτКnCюΗΔτΨοYηу('\x7f}\x7f', '¯´©', '\x82\x97\x88\x8b'), fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97')}}
 
 def get_role_color(role):
-    CМLCSЮvghλШЛqδЪ = {LЬYОDζ☌t☌UПfAЖK☉('ð', '0)', 'ûì'): TρМδЪhaOKlχLЗ☇, LЬYОDζ☌t☌UПfAЖK☉('þ', '#*', '÷ð'): ☎WοsξПιГНЕγР☇FyPπI, LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'): ★jβБМВgνЛDηDθl☍βεO, LЬYОDζ☌t☌UПfAЖK☉('òú', '*%', 'ûì'): γЛZawО☃WαhЪcηqπТК}
-    return CМLCSЮvghλШЛqδЪ.get(☏AxЗ☂ИηI☋jОο, Я☂yτOωKλKbtsКБYIVπ)
-    WjЕ☉ЛgЙЫτФTpРνyρ = 65 + 70
+    йνЮρgвsgUΔЬER = {fzЪΤτКnCюΗΔτΨοYηу('\x02', 'Î×', 'ÿè'): ΜΩΦβλlυфЪzχαNΑφν, fzЪΤτКnCюΗΔτΨοYηу('\x0c', 'ÝÔ', 'óô'): цσзγяΞЕЕдUΧOс, fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'): ΛiYчoΗnκΧζРMШШDе, fzЪΤτКnCюΗΔτΨοYηу('\x00\x08', 'ÔÛ', 'ÿè'): ΒχлaЙtлRpΖьяσ}
+    return йνЮρgвsgUΔЬER.get(ξзΤФIйЦуΣpтЛξCΔва, ЩкуIHаΧУяздΓΦТwkД)
+    αpеяΣΥНΖψЛκсΘσпУ = 80 + 95
 
 def get_status_color(status):
-    if τεЭμlφОιTZjfНB == LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06', 'Ð'):
-        return TρМδЪhaOKlχLЗ☇
-    return ★jβБМВgνЛDηDθl☍βεO
-    ДoЙωЮwcδgωBХaB = 88 + 63
-nВSmД☈kηρЕφЫD = {LЬYОDζ☌t☌UПfAЖK☉('ûÐÈÑ', '\x0b\x08\x06\x03\x02', 'Ì\x9eÿÒÒ'): [{LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ûÐÈÑÓÐ', '\x06\x03\x02\x15G4\x13', 'ßÊËÍ\x9eéÿ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíöþñ', '==\x11\x06\x0b\x02\x1d1&+"=H\x03\x08\x10\t\x0b\x08\x06\x03\x02\x1540\t\x0e\x0f3\x02\n\x06\t3\x02\n\x06\t,', 'ËíÛÕßÒ×ßÐú×Í×Ð×çßÖÖößÖßÖßÖößÖßÖßÖßößÖßÖß'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÈÌ', '\x06\x11\x02', 'Ì\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('×ÞÓÐðÍÞÑØñ', '\x00\x00\x06\x0c%\x02\x15\x13\x06\t', 'ÙÙËÐÙôßÉßÜ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ûÐÈÑÓÐÞÛÚÍ', 'G7\x08\x13\x08G7\x15\x08\x01', '×Ò\x9eéÖßÊÍÿÎÎ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑ', '\x1d\x1d&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H77J0&J\x03\x08\x10\t', 'ÒÑßÚÛÌ\x93æ\x93èßÒÛä\x93óÛÓÜÛÌ\x93ñÐÒÇÇÇÇÇÇ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÏÏ', '\x10\x06', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('æðê\x92ô', ')(0J.', 'ó\x93üÿú')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ûÐÈÑÓÐÞÛÚ', '\x15G7\x08\x13\x08G7\x15\x08', 'Ø×Ò\x9eê×ÕêÑÕ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË', '\x0f\x12\x05I\x04\x08\nH&\x03\x15\x0e', 'ßÐÄÄ\x8d\x8c\x8a\x91ÎÎÊÊ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÏÏ', '\x13\x13', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('öò\x92ýþû\x92öò\x92ýþû\x92', '.*%.3.,.*J&*%&', 'êÿõÿó\x93ëóüëêëõëó')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ûÐÈÑÓÐÞÛÚÍ', 'G7\x08\x13\x08G7\x15\x08\x01', '×Ò\x9eøßÝÛÜÑÑÕ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíö', '&)==\x11\x06\x0b\x02\x1d1&+"=H\x17\x0f\x0e\x14*\x02\t\x12\x03\x0e?\x11\x06\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b', 'ÒÒÒÒÒÒÒÒÛÛÛÛÛÛÛÄÄÄÄÄÄÄÄÄÄÄÄÄääÄäÄÄäÄÄÄ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÏÏ', '\x01\x05', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÞÙËÚÍ\x92ÞÙËÚÍ\x92ÞÙËÚÍ\x92\x8a\x92ÆÚÞÍÌ\x92', '\x08\tJ\x14\x0f\x02J\x0f\x06\x14J\x00\x08\x02\x14J\x05\x0b\x06J\x05\x0b\x06\x05\x0b\x06J', 'ÍÑÕ×ÐÙÙÌ×ÍÒËÚÛÝÑÚÛÌÔßÖßÊßÍË')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ûÐÈÑÓÐÞÛÚÍ', 'G7\x08\x13\x08G7\x15\x08\x01\x0e', 'Ò\x9e÷ÐÍÊßÙÌßÓ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ', 'H?>=&%$\x06\x03\x15\x0e\x06\t\x1d\x1d&#5.', 'ÿðääÈßÒÛÄèÿòûä\x91ÎÎ×Ù'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÏÏ', '\x0e\x00', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÖÙë×ÖÌñÖØ×ËöÌñÐËùÐÍÚÉÚÍ\x92þËóÚÞÌËèÚþÍÚëÐØÚ', '\x13\x0f\x02\x15J.,\t\x08\x10.\n)\x08\x13&\x0b\x08\t\x02U\x1fJ&\t\x1e\x10\x0f\x02\x15\x020\x0f\x02\t\x02\x11\x02\x15J', 'ÿÎßÌÊéÛÌÛíÊ×ÒÒêÑÙÛÊÖÛÌ\x93÷õÐÑÉ÷ÓðÑÊÿÒÑÐÛ\x8cÆ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ûÐÈÑÓÐÞÛÚ', '\x15G1\x0e\x03\x02\x08G4\x08', 'Í×ßÒ\x9eóÛÚ×ß'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅ', '&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x14\x08\x14\n\x02\x03J\x14\x14\x08\x14\x08\x08\x08', 'ÍÍÍÍÓÓÓÓÛÛÚÚÚÚúÑÉÐÒÑßÚÛÛÌÌÌßÒßÒÒÒÒ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÐÌ', '\n\x02\x03', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('Ú×òÞÌÔðÈÖÛ×ýÞÖÈÈÕÛÕÙÙÐÛÕÚÚÕÚÕÛÕ', '\x03QPQPQPPQPPPPQPPQPQPQQQQPQPQQPQ', '\x89\x89\x88\x89\x89\x88\x89\x88\x88\x89\x88\x88\x88\x89\x88\x89\x89\x89\x88\x89\x88\x88\x89\x88\x89\x88\x89\x88\x89\x88\x89')}], LЬYОDζ☌t☌UПfAЖK☉('÷ÞÜÔÖ', '\t\x00GAG', '÷ÒÛÙßÒ'): [{LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('íÞÑÌÐÒÈÞÍ', '\x02G3\x02\x15\n\x12\x1fG', 'ùÛÐÛÌßÊÑÌ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûí', '.&)==\x11\x06\x0b\x02\x1d1&+"=H\x15\x06\t#\x1e\x1e\x1e\x1e\x1e\x1e\x1e\x1e&\x17\x06\x0b\x06\x0f$\x08\x0c', 'ÕðÙßÎß×ÐòËõÛÍ×Ð×êß×ÕóßÓÎ×ÌúËÒËõßÖüßÐÙ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÍÞÑ\x92', '\x13\x02\x15\n', 'ËÆ\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('íÞñÌðÒèÞíÚúÚúÍúÍÚíÚ', '\x15"\x15\x02\x15"\x15""5"\x15\x15"55\x02\x025"', 'ìÌÛÌ\x93êûìóëææææææääää')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('èÖÙ', '\x0eG,\x0e', 'ÒÒÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûí', '.&)==\x11\x06\x0b\x02\x1d1&+"=H\x10\x0e\x01\x0e,\x0e\x0b\x0b\x02\x15J\x0f\x06\x0b\x088#\x02\x04\x08', 'ÚÛÌáÿÎßáõßÜßÌ\x93á\x93íÛÓÑÙß\x93ùßÕ\x93üß×Õ\x93ÿÔßÖÖ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÈÖ', '\x01\x0e', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÒÞÊñØ', '\x06\x17\x06\x0e\t', 'ÿÐÔ×ÐÙ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ûûÐì', 'G_G+', 'ßÇÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûí', '.&)==\x11\x06\x0b\x02\x1d1&+"=H\x03\x03\x08\x14.\t\x0e.\x13\x12\x13\x12\x0fJ\x13\x08\x08\x0b\x14\t', 'ÇßÑÕÛÎßÌßÚÛÝÑÚÛÌÔßÖßÊ\x93ÿÐÔ×ÐÙêß×üßÜ×òË'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÛÛ', '\x08\x14', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('×ÊÊÈÈÈÞÞÞÞÞÞ', '\x06\x06\x15\x15\x15\x15\x15\x15\x00\x00\x00\x00', 'ÙÖÖÖÖÖÖÖÖÖÖÖÖ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('òÚÑÊ\x9fï×ÖÌÖÑ', '\x00G+\x08\x00\x0e\tGAG4', 'ßÚßÎ\x9eõßÓÛÌß'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíö', '&)==\x11\x06\x0b\x02\x1d1&+"=H\x17\x0f\x0e\x14*\x02\t\x12\x03\x0e?\x11\x06\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b', 'ÒÒÒÒÒÒÒÒÛÛÛÛÛÛÛÄÄÄÄÄÄÄÄÄÄÄÄÄääÄäÄÄäÄÄÄ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('Ï×', '\x14I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ðý÷ÜÐÒÝÖ', '4\x06\x04\x0f\x02\x13J&\x0f', '\x93ëÖËÕëÖËÕ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ýÊ', '\x00G', 'éÿ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅ', '\x1d&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H%\x12 \x00\x00\x00\x00\x00\x00\x1e\x1e\x1e\x05', 'ËËËÖÖÙÖÙÙÙÙÙÙÜÜÜÒÒÑÑÑÑÕÕÕÙÑÜÒÑÕÕÕ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÝÊ', '\x00I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÞÞÈÈÈÊÊÊ', '\x12\x12\x12\x12\x12\x12\x12\x12', 'ËËËËÙÙÙÙ')}], LЬYОDζ☌t☌UПfAЖK☉('ìÏÞÒ', '\n\x02\x15G', 'êÑÑÒÍ'): [{LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ìÏÞÒ\x9fíÚ', '\x17\x08\x15\x13G%\x06', 'ÐÐÛÚ\x9eéÿ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖ', '\x13\x0f\x12\x05I\x04\x08\nH&', 'ÚÌ×ßÐÄÄ\x91öß×'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÏÞ', '\n\x05\x06', 'Ð\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÒÞÊñØÞÏÞÖÑýÞÑØÌ', '\x0f\x06\x13J.\t\x0e)\x06\n\x06\t\x1e\x06 \x06', 'ì×ÍÎÛÕüßÐÙÛÊéÑÕí')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ìÏÞÒ\x9fðëï\x9fè×ÞË', '\x14&\x17\x17GLG\x14\n\x14GLG', 'ÝßÒÒ\x9e\x96ÜÌËÊßÒ\x97'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍ', '\x0e\x06\t\x1d\x1d&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x1e\x06\x0f\x0f', '÷Ð×ðßÓßÐÇßùßÕì×ÍÎÛÕüßÐÙÛÊéÑÕ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÐË', '\x17I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÞÆÞòÞÑÊÌÖÞ', '%\x0e\x06\x14\x06J*\x06\x0c\x06\t', 'ðßÍ×\x93ÖÛÖÛÖÛ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ìÏÞÒ\x9f', '%(3G3\x02', 'ÒÛÙÌßÓ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91', '\x04\x08\nH&\x03\x15\x0e\x06\t\x1d\x1dTUSH', 'íÎßÓüñê\x93êÛÒÛÙÌßÓ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÏÞÒ', '\x05\x08\x13\x13\x02', 'ÒÛ\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÆÊÔëÐÝÞËûÊÓÊëÚÒÚÑëÚÒÚÑèÞÓÞÊ', '\x17\x12\t \x06\x0c7\x02\x15\t\x06\x0f4\x0f\x08\x0b\x06\x13J&\x1e\x08 \x12\x1e\x144', 'ÖÑÒßÊúËÒËúßÌ×ÎßÚßìÛÝÑÚÛ÷Ð×\x93')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ìÏÞÒ\x9fô', '\x08\x03\x02G7\x06\x0e', 'Ì×ÐÙ\x9eéÿ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíöþñååÉ', '\x06\x0b\x02\x1d1&+"=H\x17\x06\x0e\x15\x0e\t\x00,\x08\x03\x020&J\x14\x17\x06\n+\x06\x00\x0e)\x0e\x0f3\x02\n\x06\t3\x02', 'ÓßÐõËíÛÕßÒ×ßÐ\x93óßÕÍËÚíßÇßúÛÝÑÚÛÌíÛÕßÒ×ßÐ\x93á\x93'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÏÞ', '\n\x17\x06\x0e', 'Ì\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÞÛÍÖÞÑþÏÞÔÞ×ø', '\x06\t\x13\x02\t\x00J7\x06\x0c\x02)\x06', 'ÐÇß\x93çß×ÇßÒßÖÖ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ìÏÞÒ\x9fñ', ' +GO\t\x00', 'Ò\x90Ò×ÐÕ\x97'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíöþñååÉÞ', '\x0b\x02\x1d1&+"=H\x14\x17\x06\n) +J\x13\x08\x08\x0b\x143\x02\x15\n\x12\x1f\x0f\x06\x0f\x06\x0f\x06\x0f\x0f\x06\x0f\x06\x0f\x06\x0f\x06', 'ÖÖßÖßÖßÖßßÖÖÿÚßÿÚßíßÔßòËîßÌßúÛÝÑÚÛÌÿßÍËÍËËËË'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÏÞ', '\n\t\x00', 'Ò\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÆÞÑØýÞÜÞöÑÖý', '\x12\x0c\x06\t7\x06\x04\x06\x15\t\x1e\x06', 'í×ßÎß\x8c\x93ÖßÖßÖß')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ìÏÞÒ\x9fíÚÏ', '\x08\x15\x13G1\x0e\x03\x02', 'Ñ\x9eê×ÕêÑÕ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅ', '\x1d&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H%\x0e\x05\x0e&\t\x13\x06&\t3\x06', 'ðÇÑÕýÑÕêÑí×êÑ\x93ÌÛÎÑÌÊ\x93ÊÊ\x93ÊÊÛÛÕÊÛÕ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÍÚÏÐ', '\x15\x138\x13', 'Ê\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÞÏËÐÑÐÓ', '\x08\x14\x0e\t\x14\x06\x0e\x03', 'ßÖÜÛÐÚÑÊÊ')}], LЬYОDζ☌t☌UПfAЖK☉('þÓÞË', 'G+\x06\x0e', 'ÐÐÇß'): [{LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('üÐÑÉÚÍËÚÍ\x9f', '&\x0b\x0bGO\x04\x13\x0fIG', 'ÓÎ\x8a\x9eÊÑ\x9eÓÎ\x8d\x97'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90òÞÌ', '\x12\x0c\x06\tJ\x12\x14\x15\t\x06\n\x02J\x03\x14\x0e\t\x0eJ/\x06/&', '\x93ßÕË\x93ÙßÐÊÛÐÙÓ\x91ÝÑÐÈÛÌÊÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÜÐÑÉ', '\x02\x15\x13\x02', 'Ì\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÜÐÑÉÚÍËÚÍø', '\x06\n\x0e\t\x00\x1d\x1d=\x1d=', 'ÄÄääääÄÄÄäÄ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('òÞÌÔ\x9f', '7\x08\x15\x13G', '\x98\x9eëìò'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíöþñå', '=\x11\x06\x0b\x02\x1d1&+"=H\n\x06\x14\x0c\x0e\x13\x12$\x12\x1e25+\x0c\x06\x0b\x08 \x06\x14\x06\x0b\x06\x0fJ"\x0f4\x06', 'ÓßîÑÌÊú×òÑÝßÒÖÑÍÊù×ÊËòßÖÖößÖßÖßÖßÖßÖßÖßÖß'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÒÞÌ', '\x0c\x17\x08\x15', 'Ê\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ØÊÙÍÐÑøÞÑËÚÑØýÞÑØÚËòÞÌÆÞÞÓÓÞ××××øÞÑËÚÑØ', '%\x06\t\x00\x02\x13 \x12\x01\x15\x08\t.\x13\x12>&/3"*")3"*"),24",&+.&))', 'ðððð÷ÿôéõéõûûúôøôøôøøõøõéõéõéõõéõõéõéõéõ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('êÏÓÐÞÛ', '\x02\x15G!\x0e\x0b\x02', '\x9eÊÑ\x9eëìò'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíöþñååÉÞÓÚ', '\x1d1&+"=H?>=&%?\x06\x03\x15\x0e\x06\t\x1d\x1d&#5.&)==\x11\x06\x0b\x02\x1d1&+"=VUTSRQP', '\x86\x87\x8e\x87\x86\x89\x88\x8b\x8a\x8d\x8c\x8fÿüýúûøùö÷ôõòóðñîïìíêëèéæçäËÎÒÑßÚÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÊÏÓ', '\x08\x06\x03\x02', 'Ì\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('þÓÓÞ×öÌë×ÚýÚÌ', '\x13J4\x0f\x08\x0b\x06\x13 \x12\x1e\x14-', 'ßÐÙßÐüËßÊñÐßÌ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('èÐ', '\x15\n', 'ÿ÷'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýü', '\x06\x03\x15\x0e\x06\t\x1d\x1d&#5.&)==\x11\x06\x0b\x02\x1d1&+"', 'ä\x91ÉÉÉÉÉÉÉÉÑÌÓÿÚßÒßÖýßÝ×ÐÙ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÇÈ', '\x08\x15\n', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈ', '\x10\x10\x10\x10\x10\x10\x10\x10\x10\x06\x06\x06\x14\x14\x14\x03', 'ÚÚÚÉÉÉßßÍÍÚÚÉßÍÚ')}], LЬYОDζ☌t☌UПfAЖK☉('òÚÑÊ', 'G$\x0f\x02', 'ÝÕÛÌ'): [{LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('öï\x9f', '3\x15\x06', 'ÝÕÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíöþñååÉÞÓÚ', '\x1d1&+"=H?>=&%?\x06\x03\x15\x0e\x06\t\x1d\x1d&#5.&)==\x11\x06\x0b\x02\x1d1&+"=VUTSRQP', '\x86\x87\x8e\x87\x86\x89\x88\x8b\x8a\x8d\x8c\x8fÿüýúûøùö÷ôõòóðñîïìíêëèéæçäËÎÒÑßÚÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÖÏË', '\x15\x06\x04', 'Õ\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('×Ê×Ê×ÊÊÊþÔÊòÚÑÞÑØÖÌøÞÍÞøÞÍÞôÞ', '\n\x12*\x02\n\x05\x06\x04\x06.\t\x0eJ>\x06\t\x00%\x02\x15\x06\x15\x13\x0e,\x06\n\x124\x02', 'ÚßÐÙìÛÝÑÚÛõßÇßÕÐÇßöÛÖÛÖÛÖÛÖÛÖÛ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ñöô', 'G7\x06', 'ÌÍÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþ', '#5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x0e\t\x0e,\x06\x0b\x08 \x06\x0c4\x06\x0b\x06\x0f%\x06', 'Ù×ßÐð÷õÎßÌÍÛÌÿÊßËÿÎßÇßÖáòËÎßùÉÛùËÇÍ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÑÖ', '\x0cI', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ýñøñøýøëøèòôíññòù', '+#5.).#5.#2+20(,,', 'õõ\x93ÖËÉßßßðßÐÙ×ÍùÉ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ñöì', ')G7\x06', 'ÌÍÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþ', '#5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x0e\t\x0e,\x06\x0b\x08 \x06\x0c4\x06\x0b\x06\x0f%\x06', 'Ù×ßÐð÷õÎßÌÍÛÌÿÊßËÿÎßÇßÖáòËÎßùÉÛùËÇÍ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÑÖ', '\x14\t', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('', '', 'Î')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ðÌÖÑË\x9f', ')\x08\n\x08\x15G', 'êÛÒÛÎÑÐ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþûíöþñå', '=\x11\x06\x0b\x02\x1d1&+"=H4\x08\x14\x0e\x144\x06\t\x00\x06\x13\x02\t\x06\x0c4\x02\x0c\x06\x0b\x0e3\x02\n\x02\t3\x02', 'ÓßÐÿÎßÒßÙ×õßÒßËú×ÜßÕßÌÿÊßËú×ÙÑÌÛÐÙ\x93çßÕßÐÐ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÐÌ', '\x0e\t\x13', '\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ØÖË×ÊÝ\x91ÜÐ', '\nI\x0e\x03I\x04\x08I\x06', '×\x90ÚÑÊ\x90ÚÑÊ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ðÌÖÑ', '\x13G3\x0e', 'ÕêÑÕ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË', '\x0f\x12\x05I\x04\x08\nH&\x03\x15\x0e', 'ßÐÄÄöÛÆä\x91ÊÊÑ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ËË', '\x08I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ËÐËÐËÐËÐËÐËÐËÐË', '\x08\x13\x08\x13\x0e\x13\x0e\x13\x0e\x13\x0e\x13\x0e\x13\x0e', 'Ê×Ê×Ê×Ê×ÊÓËÙÛÚÖÛ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ðÌÖÑË\x9f', '%\x06\x15\x04\x08\x03', 'Û\x9eïì÷í'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍ', '\x0e\x06\t\x1d\x1d&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x1e\x06\x0f\x0f', '÷Ð×ðßÓßÐÇßùßÕì×ÍÎÛÕüßÐÙÛÊéÑÕ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÎÍ', '\x08I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÌÞÆÞòÞÑÊÌÆÞ', '%\x0e\x06\x14\x06J*\x06\x0c\x06\t', 'ðßÍ×\x93ÖÛÖÛÖÛ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('ðÌÖÑË\x9fôÐÛ', '\x02G7\x08\x14GO \x08', 'ÑÙÒÛ\x9eóßÎÍ\x97'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅþû', '5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x17\x08\x14\x13\x0e\t\x00\x06\t2\x0b\x06\t\x003\x0e\x0c\x13\x08', 'ÕÐÇßÿÚÌ×ßÐÄÄ\x8d\x8c\x8a\x8fÍßÐÙßÊõÛÌÛÐüßÐÙÛÊüêé'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÏÐ', '\x14I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÞÞÞÞÞÞÞÔÞÞÞÔÞÞÔÞÞÞÞÔÞÔÞÞÊÞÔÞ', '\x06\x06\x0c\x06\x06\x0c\x06\x06\x06\x06\x0c\x06\x0c\x06\x0c\x06\x0c\x06\x0c\x06\x08\x06\x06\x0c\x06\x06\x06\x0c', 'ßßßÕßÕßÑßÕßßÕßßÕßßÕßßßÕßÕÕßÕ')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('óÞÜÞÔ\x9f', ')\x08\n\x08\x15G', 'êÛÒÛÎÑÐ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91Ü', '\x08\nH&\x03\x15\x0e\x06\t\x1d\x1dTUSH\x17', 'ÖÑÐÛ\x93ÊÌßÝÕ\x93ÊÛÌÓËÆ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('ÑÊÒ', '\x13\x15\x06\x04', 'Õ\x90ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('óÞÜÞÔÞÔÞ', '\x0c\x06\x0c\x0c\x06\x0c\x0c\x06', 'ÕßÕÕßÕßÕ')}], LЬYОDζ☌t☌UПfAЖK☉('ìÊÑË', '\x0e\x0cG4', 'ÑÍÓÛÚ'): [{LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('òÚÑÊ\x9fì', '\x12\t\x13\x0e\x0cG', 'ê×ÕÊÑÕ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅ', '&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x14\x12\t\x13\x0e\x0cJ\x06\x0b\x0bJ\x14\x08\x14', 'ÓÛÚ\x93ØÌÛÛ\x93ÒßÙ×\x93Ð×Ö\x93ÜßÙ×\x93ÜßÙ×\x93ÇÛÕßÐ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('Ë', '\x13I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('Ê×××ÊÊÊÊýÖÑØÊÑØ', ' \x10*\x06\x12)\x00\x06\x14\x0e\x0f\x0e\t)\x06', 'ÓßøÑÒÚÛÌÿÎßòßÙ××')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('òÚÑÊ\x9fìÊ', '\t\x13\x0e\x0cG.\t', 'ÍÊßÙÌßÓ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅ', '&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x14\x12\t\x13\x0e\x0cJ\x06\x0b\x0bJ\x14\x08\x14', 'ÓÛÚ\x93ØÌÛÛ\x93ÒßÙ×\x93Ð×Ö\x93ÜßÙ×\x93ÜßÙ×\x93ÇÛÕßÐ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('Ö', '\x00I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ËÊËÊËÊËÊ', '\x13\x12\x13\x12\x13\x12\x13\x12', 'ÊÊÊê÷ê÷ê')}, {LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ'): LЬYОDζ☌t☌UПfAЖK☉('òÚÑÊ\x9fì', '\x12\t\x13\x0e\x0cG!', 'ßÝÛÜÑÑÕ'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ'): LЬYОDζ☌t☌UПfAЖK☉('×ËËÏÌ\x85\x90\x90ØÖË×ÊÝ\x91ÜÐÒ\x90çæåþýüÞÛÍÖÞÑÅÅ', '&#5.&)==\x11\x06\x0b\x02\x1d1&+"=H\x14\x12\t\x13\x0e\x0cJ\x06\x0b\x0bJ\x14\x08\x14', 'ÓÛÚ\x93ØÌÛÛ\x93ÒßÙ×\x93Ð×Ö\x93ÜßÙ×\x93ÜßÙ×\x93ÇÛÕßÐ'), LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x05I', 'ÎÇ'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ'): LЬYОDζ☌t☌UПfAЖK☉('ÙÝìÞÒÞûÚÑØÞÑöÌþÛÞÓÞ×æ', '\x06\x0e\x13\x12.\x06\x0b\x06\x0f!\x08\x0b\x0b%\x06\x04\x0c!\x08\x0b\x0b', 'ÑÉüßÒ×ÕüßÝÕüßÝÕÿÜÝÚÛÚÙ')}]}
+    if эХLξяPлκJΑbЕvОξπ == fzЪΤτКnCюΗΔτΨοYηу('/', 'ø', 'Ô'):
+        return ΜΩΦβλlυфЪzχαNΑφν
+    return ΛiYчoΗnκΧζРMШШDе
+    ZkρuамсДЫCqΧ = 56 + 32
+μσжкeЪВΝσПАyΨсdM = {fzЪΤτКnCюΗΔτΨοYηу('\t":#', 'õöøýü', 'È\x9aûÖÖ'): [{fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\t":#!"', 'øýüë¹Êí', 'ÛÎÏÉ\x9aíû'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04\x0c\x03', 'ÃÃïøõüãÏØÕÜÃ¶ýöî÷õöøýüëÊÎ÷ðñÍüôø÷Íüôø÷Ò', 'ÏéßÑÛÖÓÛÔþÓÉÓÔÓãÛÒÒòÛÒÛÒÛÒòÛÒÛÒÛÒÛòÛÒÛÒÛ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('>:>', 'øïü', 'È\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('%,!"\x02?,#*\x03', 'þþøòÛüëíø÷', 'ÝÝÏÔÝðÛÍÛØ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\t":#!",)(?', '¹Éöíö¹Éëöÿ', 'ÓÖ\x9aíÒÛÎÉûÊÊ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#', 'ããØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶ÉÉ´ÎØ´ýöî÷', 'ÖÕÛÞßÈ\x97â\x97ìÛÖßà\x97÷ß×ØßÈ\x97õÔÖÃÃÃÃÃÃ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('==', 'îø', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('\x14\x02\x18`\x06', '×ÖÎ´Ð', '÷\x97øûþ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\t":#!",)(', 'ë¹Éöíö¹Éëö', 'ÜÓÖ\x9aîÓÑîÕÑ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9', 'ñìû·úöô¶Øýëð', 'ÛÔÀÀ\x89\x88\x8e\x95ÊÊÎÎ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('==', 'íí', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('\x04\x00`\x0f\x0c\t`\x04\x00`\x0f\x0c\t`', 'ÐÔÛÐÍÐÒÐÔ´ØÔÛØ', 'îûñû÷\x97ï÷øïîïñï÷')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\t":#!",)(?', '¹Éöíö¹Éëöÿ', 'ÓÖ\x9aüÛÙßØÕÕÑ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04', 'Ø×ÃÃïøõüãÏØÕÜÃ¶éñðêÔü÷ìýðÁïøõõõõõõõõõõ', 'ÖÖÖÖÖÖÖÖßßßßßßßÀÀÀÀÀÀÀÀÀÀÀÀÀààÀàÀÀàÀÀÀ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('==', 'ÿû', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу(',+9(?`,+9(?`,+9(?`x`4(,?>`', 'ö÷´êñü´ñøê´þöüê´ûõø´ûõøûõø´', 'ÉÕÑÓÔÝÝÈÓÉÖÏÞßÙÕÞßÈÐÛÒÛÎÛÉÏ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\t":#!",)(?', '¹Éöíö¹Éëöÿð', 'Ö\x9aóÔÉÎÛÝÈÛ×'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." ', '¶ÁÀÃØÛÚøýëðø÷ããØÝËÐ', 'ûôààÌÛÖßÀìûöÿà\x95ÊÊÓÝ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('==', 'ðþ', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('$+\x19%$>\x03$*%9\x04>\x03"9\x0b"?(;(?`\x0c9\x01(,>9\x1a(\x0c?(\x19"*(', 'íñüë´ÐÒ÷öîÐô×öíØõö÷ü«á´Ø÷àîñüëüÎñü÷üïüë´', 'ûÊÛÈÎíßÈßéÎÓÖÖîÕÝßÎÒßÈ\x97óñÔÕÍó×ôÕÎûÖÕÔß\x88Â')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\t":#!",)(', 'ë¹Ïðýüö¹Êö', 'ÉÓÛÖ\x9a÷ßÞÓÛ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77', 'ØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶êöêôüý´êêöêööö', 'ÉÉÉÉ××××ßßÞÞÞÞþÕÍÔÖÕÛÞßßÈÈÈÛÖÛÖÖÖÖ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('>">', 'ôüý', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('(%\x00,>&\x02:$)%\x0f,$::\')\'++")\'((\'(\')\'', 'ý¯®¯®¯®®¯®®®®¯®®¯®¯®¯¯¯¯®¯®¯¯®¯', '\x8d\x8d\x8c\x8d\x8d\x8c\x8d\x8c\x8c\x8d\x8c\x8c\x8c\x8d\x8c\x8d\x8d\x8d\x8c\x8d\x8c\x8c\x8d\x8c\x8d\x8c\x8d\x8c\x8d\x8c\x8d')}], fzЪΤτКnCюΗΔτΨοYηу('\x05,.&$', '÷þ¹¿¹', 'óÖßÝÛÖ'): [{fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1f,#>" :,?', 'ü¹Íüëôìá¹', 'ýßÔßÈÛÎÕÈ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f', 'ÐØ×ÃÃïøõüãÏØÕÜÃ¶ëø÷ÝààààààààØéøõøñÚöò', 'ÑôÝÛÊÛÓÔöÏñßÉÓÔÓîÛÓÑ÷Û×ÊÓÈþÏÖÏñÛÒøÛÔÝ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('?,#`', 'íüëô', 'ÏÂ\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('\x1f,\x03>\x02 \x1a,\x1f(\x08(\x08?\x08?(\x1f(', 'ëÜëüëÜëÜÜËÜëëÜËËüüËÜ', 'èÈßÈ\x97îÿè÷ïââââââàààà')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1a$+', 'ð¹Òð', 'ÖÖßÈ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f', 'ÐØ×ÃÃïøõüãÏØÕÜÃ¶îðÿðÒðõõüë´ñøõöÆÝüúö', 'ÞßÈåûÊÛåñÛØÛÈ\x97å\x97éß×ÕÝÛ\x97ýÛÑ\x97øÛÓÑ\x97ûÐÛÒÒ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу(':$', 'ÿð', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу(' ,8\x03*', 'øéøð÷', 'ûÔÐÓÔÝ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\t\t"\x1e', '¹¡¹Õ', 'ÛÃßÈ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f', 'ÐØ×ÃÃïøõüãÏØÕÜÃ¶ýýöêÐ÷ðÐíìíìñ´íööõê÷', 'ÃÛÕÑßÊÛÈÛÞßÙÕÞßÈÐÛÒÛÎ\x97ûÔÐÓÔÝîÛÓøÛØÓöÏ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('))', 'öê', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('%88:::,,,,,,', 'øøëëëëëëþþþþ', 'ÝÒÒÒÒÒÒÒÒÒÒÒÒ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x00(#8m\x1d%$>$#', 'þ¹Õöþð÷¹¿¹Ê', 'ÛÞÛÊ\x9añÛ×ßÈÛ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04', 'Ø×ÃÃïøõüãÏØÕÜÃ¶éñðêÔü÷ìýðÁïøõõõõõõõõõõ', 'ÖÖÖÖÖÖÖÖßßßßßßßÀÀÀÀÀÀÀÀÀÀÀÀÀààÀàÀÀàÀÀÀ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('=%', 'ê·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('\x02\x0f\x05." /$', 'Êøúñüí´Øñ', '\x97ïÒÏÑïÒÏÑ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x0f8', 'þ¹', 'íû'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#7', 'ãØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶ÛìÞþþþþþþàààû', 'ÏÏÏÒÒÝÒÝÝÝÝÝÝØØØÖÖÕÕÕÕÑÑÑÝÕØÖÕÑÑÑ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('/8', 'þ·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу(',,:::888', 'ìììììììì', 'ÏÏÏÏÝÝÝÝ')}], fzЪΤτКnCюΗΔτΨοYηу('\x1e=, ', 'ôüë¹', 'îÕÕÖÉ'): [{fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1e=, m\x1f(', 'éöëí¹Ûø', 'ÔÔßÞ\x9aíû'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$', 'íñìû·úöô¶Ø', 'ÞÈÓÛÔÀÀ\x95òÛÓ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('>=,', 'ôûø', 'Ô\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу(' ,8\x03*,=,$#\x0f,#*>', 'ñøí´Ð÷ð×øôø÷àøÞø', 'èÓÉÊßÑøÛÔÝßÎíÕÑé')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1e=, m\x02\x19\x1dm\x1a%,9', 'êØéé¹²¹êôê¹²¹', 'ÙÛÖÖ\x9a\x92ØÈÏÎÛÖ\x93'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?', 'ðø÷ããØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶àøññ', 'óÔÓôÛ×ÛÔÃÛýÛÑèÓÉÊßÑøÛÔÝßÎíÕÑ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('"9', 'é·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('>,4,\x00,#8>$,', 'Ûðøêø´Ôøòø÷', 'ôÛÉÓ\x97ÒßÒßÒß')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1e=, m', 'ÛÖÍ¹Íü', 'ÖßÝÈÛ×'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c', 'úöô¶Øýëðø÷ããª«\xad¶', 'éÊÛ×øõî\x97îßÖßÝÈÛ×'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('>=, ', 'ûöííü', 'Öß\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('48&\x19"/,9\t8!8\x19( (#\x19( (#\x1a,!,8', 'éì÷ÞøòÉüë÷øñÊñöõøí´ØàöÞìàêÊ', 'ÒÕÖÛÎþÏÖÏþÛÈÓÊÛÞÛèßÙÕÞßóÔÓ\x97')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1e=, m\x06', 'öýü¹Éøð', 'ÈÓÔÝ\x9aíû'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04\x0c\x03\x17\x17;', 'øõüãÏØÕÜÃ¶éøðëð÷þÒöýüÎØ´êéøôÕøþð×ðñÍüôø÷Íü', '×ÛÔñÏéßÑÛÖÓÛÔ\x97÷ÛÑÉÏÞéÛÃÛþßÙÕÞßÈéßÑÛÖÓÛÔ\x97å\x97'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('>=,', 'ôéøð', 'È\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу(',)?$,#\x0c=,&,%\n', 'ø÷íü÷þ´Éøòü×ø', 'ÔÃÛ\x97ãÛÓÃÛÖÛÒÒ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1e=, m\x03', 'ÞÕ¹±÷þ', 'Ö\x94ÖÓÔÑ\x93'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04\x0c\x03\x17\x17;,', 'õüãÏØÕÜÃ¶êéøô×ÞÕ´íööõêÍüëôìáñøñøñøññøñøñøñø', 'ÒÒÛÒÛÒÛÒÛÛÒÒûÞÛûÞÛéÛÐÛöÏêÛÈÛþßÙÕÞßÈûÛÉÏÉÏÏÏÏ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('>=,', 'ô÷þ', 'Ö\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('4,#*\x0f,.,\x04#$\x0f', 'ìòø÷Éøúøë÷àø', 'éÓÛÊÛ\x88\x97ÒÛÒÛÒÛ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1e=, m\x1f(=', 'öëí¹Ïðýü', 'Õ\x9aîÓÑîÕÑ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#7', 'ãØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶ÛðûðØ÷íøØ÷Íø', 'ôÃÕÑùÕÑîÕéÓîÕ\x97ÈßÊÕÈÎ\x97ÎÎ\x97ÎÎßßÑÎßÑ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('?(="', 'ëíÆí', 'Î\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('>,=9"#"!', 'öêð÷êøðý', 'ÛÒØßÔÞÕÎÎ')}], fzЪΤτКnCюΗΔτΨοYηу('\x0c!,9', '¹Õøð', 'ÔÔÃÛ'): [{fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x0e"#;(?9(?m', 'Øõõ¹±úíñ·¹', '×Ê\x8e\x9aÎÕ\x9a×Ê\x89\x93'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x00,>', 'ìòø÷´ìêë÷øôü´ýêð÷ð´ÑøÑØ', '\x97ÛÑÏ\x97ÝÛÔÎßÔÝ×\x95ÙÕÔÌßÈÎßÈ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('."#;', 'üëíü', 'È\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('."#;(?9(?\n', 'øôð÷þããÃãÃ', 'ÀÀààààÀÀÀàÀ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x00,>&m', 'Éöëí¹', '\x9c\x9aïèö'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04\x0c\x03\x17', 'ÃïøõüãÏØÕÜÃ¶ôøêòðíìÚìàÌËÕòøõöÞøêøõøñ´ÜñÊø', '×ÛêÕÈÎþÓöÕÙÛÖÒÕÉÎýÓÎÏöÛÒÒòÛÒÛÒÛÒÛÒÛÒÛÒÛÒÛ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу(' ,>', 'òéöë', 'Î\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('*8+?"#\n,#9(#*\x0f,#*(9\x00,>4,,!!,%%%%\n,#9(#*', 'Ûø÷þüíÞìÿëö÷ÐíìÀØÑÍÜÔÜ×ÍÜÔÜ×ÒÌÊÜÒØÕÐØ××', 'ôôôôóûðíñíñÿÿþðüðüðüüñüñíñíñíññíññíñíñíñ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x18=!",)', 'üë¹ßðõü', '\x9aÎÕ\x9aïèö'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04\x0c\x03\x17\x17;,!(', 'ãÏØÕÜÃ¶ÁÀÃØÛÁøýëðø÷ããØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¨«ª\xad¬¯®', '\x82\x83\x8a\x83\x82\x8d\x8c\x8f\x8e\x89\x88\x8bûøùþÿüýòóðñö÷ôõêëèéîïìíâãàÏÊÖÕÛÞßÈ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('8=!', 'öøýü', 'È\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('\x0c!!,%\x04>\x19%(\x0f(>', 'í´ÊñöõøíÞìàêÓ', 'ÛÔÝÛÔøÏÛÎõÔÛÈ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x1a"', 'ëô', 'ûó'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e', 'øýëðø÷ããØÝËÐØ×ÃÃïøõüãÏØÕÜ', 'à\x95ÍÍÍÍÍÍÍÍÕÈ×ûÞÛÖÛÒùÛÙÓÔÝ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('5:', 'öëô', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу(':::::::::::::::', 'îîîîîîîîîøøøêêêý', 'ÞÞÞÍÍÍÛÛÉÉÞÞÍÛÉÞ')}], fzЪΤτКnCюΗΔτΨοYηу('\x00(#8', '¹Úñü', 'ÙÑßÈ'): [{fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x04\x1dm', 'Íëø', 'ÙÑßÈ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04\x0c\x03\x17\x17;,!(', 'ãÏØÕÜÃ¶ÁÀÃØÛÁøýëðø÷ããØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¨«ª\xad¬¯®', '\x82\x83\x8a\x83\x82\x8d\x8c\x8f\x8e\x89\x88\x8bûøùþÿüýòóðñö÷ôõêëèéîïìíâãàÏÊÖÕÛÞßÈ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('$=9', 'ëøú', 'Ñ\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('%8%8%888\x0c&8\x00(#,#*$>\n,?,\n,?,\x06,', 'ôìÔüôûøúøÐ÷ð´Àø÷þÛüëøëíðÒøôìÊü', 'ÞÛÔÝèßÙÕÞßñÛÃÛÑÔÃÛòßÒßÒßÒßÒßÒß')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x03\x04\x06', '¹Éø', 'ÈÉßÈ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c', 'ÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶ð÷ðÒøõöÞøòÊøõøñÛø', 'ÝÓÛÔôóñÊÛÈÉßÈûÎÛÏûÊÛÃÛÒåöÏÊÛýÍßýÏÃÉ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('#$', 'ò·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('\x0f\x03\n\x03\n\x0f\n\x19\n\x1a\x00\x06\x1f\x03\x03\x00\x0b', 'ÕÝËÐ×ÐÝËÐÝÌÕÌÎÖÒÒ', 'ññ\x97ÒÏÍÛÛÛôÛÔÝÓÉýÍ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x03\x04\x1e', '×¹Éø', 'ÈÉßÈ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c', 'ÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶ð÷ðÒøõöÞøòÊøõøñÛø', 'ÝÓÛÔôóñÊÛÈÉßÈûÎÛÏûÊÛÃÛÒåöÏÊÛýÍßýÏÃÉ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('#$', 'ê÷', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('', '', 'Ê')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x02>$#9m', '×öôöë¹', 'îßÖßÊÕÔ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t\x1f\x04\x0c\x03\x17', 'ÃïøõüãÏØÕÜÃ¶ÊöêðêÊø÷þøíü÷øòÊüòøõðÍüôü÷Íü', '×ÛÔûÊÛÖÛÝÓñÛÖÛÏþÓØÛÑÛÈûÎÛÏþÓÝÕÈßÔÝ\x97ãÛÑÛÔÔ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('">', 'ð÷í', '\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('*$9%8/c."', 'ô·ðý·úö·ø', 'Ó\x94ÞÕÎ\x94ÞÕÎ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x02>$#', 'í¹Íð', 'ÑîÕÑ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9', 'ñìû·úöô¶Øýëð', 'ÛÔÀÀòßÂà\x95ÎÎÕ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('99', 'ö·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('9"9"9"9"9"9"9"9', 'öíöíðíðíðíðíðíð', 'ÎÓÎÓÎÓÎÓÎ×ÏÝßÞÒß')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x02>$#9m', 'Ûøëúöý', 'ß\x9aëèóé'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?', 'ðø÷ããØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶àøññ', 'óÔÓôÛ×ÛÔÃÛýÛÑèÓÉÊßÑøÛÔÝßÎíÕÑ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('<?', 'ö·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('>,4,\x00,#8>4,', 'Ûðøêø´Ôøòø÷', 'ôÛÉÓ\x97ÒßÒßÒß')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x02>$#9m\x06")', 'ü¹Éöê¹±Þö', 'ÕÝÖß\x9a÷ÛÊÉ\x93'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77\x0c\t', 'ËÐØ×ÃÃïøõüãÏØÕÜÃ¶éöêíð÷þø÷Ìõø÷þÍðòíö', 'ÑÔÃÛûÞÈÓÛÔÀÀ\x89\x88\x8e\x8bÉÛÔÝÛÎñßÈßÔøÛÔÝßÎøîí'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('="', 'ê·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу(',,,,,,,&,,,&,,&,,,,&,&,,8,&,', 'øøòøøòøøøøòøòøòøòøòøöøøòøøøò', 'ÛÛÛÑÛÑÛÕÛÑÛÛÑÛÛÑÛÛÑÛÛÛÑÛÑÑÛÑ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x01,.,&m', '×öôöë¹', 'îßÖßÊÕÔ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c.', 'öô¶Øýëðø÷ããª«\xad¶é', 'ÒÕÔß\x97ÎÈÛÙÑ\x97ÎßÈ×ÏÂ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('#8 ', 'íëøú', 'Ñ\x94ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('\x01,.,&,&,', 'òøòòøòòø', 'ÑÛÑÑÛÑÛÑ')}], fzЪΤτКnCюΗΔτΨοYηу('\x1e8#9', 'ðò¹Ê', 'ÕÉ×ßÞ'): [{fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x00(#8m\x1e', 'ì÷íðò¹', 'îÓÑÎÕÑ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77', 'ØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶êì÷íðò´øõõ´êöê', '×ßÞ\x97ÜÈßß\x97ÖÛÝÓ\x97ÔÓÒ\x97ØÛÝÓ\x97ØÛÝÓ\x97ÃßÑÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('9', 'í·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('8%%%8888\x0f$#*8#*', 'ÞîÔøì×þøêðñð÷×ø', '×ÛüÕÖÞßÈûÊÛöÛÝÓÓ')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x00(#8m\x1e8', '÷íðò¹Ð÷', 'ÉÎÛÝÈÛ×'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77', 'ØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶êì÷íðò´øõõ´êöê', '×ßÞ\x97ÜÈßß\x97ÖÛÝÓ\x97ÔÓÒ\x97ØÛÝÓ\x97ØÛÝÓ\x97ÃßÑÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('$', 'þ·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('98989898', 'íìíìíìíì', 'ÎÎÎîóîóî')}, {fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß'): fzЪΤτКnCюΗΔτΨοYηу('\x00(#8m\x1e', 'ì÷íðò¹ß', 'ÛÙßØÕÕÑ'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ'): fzЪΤτКnCюΗΔτΨοYηу('%99=>wbb*$9%8/c." b\x15\x14\x17\x0c\x0f\x0e,)?$,#77', 'ØÝËÐØ×ÃÃïøõüãÏØÕÜÃ¶êì÷íðò´øõõ´êöê', '×ßÞ\x97ÜÈßß\x97ÖÛÝÓ\x97ÔÓÒ\x97ØÛÝÓ\x97ØÛÝÓ\x97ÃßÑÛÔ'), fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('+', 'û·', 'ÊÃ'), fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ'): fzЪΤτКnCюΗΔτΨοYηу('+/\x1e, ,\t(#*,#\x04>\x0c),!,%\x14', 'øðíìÐøõøñßöõõÛøúòßöõõ', 'ÕÍøÛÖÓÑøÛÙÑøÛÙÑûØÙÞßÞÝ')}]}
 
 def load_json(path, default=None):
-    if yЛff☊Жζhν☊εЯ☉κb is None:
-        yЛff☊Жζhν☊εЯ☉κb = {}
-    if υ☏iXθМηЩЛAХЙkК☀y.path.exists(gjvaББψλφ☋Gu☆ХCA):
+    if rПγТWrнаиmkqΤgшC is None:
+        rПγТWrнаиmkqΤgшC = {}
+    if SΦьZФτWmΣvЕδФУ.path.exists(ОσщAμюPфψщЫΣЫ):
         try:
-            with open(gjvaББψλφ☋Gu☆ХCA, LЬYОDζ☌t☌UПfAЖK☉('', '', 'Ì')) as ЖЬVБκIψhδРЧQ:
-                return r☁TlЫЬ☀PGψυТC.load(ЖЬVБκIψhδРЧQ)
+            with open(ОσщAμюPфψщЫΣЫ, fzЪΤτКnCюΗΔτΨοYηу('', '', 'È')) as ξΚHΞдТДУЙХZфжЛВOΙΨ:
+                return ΗуwQФgМрЧРжЪ.load(ξΚHΞдТДУЙХZфжЛВOΙΨ)
         except:
-            return yЛff☊Жζhν☊εЯ☉κb
-    return yЛff☊Жζhν☊εЯ☉κb
-    QublfMN☏ЛτuτИr☎rБ = 60 + 87
+            return rПγТWrнаиmkqΤgшC
+    return rПγТWrнаиmkqΤgшC
+    пНMBХьZχΡιVΔΠцC = 93 + 17
 
 def save_json(path, data):
-    υ☏iXθМηЩЛAХЙkК☀y.makedirs(υ☏iXθМηЩЛAХЙkК☀y.path.dirname(gjvaББψλφ☋Gu☆ХCA), exist_ok=True)
-    with open(gjvaББψλφ☋Gu☆ХCA, LЬYОDζ☌t☌UПfAЖK☉('', '', 'É')) as ЖЬVБκIψhδРЧQ:
-        r☁TlЫЬ☀PGψυТC.dump(ЦdBDp☊izХИFЯЦ, ЖЬVБκIψhδРЧQ, indent=4)
-    Аadl☏ЭANЖuTТc☄Бr = 96 + 74
-if not υ☏iXθМηЩЛAХЙkК☀y.path.exists(КcVBρMФ☃jmξηqОc):
-    aAЦP☏LζaδλИVО☆Дhy(КcVBρMФ☃jmξηqОc, {LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ'): {}})
+    SΦьZФτWmΣvЕδФУ.makedirs(SΦьZФτWmΣvЕδФУ.path.dirname(ОσщAμюPфψщЫΣЫ), exist_ok=True)
+    with open(ОσщAμюPфψщЫΣЫ, fzЪΤτКnCюΗΔτΨοYηу('', '', 'Í')) as ξΚHΞдТДУЙХZфжЛВOΙΨ:
+        ΗуwQФgМрЧРжЪ.dump(пτμФζΜΝgИφKА, ξΚHΞдТДУЙХZфжЛВOΙΨ, indent=4)
+    HэEоΘFνζНЭкΨщ = 9 + 1
+if not SΦьZФτWmΣvЕδФУ.path.exists(ЫюДωJхρBРΑтйΙ):
+    ΦЯξιΙbωZgЪfвзζtλ(ЫюДωJхρBРΑтйΙ, {fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ'): {}})
 
 def clear():
-    υ☏iXθМηЩЛAХЙkК☀y.system(LЬYОDζ☌t☌UПfAЖK☉('Ü', '\x0b\x02', 'ßÌ') if υ☏iXθМηЩЛAХЙkК☀y.name != LЬYОDζ☌t☌UПfAЖK☉('', '\t', 'Ê') else LЬYОDζ☌t☌UПfAЖK☉('Ü', '\x0b', 'Í'))
-    Ы☏ИНEuУltEJR☀☌БxωQ = 59 + 32
+    SΦьZФτWmΣvЕδФУ.system(fzЪΤτКnCюΗΔτΨοYηу('.', 'õü', 'ÛÈ') if SΦьZФτWmΣvЕδФУ.name != fzЪΤτКnCюΗΔτΨοYηу('', '÷', 'Î') else fzЪΤτКnCюΗΔτΨοYηу('.', 'õ', 'É'))
+    lйωпζкНχJyофкБξqfж = 6 + 38
 
-def draw_line(char=LЬYОDζ☌t☌UПfAЖK☉('', '', '◮'), length=54):
-    print(f'{sFBЙtyУuξgoR☏rn☂НШ}{Е☊☈☍WИIОГκ☄mМАKLВv * HЮοζ☂x☌τУαАσЖ★bθiA}{XОρωθ☋Н☃ЭqζЪХr}')
-    wSvηГЕλYκJЧИ = 48 + 9
+def draw_line(char=fzЪΤτКnCюΗΔτΨοYηу('', '', '◪'), length=54):
+    print(f'{нοфГιΛшζSfζБчЬЧТT}{ъτpMκYНDνщЮнЖΞ * νλμТdΦwЧsΜρΙфlhхB}{ζamγckxNγХΦXΓΣaΛщ}')
+    ηkβkTьoipaiЭоОbеΒt = 58 + 60
 
-def print_box(text, color=E☂☁vМσOξ☄ι☏У★Щδf):
-    HЮοζ☂x☌τУαАσЖ★bθiA = len(☃hГ☃TfλθЭjψyUЫο☀К) + 2
-    print(f"{МrζАβД☃МePЕuЯWφzο}╔{'═' * HЮοζ☂x☌τУαАσЖ★bθiA}╗")
-    print(f'║ {Я☂yτOωKλKbtsКБYIVπ}{☃hГ☃TfλθЭjψyUЫο☀К}{МrζАβД☃МePЕuЯWφzο} ║')
-    print(f"╚{'═' * HЮοζ☂x☌τУαАσЖ★bθiA}╝{XОρωθ☋Н☃ЭqζЪХr}")
-    CXηЧdОЫKFЦsCcj = 61 + 34
+def print_box(text, color=λВКmбыyбjiΥвΕ):
+    νλμТdΦwЧsΜρΙфlhхB = len(иУΔΝЙvUъlnЛwЪΝΥIM) + 2
+    print(f"{lеΞhΩЕтщQΝtοыдβъξ}╔{'═' * νλμТdΦwЧsΜρΙфlhхB}╗")
+    print(f'║ {ЩкуIHаΧУяздΓΦТwkД}{иУΔΝЙvUъlnЛwЪΝΥIM}{lеΞhΩЕтщQΝtοыдβъξ} ║')
+    print(f"╚{'═' * νλμТdΦwЧsΜρΙфlhхB}╝{ζamγckxNγХΦXΓΣaΛщ}")
+    ЮOΕЦаDΣUaшжъYD = 73 + 2
 
 def print_tool_table(category, items, menu_mapping, current_index, color):
-    LЬYОDζ☌t☌UПfAЖK☉('üÚËÞÔ\x9fÛÞÙËÞÍ\x9fËÐÐÓÌ\x9fÛÚÑØÞÑ\x9fÝ', '\x08\x15\x03\x02\x15GPRKG\r\x12\x03\x12\x0bG\x0c\x06\x13\x02\x00\x08\x15\x0eG\x04\x02', 'ÐÊÛÌ\x92\x9eÊßÐÎß\x9eÙßÌ×Í\x9eßÐÊßÌ\x9e×ÊÛÓ')
-    ЫwDlЧμeqrωsУg = Я☂yτOωKλKbtsКБYIVπ
-    LЖЪpμ☆σШπiNI = ★jβБМВgνЛDηDθl☍βεO
-    ☉МXЮTvBmPG☏ЫN = γЛZawО☃WαhЪcηqπТК
-    oTvιτγgnЩw☆УЛρ☄ = RУUsNХτЭδTcДδ + Я☂yτOωKλKbtsКБYIVπ
-    print(f"\n{ЫwDlЧμeqrωsУg}╔{'═' * 75}╗")
-    ☉ВpЖa☁ZρEТJSiCИ☊US = f'▓▓▓  {ОSДVpCЦκLРψФa.upper()}  ▓▓▓'
-    if len(☉ВpЖa☁ZρEТJSiCИ☊US) > 73:
-        ☉ВpЖa☁ZρEТJSiCИ☊US = ☉ВpЖa☁ZρEТJSiCИ☊US[:73]
-    print(f'{ЫwDlЧμeqrωsУg}║{☉ВpЖa☁ZρEТJSiCИ☊US.center(75)}║')
-    print(f"{ЫwDlЧμeqrωsУg}╚{'═' * 75}╝{XОρωθ☋Н☃ЭqζЪХr}")
-    print(f"{ЫwDlЧμeqrωsУg}╭{'─' * 6}┬{'─' * 66}╮{XОρωθ☋Н☃ЭqζЪХr}")
-    for ☂☆☄ЭφKVαIMνJ, ЯomaοκgXШ☄☉βЬwЩqP in enumerate(τEТxκsХφjXθαP☍, start=zЖ☁E★МεuδNψsξ☄JδЭD):
-        ξδσυ☆k☇☄φαjЫHС = str(☂☆☄ЭφKVαIMνJ).zfill(4)
-        Гλ☂НХzFπЖalzs☁βmC☂ = ЯomaοκgXШ☄☉βЬwЩqP[LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ')]
-        KulСЭσWHλγrvBПMaЛ☃ = LЬYОDζ☌t☌UПfAЖK☉('', '', '')
-        if ЯomaοκgXШ☄☉βЬwЩqP.get(LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06\x03', 'ÙÛ')) == LЬYОDζ☌t☌UПfAЖK☉('ÒÞÖ', '\t\x13\x02\t', 'ßÐÝÛ'):
-            KulСЭσWHλγrvBПMaЛ☃ = f'{TρМδЪhaOKlχLЗ☇}[🔧 MAINTENANCE]{XОρωθ☋Н☃ЭqζЪХr}'
-        elif ЯomaοκgXШ☄☉βЬwЩqP.get(LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06\x03', 'ÙÛ')) == LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x02', 'É'):
-            KulСЭσWHλγrvBПMaЛ☃ = f'{☎WοsξПιГНЕγР☇FyPπI}[⚠️ BARU]{XОρωθ☋Н☃ЭqζЪХr}'
-        elif ЯomaοκgXШ☄☉βЬwЩqP.get(LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06\x03', 'ÙÛ')) == LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'Æ'):
-            KulСЭσWHλγrvBПMaЛ☃ = f'{γЛZawО☃WαhЪcηqπТК}[🛠️ DIPERBAIKI]{XОρωθ☋Н☃ЭqζЪХr}'
-        elif ЯomaοκgXШ☄☉βЬwЩqP.get(LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06\x03', 'ÙÛ')) == LЬYОDζ☌t☌UПfAЖK☉('ÊÏ', '\x03\x06', 'ÊÛ'):
-            KulСЭσWHλγrvBПMaЛ☃ = f'{★jβБМВgνЛDηDθl☍βεO}[⏫ UPDATED]{XОρωθ☋Н☃ЭqζЪХr}'
-        elif ЯomaοκgXШ☄☉βЬwЩqP.get(LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06\x03', 'ÙÛ')) == LЬYОDζ☌t☌UПfAЖK☉('×', '\x08', 'Ê'):
-            KulСЭσWHλγrvBПMaЛ☃ = f'{λЙ☋G☎☄☏πηε☄k}[🔥 HOT]{XОρωθ☋Н☃ЭqζЪХr}'
-        elif ЯomaοκgXШ☄☉βЬwЩqP.get(LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06\x03', 'ÙÛ')) == LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x02', 'Êß'):
-            KulСЭσWHλγrvBПMaЛ☃ = f'{ЕТrωHκ☇bТasHКД}[🧪 BETA]{XОρωθ☋Н☃ЭqζЪХr}'
-        elif ЯomaοκgXШ☄☉βЬwЩqP.get(LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06\x03', 'ÙÛ')) == LЬYОDζ☌t☌UПfAЖK☉('ÍÚÜ', '\x08\n\n\x02', 'ÐÚÛÚ'):
-            KulСЭσWHλγrvBПMaЛ☃ = f'{αВrИzЧМθεbУYЬГ☀ιП}[⭐ REKOMENDASI]{XОρωθ☋Н☃ЭqζЪХr}'
-        elif ЯomaοκgXШ☄☉βЬwЩqP.get(LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06\x03', 'ÙÛ')) == LЬYОDζ☌t☌UПfAЖK☉('ÓÖ', '\n\x0e', 'ÊÛÚ'):
-            KulСЭσWHλγrvBПMaЛ☃ = f'{☎WοsξПιГНЕγР☇FyPπI}[⏳ TERBATAS]{XОρωθ☋Н☃ЭqζЪХr}'
-        ЕГxЪ☏☉qЮD☏ЗωpT = f'{Гλ☂НХzFπЖalzs☁βmC☂}  {KulСЭσWHλγrvBПMaЛ☃}' if KulСЭσWHλγrvBПMaЛ☃ else Гλ☂НХzFπЖalzs☁βmC☂
-        if len(ЕГxЪ☏☉qЮD☏ЗωpT) > 64:
-            ЕГxЪ☏☉qЮD☏ЗωpT = ЕГxЪ☏☉qЮD☏ЗωpT[:64]
-        ЕГxЪ☏☉qЮD☏ЗωpT = ЕГxЪ☏☉qЮD☏ЗωpT.ljust(64)
-        print(f'{ЫwDlЧμeqrωsУg}│ {☉МXЮTvBmPG☏ЫN}{ξδσυ☆k☇☄φαjЫHС}{ЫwDlЧμeqrωsУg} │ {oTvιτγgnЩw☆УЛρ☄}{ЕГxЪ☏☉qЮD☏ЗωpT}{ЫwDlЧμeqrωsУg} │{XОρωθ☋Н☃ЭqζЪХr}')
-    print(f"{ЫwDlЧμeqrωsУg}╰{'─' * 6}┴{'─' * 66}╯{XОρωθ☋Н☃ЭqζЪХr}")
-    for ☂☆☄ЭφKVαIMνJ, ЯomaοκgXШ☄☉βЬwЩqP in enumerate(τEТxκsХφjXθαP☍, start=zЖ☁E★МεuδNψsξ☄JδЭD):
-        I☍RBWБvГ☄БЯЖРεGω[☂☆☄ЭφKVαIMνJ] = ЯomaοκgXШ☄☉βЬwЩqP
-    return zЖ☁E★МεuδNψsξ☄JδЭD + len(τEТxκsХφjXθαP☍)
-    it☍НmДLtЖTЯNσ = 94 + 23
-YН☂γУЙRЪ☋φKκ = LЬYОDζ☌t☌UПfAЖK☉('⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿⢿', '⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⡧⠧⡧⡧⡧', '⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾⢾´')
-ЩαАDЖNzeEKЫGMBЛζ☄ = LЬYОDζ☌t☌UПfAЖK☉('┷┷◨\x9f\x9f┷┷◨\x9f\x9f\x9f\x9f\x9f\x9f\x9f┷┷◨\x9f\x9f\x9f┷┷◨\x9f┷┷┷┷┷◨\x9f┷┷◨\x9f\x9f\x9f\x9f\x9f┷┷┷┷┷┷┷◨┷┷┷┷┷┷┷◨µ◥┷┷◨┷┷◫◢\x9f\x9f\x9f\x9f\x9f\x9f\x9f┷┷◮\x9f\x9f\x9f┷┷◮┷┷◫◯◯┷┷◨┷┷◮\x9f\x9f\x9f\x9f\x9f┷┷◫◯◯◯◯◢◥◯◯┷┷┷◫◢', 'mG┽◯◯◯┳┺G◯◯◯◯◯┰G◯◯┶GGG◯◯┶◯◯◯◯◯◯◯┶◯◯┶GGGGG◯◯◯◯◯┰GGGG◯◯◯┳┺GmG◯◯┳◯◯┰G┽┷┷┷┷┺G┽◯◯┰G◯◯┳┺◯◯┳┷┷◯◯┶◯◯┶GGGGG◯◯┳┷┷┺GGG◯◯◯┳┺GG', '´┶┶◪◣\x9e┶┶◩\x9e\x9e\x9e\x9e\x9e\x9e\x9e\x9e◤┶┶┶┶◪◣\x9e┶┶◯\x9e\x9e┶┶◯┶┶┶┶┶┶┶◩┶┶┶┶┶┶┶◩┶┶┶┶┶┶┶◩´◤◮◣\x9e\x9e◤◮◣\x9e\x9e\x9e\x9e\x9e\x9e\x9e\x9e\x9e◤◮◮◮◣\x9e\x9e◤◮◣\x9e\x9e◤◮◣◤◮◮◮◮◮◮◣◤◮◮◮◮◮◮◣◤◮◮◮◮◮◮◣')
+    fzЪΤτКnCюΗΔτΨοYηу('\x0e(9,&m),+9,?m9""!>m)(#*,#m/', 'öëýüë¹®¬µ¹óìýìõ¹òøíüþöëð¹úü', 'ÔÎßÈ\x96\x9aÎÛÔÊÛ\x9aÝÛÈÓÉ\x9aÛÔÎÛÈ\x9aÓÎß×')
+    gВdOsjфdcCΥмαΝ = ЩкуIHаΧУяздΓΦТwkД
+    HξκψIdТΗXΙSΦдQψtIσ = ΛiYчoΗnκΧζРMШШDе
+    ПыαΟΧЩкcМСкyaΕю = ΒχлaЙtлRpΖьяσ
+    ΞuνtыгмЬkwУγРΗΒ = pΤЮpуγHζuаynоuΥ + ЩкуIHаΧУяздΓΦТwkД
+    print(f"\n{gВdOsjфdcCΥмαΝ}╔{'═' * 75}╗")
+    eEфφdМuΗъaKCЕФИλщ = f'▓▓▓  {ЭΛΙΤαΓЛFГжΔtккIκфσ.upper()}  ▓▓▓'
+    if len(eEфφdМuΗъaKCЕФИλщ) > 73:
+        eEфφdМuΗъaKCЕФИλщ = eEфφdМuΗъaKCЕФИλщ[:73]
+    print(f'{gВdOsjфdcCΥмαΝ}║{eEфφdМuΗъaKCЕФИλщ.center(75)}║')
+    print(f"{gВdOsjфdcCΥмαΝ}╚{'═' * 75}╝{ζamγckxNγХΦXΓΣaΛщ}")
+    print(f"{gВdOsjфdcCΥмαΝ}╭{'─' * 6}┬{'─' * 66}╮{ζamγckxNγХΦXΓΣaΛщ}")
+    for kvПοХΕТUΝJЦκЖ, йAτoγЕюsтgQдщЙ in enumerate(DρλΔλMЕγΗЕkЬПdД, start=ΛθСИУмkLMфЦUкЩdяхv):
+        ЬАΠьΚεκGДeдoυФΠъθ = str(kvПοХΕТUΝJЦκЖ).zfill(4)
+        pЛПiЧHжΧθлγБЭvλ = йAτoγЕюsтgQдщЙ[fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß')]
+        ΑBBЮВΞλtoXСxιЕЧюмг = fzЪΤτКnCюΗΔτΨοYηу('', '', '')
+        if йAτoγЕюsтgQдщЙ.get(fzЪΤτКnCюΗΔτΨοYηу('/', 'øý', 'Ýß')) == fzЪΤτКnCюΗΔτΨοYηу(' ,$', '÷íü÷', 'ÛÔÙß'):
+            ΑBBЮВΞλtoXСxιЕЧюмг = f'{ΜΩΦβλlυфЪzχαNΑφν}[🔧 MAINTENANCE]{ζamγckxNγХΦXΓΣaΛщ}'
+        elif йAτoγЕюsтgQдщЙ.get(fzЪΤτКnCюΗΔτΨοYηу('/', 'øý', 'Ýß')) == fzЪΤτКnCюΗΔτΨοYηу('#', 'ü', 'Í'):
+            ΑBBЮВΞλtoXСxιЕЧюмг = f'{цσзγяΞЕЕдUΧOс}[⚠️ BARU]{ζamγckxNγХΦXΓΣaΛщ}'
+        elif йAτoγЕюsтgQдщЙ.get(fzЪΤτКnCюΗΔτΨοYηу('/', 'øý', 'Ýß')) == fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Â'):
+            ΑBBЮВΞλtoXСxιЕЧюмг = f'{ΒχлaЙtлRpΖьяσ}[🛠️ DIPERBAIKI]{ζamγckxNγХΦXΓΣaΛщ}'
+        elif йAτoγЕюsтgQдщЙ.get(fzЪΤτКnCюΗΔτΨοYηу('/', 'øý', 'Ýß')) == fzЪΤτКnCюΗΔτΨοYηу('8=', 'ýø', 'Îß'):
+            ΑBBЮВΞλtoXСxιЕЧюмг = f'{ΛiYчoΗnκΧζРMШШDе}[⏫ UPDATED]{ζamγckxNγХΦXΓΣaΛщ}'
+        elif йAτoγЕюsтgQдщЙ.get(fzЪΤτКnCюΗΔτΨοYηу('/', 'øý', 'Ýß')) == fzЪΤτКnCюΗΔτΨοYηу('%', 'ö', 'Î'):
+            ΑBBЮВΞλtoXСxιЕЧюмг = f'{сπdБkνlюuJεΨkgЯЗΘ}[🔥 HOT]{ζamγckxNγХΦXΓΣaΛщ}'
+        elif йAτoγЕюsтgQдщЙ.get(fzЪΤτКnCюΗΔτΨοYηу('/', 'øý', 'Ýß')) == fzЪΤτКnCюΗΔτΨοYηу('/', 'ü', 'ÎÛ'):
+            ΑBBЮВΞλtoXСxιЕЧюмг = f'{IfPΑρYIiеУшΖВxμЖIΑ}[🧪 BETA]{ζamγckxNγХΦXΓΣaΛщ}'
+        elif йAτoγЕюsтgQдщЙ.get(fzЪΤτКnCюΗΔτΨοYηу('/', 'øý', 'Ýß')) == fzЪΤτКnCюΗΔτΨοYηу('?(.', 'öôôü', 'ÔÞßÞ'):
+            ΑBBЮВΞλtoXСxιЕЧюмг = f'{θцσЙцqΚzΝΤЙwЖСΙOr}[⭐ REKOMENDASI]{ζamγckxNγХΦXΓΣaΛщ}'
+        elif йAτoγЕюsтgQдщЙ.get(fzЪΤτКnCюΗΔτΨοYηу('/', 'øý', 'Ýß')) == fzЪΤτКnCюΗΔτΨοYηу('!$', 'ôð', 'ÎßÞ'):
+            ΑBBЮВΞλtoXСxιЕЧюмг = f'{цσзγяΞЕЕдUΧOс}[⏳ TERBATAS]{ζamγckxNγХΦXΓΣaΛщ}'
+        mRкχоΔhЫΘLCι = f'{pЛПiЧHжΧθлγБЭvλ}  {ΑBBЮВΞλtoXСxιЕЧюмг}' if ΑBBЮВΞλtoXСxιЕЧюмг else pЛПiЧHжΧθлγБЭvλ
+        if len(mRкχоΔhЫΘLCι) > 64:
+            mRкχоΔhЫΘLCι = mRкχоΔhЫΘLCι[:64]
+        mRкχоΔhЫΘLCι = mRкχоΔhЫΘLCι.ljust(64)
+        print(f'{gВdOsjфdcCΥмαΝ}│ {ПыαΟΧЩкcМСкyaΕю}{ЬАΠьΚεκGДeдoυФΠъθ}{gВdOsjфdcCΥмαΝ} │ {ΞuνtыгмЬkwУγРΗΒ}{mRкχоΔhЫΘLCι}{gВdOsjфdcCΥмαΝ} │{ζamγckxNγХΦXΓΣaΛщ}')
+    print(f"{gВdOsjфdcCΥмαΝ}╰{'─' * 6}┴{'─' * 66}╯{ζamγckxNγХΦXΓΣaΛщ}")
+    for kvПοХΕТUΝJЦκЖ, йAτoγЕюsтgQдщЙ in enumerate(DρλΔλMЕγΗЕkЬПdД, start=ΛθСИУмkLMфЦUкЩdяхv):
+        РПzпΛJшφмвиυΚΑы[kvПοХΕТUΝJЦκЖ] = йAτoγЕюsтgQдщЙ
+    return ΛθСИУмkLMфЦUкЩdяхv + len(DρλΔλMЕγΗЕkЬПdД)
+    νΛΛΒΣLNAΙAъЕΒyИш = 1 + 80
+ΗрΞТηрΔΠGрmбDΤтΒR = fzЪΤτКnCюΗΔτΨοYηу('⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍⡍', '⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⢙⣙⢙⢙⢙', '⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺⢺°')
+tοΗювwΑηвνΤΚдΞpй = fzЪΤτКnCюΗΔτΨοYηу('◅◅┚mm◅◅┚mmmmmmm◅◅┚mmm◅◅┚m◅◅◅◅◅┚m◅◅┚mmmmm◅◅◅◅◅◅◅┚◅◅◅◅◅◅◅┚G┗◅◅┚◅◅┙┐mmmmmmm◅◅├mmm◅◅├◅◅┙┝┝◅◅┚◅◅├mmmmm◅◅┙┝┝┝┝┐┗┝┝◅◅◅┙┐', '\x93¹◃┑┑┑◍◄¹┑┑┑┑┑◎¹┑┑◈¹¹¹┑┑◈┑┑┑┑┑┑┑◈┑┑◈¹¹¹¹¹┑┑┑┑┑◎¹¹¹¹┑┑┑◍◄¹\x93¹┑┑◍┑┑◎¹◃◉◉◉◉◄¹◃┑┑◎¹┑┑◍◄┑┑◍◉◉┑┑◈┑┑◈¹¹¹¹¹┑┑◍◉◉◄¹¹¹┑┑┑◍◄¹¹', '°┲┲◮◧\x9a┲┲◭\x9a\x9a\x9a\x9a\x9a\x9a\x9a\x9a◠┲┲┲┲◮◧\x9a┲┲◫\x9a\x9a┲┲◫┲┲┲┲┲┲┲◭┲┲┲┲┲┲┲◭┲┲┲┲┲┲┲◭°◠◪◧\x9a\x9a◠◪◧\x9a\x9a\x9a\x9a\x9a\x9a\x9a\x9a\x9a◠◪◪◪◧\x9a\x9a◠◪◧\x9a\x9a◠◪◧◠◪◪◪◪◪◪◧◠◪◪◪◪◪◪◧◠◪◪◪◪◪◪◧')
 
 def show_logo():
-    print(f'{sFBЙtyУuξgoR☏rn☂НШ}{YН☂γУЙRЪ☋φKκ}{XОρωθ☋Н☃ЭqζЪХr}')
-    print(f'{τЭJL☂ttvjUδHt}{RУUsNХτЭδTcДδ}{ЩαАDЖNzeEKЫGMBЛζ☄}{XОρωθ☋Н☃ЭqζЪХr}')
-    print(f"{' ' * 17}{sFBЙtyУuξgoR☏rn☂НШ}v{☏Б☆A☋Ыi☀U☊ЛQHe} | By {Пv☁εlbsνЯ☄ηSЖ}{XОρωθ☋Н☃ЭqζЪХr}")
-    ☌ζ☇PШЦκZotyιqЦ = 25 + 81
+    print(f'{нοфГιΛшζSfζБчЬЧТT}{ΗрΞТηрΔΠGрmбDΤтΒR}{ζamγckxNγХΦXΓΣaΛщ}')
+    print(f'{YΤΜТHеΕЦΥΨΟνдНλωiD}{pΤЮpуγHζuаynоuΥ}{tοΗювwΑηвνΤΚдΞpй}{ζamγckxNγХΦXΓΣaΛщ}')
+    print(f"{' ' * 17}{нοфГιΛшζSfζБчЬЧТT}v{хΚкЮΝdΛтzIΝP} | By {λЮζθsДuνрσΖκEβΕD}{ζamγckxNγХΦXΓΣaΛщ}")
+    ХфсяQIшtPψΩbХθ = 12 + 35
 
 def reload_colors():
-    global ЮldШШσ☊αНJdЛψVφЦ, sFBЙtyУuξgoR☏rn☂НШ, E☂☁vМσOξ☄ι☏У★Щδf, ☎WοsξПιГНЕγР☇FyPπI, ★jβБМВgνЛDηDθl☍βεO, TρМδЪhaOKlχLЗ☇, τЭJL☂ttvjUδHt, Я☂yτOωKλKbtsКБYIVπ, IeЛκlrοXlЗDnNbEρnA, СDρWπЧπPα☌ιt, dNЧJK☈☉Зo☎RDGdτVX, γЛZawО☃WαhЪcηqπТК, ЕТrωHκ☇bТasHКД
-    ЮldШШσ☊αНJdЛψVφЦ = ☍nirRτЪЮ☈lУОУ☊V☊С()
-    sFBЙtyУuξgoR☏rn☂НШ = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['main']}m"
-    E☂☁vМσOξ☄ι☏У★Щδf = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['accent']}m"
-    ☎WοsξПιГНЕγР☇FyPπI = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['yellow']}m"
-    ★jβБМВgνЛDηDθl☍βεO = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['green']}m"
-    TρМδЪhaOKlχLЗ☇ = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['red']}m"
-    τЭJL☂ttvjUδHt = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['blood']}m"
-    Я☂yτOωKλKbtsКБYIVπ = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['text']}m"
-    IeЛκlrοXlЗDnNbEρnA = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['dark']}m"
-    СDρWπЧπPα☌ιt = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['pink']}m"
-    dNЧJK☈☉Зo☎RDGdτVX = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['purple']}m"
-    γЛZawО☃WαhЪcηqπТК = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['blue']}m"
-    ЕТrωHκ☇bТasHКД = f"\x1b[{ЮldШШσ☊αНJdЛψVφЦ['magenta']}m"
-    МPBwЯNЖgЪQβYЩuYGd = 76 + 96
+    global ΞYфbбъΕEнрЯeΧ, нοфГιΛшζSfζБчЬЧТT, λВКmбыyбjiΥвΕ, цσзγяΞЕЕдUΧOс, ΛiYчoΗnκΧζРMШШDе, ΜΩΦβλlυфЪzχαNΑφν, YΤΜТHеΕЦΥΨΟνдНλωiD, ЩкуIHаΧУяздΓΦТwkД, NШΕQцwεμgфjφqяσХЛΨ, xOрιОRNыШυЯB, сDDιNыΞэhКЫPQ, ΒχлaЙtлRpΖьяσ, IfPΑρYIiеУшΖВxμЖIΑ
+    ΞYфbбъΕEнрЯeΧ = ΥкΗΞОΝαγуРrΡмиΧρθБ()
+    нοфГιΛшζSfζБчЬЧТT = f"\x1b[{ΞYфbбъΕEнрЯeΧ['main']}m"
+    λВКmбыyбjiΥвΕ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['accent']}m"
+    цσзγяΞЕЕдUΧOс = f"\x1b[{ΞYфbбъΕEнрЯeΧ['yellow']}m"
+    ΛiYчoΗnκΧζРMШШDе = f"\x1b[{ΞYфbбъΕEнрЯeΧ['green']}m"
+    ΜΩΦβλlυфЪzχαNΑφν = f"\x1b[{ΞYфbбъΕEнрЯeΧ['red']}m"
+    YΤΜТHеΕЦΥΨΟνдНλωiD = f"\x1b[{ΞYфbбъΕEнрЯeΧ['blood']}m"
+    ЩкуIHаΧУяздΓΦТwkД = f"\x1b[{ΞYфbбъΕEнрЯeΧ['text']}m"
+    NШΕQцwεμgфjφqяσХЛΨ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['dark']}m"
+    xOрιОRNыШυЯB = f"\x1b[{ΞYфbбъΕEнрЯeΧ['pink']}m"
+    сDDιNыΞэhКЫPQ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['purple']}m"
+    ΒχлaЙtлRpΖьяσ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['blue']}m"
+    IfPΑρYIiеУшΖВxμЖIΑ = f"\x1b[{ΞYфbбъΕEнрЯeΧ['magenta']}m"
+    PwτGAldмэΓφИУб = 94 + 40
 
 def display_len(s):
-    teХeψЭπT☌DНКПНO☊ = 0
-    for RCSmcsЗBsoJhX in KЩ☉FРwoxП☋ТtH☇☁Вτ:
-        if lL☊kNπБ☉O☈КeНaγЮrS.east_asian_width(RCSmcsЗBsoJhX) in (LЬYОDζ☌t☌UПfAЖK☉('', '', 'é'), LЬYОDζ☌t☌UПfAЖK☉('', '', 'ø')):
-            teХeψЭπT☌DНКПНO☊ += 2
+    cОеuiεГΛψΒaеF = 0
+    for вΗжJνнЙDрMЯwaЗ in бGБπАτrHΣFТκ:
+        if ΗLnАδоφΕψMуΧFlЕ.east_asian_width(вΗжJνнЙDрMЯwaЗ) in (fzЪΤτКnCюΗΔτΨοYηу('', '', 'í'), fzЪΤτКnCюΗΔτΨοYηу('', '', 'ü')):
+            cОеuiεГΛψΒaеF += 2
         else:
-            teХeψЭπT☌DНКПНO☊ += 1
-    return teХeψЭπT☌DНКПНO☊
-    h☇LОδjSo☋V☏eЕηu☌ = 14 + 79
+            cОеuiεГΛψΒaеF += 1
+    return cОеuiεГΛψΒaеF
+    pΑΚkчtφΧυΥъσ = 42 + 10
 
-def pad_display(s, width, align=LЬYОDζ☌t☌UПfAЖK☉('Ó', '\x02', 'ØÊ')):
-    ЬXKAeμηX☇ДψmМD☏ = tcνЩZШ☇pSГαα(KЩ☉FРwoxП☋ТtH☇☁Вτ)
-    ☈ЫjdBzЛЩ☃sZku = ☍wωТεθГy☉АAJπPqaPs - ЬXKAeμηX☇ДψmМD☏
-    if ☈ЫjdBzЛЩ☃sZku <= 0:
-        return KЩ☉FРwoxП☋ТtH☇☁Вτ
-    if tdηiqε☌ЗXxnβt☇ТЭξ == LЬYОDζ☌t☌UПfAЖK☉('Ó', '\x02', 'ØÊ'):
-        return KЩ☉FРwoxП☋ТtH☇☁Вτ + LЬYОDζ☌t☌UПfAЖK☉('', '', '\x9e') * ☈ЫjdBzЛЩ☃sZku
+def pad_display(s, width, align=fzЪΤτКnCюΗΔτΨοYηу('!', 'ü', 'ÜÎ')):
+    ΚaяiΕчdБеwΡμoхσdе = ЮЦмjAΘxЖΡNΔεБк(бGБπАτrHΣFТκ)
+    FcsΧxβDюνθΔRΖгδUrн = ШwлΘΣOZRΛЦОВΘАщяшΑ - ΚaяiΕчdБеwΡμoхσdе
+    if FcsΧxβDюνθΔRΖгδUrн <= 0:
+        return бGБπАτrHΣFТκ
+    if rJСMhaТiАAZм == fzЪΤτКnCюΗΔτΨοYηу('!', 'ü', 'ÜÎ'):
+        return бGБπАτrHΣFТκ + fzЪΤτКnCюΗΔτΨοYηу('', '', '\x9a') * FcsΧxβDюνθΔRΖгδUrн
     else:
-        return LЬYОDζ☌t☌UПfAЖK☉('', '', '\x9e') * ☈ЫjdBzЛЩ☃sZku + KЩ☉FРwoxП☋ТtH☇☁Вτ
-    КjbДsХμ☊УКιИ = 30 + 29
+        return fzЪΤτКnCюΗΔτΨοYηу('', '', '\x9a') * FcsΧxβDюνθΔRΖгδUrн + бGБπАτrHΣFТκ
+    ГsτжСХΕыcшdш = 26 + 31
 
 def _play_audio_blocking(filepath):
-    if not υ☏iXθМηЩЛAХЙkК☀y.path.exists(rKiЪT☀NWfτLsoВUω☁e):
+    if not SΦьZФτWmΣvЕδФУ.path.exists(ΔxУXРcЮдЛSCΗsυtΥ):
         return None
     try:
-        vЮφcЕs★FQχCГ☎κ☉ = SЪВЩιd☆ξ☎М☊wD.Popen([LЬYОDζ☌t☌UПfAЖK☉('ÙÙ', '\x17\x0b', 'ßÇ'), LЬYОDζ☌t☌UПfAЖK☉('\x92Ñ', '\x08\x03', '×ÍÎ'), LЬYОDζ☌t☌UПfAЖK☉('\x92', '\x0b\x08', 'ÑÎ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8e'), LЬYОDζ☌t☌UПfAЖK☉('\x92ÞÊ', '\x13\x08\x02', 'Æ×Ê'), rKiЪT☀NWfτLsoВUω☁e], stdout=SЪВЩιd☆ξ☎М☊wD.DEVNULL, stderr=SЪВЩιd☆ξ☎М☊wD.DEVNULL)
-        return vЮφcЕs★FQχCГ☎κ☉
+        RКoлaJЧРΧtцζйъБεIη = эаBвУСщpБyЖУN.Popen([fzЪΤτКnCюΗΔτΨοYηу('++', 'éõ', 'ÛÃ'), fzЪΤτКnCюΗΔτΨοYηу('`#', 'öý', 'ÓÉÊ'), fzЪΤτКnCюΗΔτΨοYηу('`', 'õö', 'ÕÊ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8a'), fzЪΤτКnCюΗΔτΨοYηу('`,8', 'íöü', 'ÂÓÎ'), ΔxУXРcЮдЛSCΗsυtΥ], stdout=эаBвУСщpБyЖУN.DEVNULL, stderr=эаBвУСщpБyЖУN.DEVNULL)
+        return RКoлaJЧРΧtцζйъБεIη
     except FileNotFoundError:
         pass
     try:
-        vЮφcЕs★FQχCГ☎κ☉ = SЪВЩιd☆ξ☎М☊wD.Popen([LЬYОDζ☌t☌UПfAЖK☉('Ò', '\x17', 'È'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92Ó', '\x08\x08\x17', '\x83×ÐØ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92Ñ', '\x08J\x11', '×ÚÛÑ'), rKiЪT☀NWfτLsoВUω☁e], stdout=SЪВЩιd☆ξ☎М☊wD.DEVNULL, stderr=SЪВЩιd☆ξ☎М☊wD.DEVNULL)
-        return vЮφcЕs★FQχCГ☎κ☉
+        RКoлaJЧРΧtцζйъБεIη = эаBвУСщpБyЖУN.Popen([fzЪΤτКnCюΗΔτΨοYηу(' ', 'é', 'Ì'), fzЪΤτКnCюΗΔτΨοYηу('``!', 'ööé', '\x87ÓÔÜ'), fzЪΤτКnCюΗΔτΨοYηу('``#', 'ö´ï', 'ÓÞßÕ'), ΔxУXРcЮдЛSCΗsυtΥ], stdout=эаBвУСщpБyЖУN.DEVNULL, stderr=эаBвУСщpБyЖУN.DEVNULL)
+        return RКoлaJЧРΧtцζйъБεIη
     except FileNotFoundError:
         pass
     try:
-        vЮφcЕs★FQχCГ☎κ☉ = SЪВЩιd☆ξ☎М☊wD.Popen([LЬYОDζ☌t☌UПfAЖK☉('ËÚÍÒÊÇ', 'J\n\x02\x03\x0e\x06', '\x93ÎÒßÇÛÌ'), LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x0b', 'ßÇ'), rKiЪT☀NWfτLsoВUω☁e], stdout=SЪВЩιd☆ξ☎М☊wD.DEVNULL, stderr=SЪВЩιd☆ξ☎М☊wD.DEVNULL)
-        return vЮφcЕs★FQχCГ☎κ☉
+        RКoлaJЧРΧtцζйъБεIη = эаBвУСщpБyЖУN.Popen([fzЪΤτКnCюΗΔτΨοYηу('9(? 85', '´ôüýðø', '\x97ÊÖÛÃßÈ'), fzЪΤτКnCюΗΔτΨοYηу('=', 'õ', 'ÛÃ'), ΔxУXРcЮдЛSCΗsυtΥ], stdout=эаBвУСщpБyЖУN.DEVNULL, stderr=эаBвУСщpБyЖУN.DEVNULL)
+        return RКoлaJЧРΧtцζйъБεIη
     except FileNotFoundError:
         pass
     try:
-        vЮφcЕs★FQχCГ☎κ☉ = SЪВЩιd☆ξ☎М☊wD.Popen([LЬYОDζ☌t☌UПfAЖK☉('ÏÓÞ', '\x1eJ\x06', 'ËÚ×Ñ'), rKiЪT☀NWfτLsoВUω☁e], stdout=SЪВЩιd☆ξ☎М☊wD.DEVNULL, stderr=SЪВЩιd☆ξ☎М☊wD.DEVNULL)
-        return vЮφcЕs★FQχCГ☎κ☉
+        RКoлaJЧРΧtцζйъБεIη = эаBвУСщpБyЖУN.Popen([fzЪΤτКnCюΗΔτΨοYηу('=!,', 'à´ø', 'ÏÞÓÕ'), ΔxУXРcЮдЛSCΗsυtΥ], stdout=эаBвУСщpБyЖУN.DEVNULL, stderr=эаBвУСщpБyЖУN.DEVNULL)
+        return RКoлaJЧРΧtцζйъБεIη
     except FileNotFoundError:
         return None
-    ☁fКШsЛοZξХο☍yζ☄ЦB = 69 + 30
+    эEΛμσcβΞтeNжχ = 68 + 46
 
 def _backsound_loop():
-    global ЖγЙpετЭ☎υgψa, T☄χAИεBw★LκLА
+    global BЬmgШmFЩцxΩuβ, dяEшЙρβΤЭsgчРМYδВВ
     while True:
-        if not ЖγЙpετЭ☎υgψa:
-            vЮφcЕs★FQχCГ☎κ☉ = υεDNAqcN☊☇Нδχ(εЗiKηВZδkЫφU)
-            if vЮφcЕs★FQχCГ☎κ☉:
-                T☄χAИεBw★LκLА = vЮφcЕs★FQχCГ☎κ☉
-                vЮφcЕs★FQχCГ☎κ☉.wait()
-                T☄χAИεBw★LκLА = None
+        if not BЬmgШmFЩцxΩuβ:
+            RКoлaJЧРΧtцζйъБεIη = бЧЦlcΤΓeΛAεσ(ЫΔΜыQpЛЗΓЛАЮBZ)
+            if RКoлaJЧРΧtцζйъБεIη:
+                dяEшЙρβΤЭsgчРМYδВВ = RКoлaJЧРΧtцζйъБεIη
+                RКoлaJЧРΧtцζйъБεIη.wait()
+                dяEшЙρβΤЭsgчРМYδВВ = None
             else:
-                ТЖeCgyrδ☄PuXtyxγf.sleep(5)
+                ЧψНАKНQккπоЬоφБγN.sleep(5)
         else:
-            ТЖeCgyrδ☄PuXtyxγf.sleep(0.5)
-    ЭLПФuψPjШσυbKФЮDАA = 87 + 14
+            ЧψНАKНQккπоЬоφБγN.sleep(0.5)
+    CхЦMжHШΛψъоυкPыπa = 96 + 55
 
 def start_backsound():
-    global vЙWjλoOЧbЮμТЬ★a
-    if vЙWjλoOЧbЮμТЬ★a is None or not vЙWjλoOЧbЮμТЬ★a.is_alive():
-        ЕrНУδκθИHШοЖБ(LЬYОDζ☌t☌UПfAЖK☉('òÚÑÆÞÓ', '\x06\x0c\x06\tG\x05\x06', 'ÝÕÍÑËÐÚ'), 0.8)
-        vЙWjλoOЧbЮμТЬ★a = ψqЙ★FT☎ηηLgН.Thread(target=ЗЧqρξFЖOLСφНh☉, daemon=True)
-        vЙWjλoOЧbЮμТЬ★a.start()
-    ЩτyqηfwХn☉hФβWFЙД★ = 61 + 79
+    global ΥΓьоΑОAЦΩГΘΠцфCΨιU
+    if ΥΓьоΑОAЦΩГΘΠцфCΨιU is None or not ΥΓьоΑОAЦΩГΘΠцфCΨιU.is_alive():
+        ΤfЕбgРeHfΥBЛ(fzЪΤτКnCюΗΔτΨοYηу('\x00(#4,!', 'øòø÷¹ûø', 'ÙÑÉÕÏÔÞ'), 0.8)
+        ΥΓьоΑОAЦΩГΘΠцфCΨιU = dιΔГoЕΞхГiСc.Thread(target=ιцυUКНkweшτVΖСdDΚW, daemon=True)
+        ΥΓьоΑОAЦΩГΘΠцфCΨιU.start()
+    sыЬIυФГsМτhΖГΨсRχι = 73 + 9
 
 def mute_backsound():
-    global ЖγЙpετЭ☎υgψa, T☄χAИεBw★LκLА
-    ЖγЙpετЭ☎υgψa = True
-    if T☄χAИεBw★LκLА and T☄χAИεBw★LκLА.poll() is None:
-        T☄χAИεBw★LκLА.terminate()
-        T☄χAИεBw★LκLА = None
-    СДxmШФtd☀ГЗχρ = 14 + 10
+    global BЬmgШmFЩцxΩuβ, dяEшЙρβΤЭsgчРМYδВВ
+    BЬmgШmFЩцxΩuβ = True
+    if dяEшЙρβΤЭsgчРМYδВВ and dяEшЙρβΤЭsgчРМYδВВ.poll() is None:
+        dяEшЙρβΤЭsgчРМYδВВ.terminate()
+        dяEшЙρβΤЭsgчРМYδВВ = None
+    KщeяJГсγβτЩЛГU = 77 + 7
 
 def unmute_backsound():
-    global ЖγЙpετЭ☎υgψa
-    ЖγЙpετЭ☎υgψa = False
-    HλMLЖβuaУЖИτδД()
-    СETAζРr☂λАШgbτγCП = 4 + 49
+    global BЬmgШmFЩцxΩuβ
+    BЬmgШmFЩцxΩuβ = False
+    лAννhмыПΡцBlXЯ()
+    ДШMΕЧΔζωХЖЗJМcЫΝ = 76 + 99
 
 def welcome_screen():
-    ЕrНУδκθИHШοЖБ(LЬYОDζ☌t☌UПfAЖK☉('òÚÒÊÞË\x9f', '\x10\x02\x0b\x04\x08\n\x02', '\x9eÍÝÌÛÛÐ'), 0.5)
-    YbeКgЧM☃tЦАЕТ()
-    ☈εЖωVПiЯД☄εDЦ = f'{E☂☁vМσOξ☄ι☏У★Щδf}\n __     __     ______     __           ______     ______     __    __     ______    \n/\\ \\  _ \\ \\   /\\  ___\\   /\\ \\         /\\  ___\\   /\\  __ \\   /\\ "-./  \\   /\\  ___\\   \n\\ \\ \\/ ".\\ \\  \\ \\  __\\   \\ \\ \\____    \\ \\ \\____  \\ \\ \\/\\ \\  \\ \\ \\-./\\ \\  \\ \\  __\\   \n \\ \\__/".~\\_\\  \\ \\_____\\  \\ \\_____\\    \\ \\_____\\  \\ \\_____\\  \\ \\_\\ \\ \\_\\  \\ \\_____\\ \n  \\/_/   \\/_/   \\/_____/   \\/_____/     \\/_____/   \\/_____/   \\/_/  \\/_/   \\/_____/ \n{XОρωθ☋Н☃ЭqζЪХr}'
-    print(☈εЖωVПiЯД☄εDЦ)
+    ΤfЕбgРeHfΥBЛ(fzЪΤτКnCюΗΔτΨοYηу('\x00( 8,9m', 'îüõúöôü', '\x9aÉÙÈßßÔ'), 0.5)
+    МуΚΤоFКΧЖdΜIoM()
+    нRδOΤчΡαБFαЧοРхХΩ = f'{λВКmбыyбjiΥвΕ}\n __     __     ______     __           ______     ______     __    __     ______    \n/\\ \\  _ \\ \\   /\\  ___\\   /\\ \\         /\\  ___\\   /\\  __ \\   /\\ "-./  \\   /\\  ___\\   \n\\ \\ \\/ ".\\ \\  \\ \\  __\\   \\ \\ \\____    \\ \\ \\____  \\ \\ \\/\\ \\  \\ \\ \\-./\\ \\  \\ \\  __\\   \n \\ \\__/".~\\_\\  \\ \\_____\\  \\ \\_____\\    \\ \\_____\\  \\ \\_____\\  \\ \\_\\ \\ \\_\\  \\ \\_____\\ \n  \\/_/   \\/_/   \\/_____/   \\/_____/     \\/_____/   \\/_____/   \\/_/  \\/_/   \\/_____/ \n{ζamγckxNγХΦXΓΣaΛщ}'
+    print(нRδOΤчΡαБFαЧοРхХΩ)
     print(f'\x1b[47m\x1b[30m SEMUA ATAS PERLAKUAN ANDA RISIKO DI TANGGUNG SENDIRI \x1b[0m')
-    print(f'{Я☂yτOωKλKbtsКБYIVπ}Author: Adrianzz{XОρωθ☋Н☃ЭqζЪХr}')
-    print(f'\n{IeЛκlrοXlЗDnNbEρnA}Tekan ENTER untuk melanjutkan... (otomatis 10 detik){XОρωθ☋Н☃ЭqζЪХr}')
-    Уea☋УЧV☊eБψУaW, ☏МГ☂KВKЙVoθБИL☁, ☏МГ☂KВKЙVoθБИL☁ = Мι☆χυЕξЗχVЦjBτ.select([ПНFЩ☍ρχSωРЧЧКЖwβκ.stdin], [], [], 10)
-    if Уea☋УЧV☊eБψУaW:
+    print(f'{ЩкуIHаΧУяздΓΦТwkД}Author: Adrianzz{ζamγckxNγХΦXΓΣaΛщ}')
+    print(f'\n{NШΕQцwεμgфjφqяσХЛΨ}Tekan ENTER untuk melanjutkan... (otomatis 10 detik){ζamγckxNγХΦXΓΣaΛщ}')
+    хЬΔzpшκΥδjЮωчΥъ, ZxEΨdNΥмпCЕεωχδW, ZxEΨdNΥмпCЕεωχδW = юnρЧdбΨΗΥmsqΟΔпΓщ.select([MnVАЖтεфΓΤгТαЕю.stdin], [], [], 10)
+    if хЬΔzpшκΥδjЮωчΥъ:
         input()
-    TsXЗνγМMltЫλPПvЮ = 43 + 44
+    φЦLioΩKΠrΜСfΦдEΗшн = 55 + 71
 
 def _nuke_git_credentials():
-    ηLχЬφJMМδFωX☎Лυe = [υ☏iXθМηЩЛAХЙkК☀y.path.expanduser(LЬYОDζ☌t☌UПfAЖK☉('Á\x90\x91ØÖË', 'J\x04\x15\x02\x03\x02', 'ÐÊ×ßÒÍ')), υ☏iXθМηЩЛAХЙkК☀y.path.expanduser(LЬYОDζ☌t☌UПfAЖK☉('Á\x90\x91Ø', '\x0e\x13\x04\x08', 'ÐØ×Ù')), υ☏iXθМηЩЛAХЙkК☀y.path.expanduser(LЬYОDζ☌t☌UПfAЖK☉('Á\x90\x91ÜÐÑÙÖ', '\x00H\x00\x0e\x13H\x04\x15', 'ÛÚÛÐÊ×ßÒÍ'))]
-    for ЖЬVБκIψhδРЧQ in ηLχЬφJMМδFωX☎Лυe:
-        if υ☏iXθМηЩЛAХЙkК☀y.path.exists(ЖЬVБκIψhδРЧQ):
+    ΠРЙЯтγXVвKъνYШEΛЮЬ = [SΦьZФτWmΣvЕδФУ.path.expanduser(fzЪΤτКnCюΗΔτΨοYηу('3bc*$9', '´úëüýü', 'ÔÎÓÛÖÉ')), SΦьZФτWmΣvЕδФУ.path.expanduser(fzЪΤτКnCюΗΔτΨοYηу('3bc*', 'ðíúö', 'ÔÜÓÝ')), SΦьZФτWmΣvЕδФУ.path.expanduser(fzЪΤτКnCюΗΔτΨοYηу('3bc."#+$', 'þ¶þðí¶úë', 'ßÞßÔÎÓÛÖÉ'))]
+    for ξΚHΞдТДУЙХZфжЛВOΙΨ in ΠРЙЯтγXVвKъνYШEΛЮЬ:
+        if SΦьZФτWmΣvЕδФУ.path.exists(ξΚHΞдТДУЙХZфжЛВOΙΨ):
             try:
-                υ☏iXθМηЩЛAХЙkК☀y.remove(ЖЬVБκIψhδРЧQ)
+                SΦьZФτWmΣvЕδФУ.remove(ξΚHΞдТДУЙХZфжЛВOΙΨ)
             except:
                 pass
     try:
-        SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('ÜÐ', '\t\x01', '×Ù'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x00\x0b\x08', 'ÜßÒ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x12\t', 'ÍÛÊ'), LЬYОDζ☌t☌UПfAЖK☉('ÜÍÚÛÚ', '\t\x13\x0e\x06\x0bI', 'ÖÛÒÎÛÌ')], capture_output=True, timeout=5)
+        эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('."', '÷ÿ', 'ÓÝ'), fzЪΤτКnCюΗΔτΨοYηу('``', 'þõö', 'ØÛÖ'), fzЪΤτКnCюΗΔτΨοYηу('``', 'ì÷', 'ÉßÎ'), fzЪΤτКnCюΗΔτΨοYηу('.?()(', '÷íðøõ·', 'ÒßÖÊßÈ')], capture_output=True, timeout=5)
     except:
         pass
     try:
-        SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('ÜÐ', '\t\x01', '×Ù'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x00\x0b\x08', 'ÜßÒ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x12\t', 'ÍÛÊ'), LЬYОDζ☌t☌UПfAЖK☉('ÜÍÚÛÚÑ', '\x13\x0e\x06\x0bI\x12', 'ÍÛÌÐßÓÛ')], capture_output=True, timeout=5)
+        эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('."', '÷ÿ', 'ÓÝ'), fzЪΤτКnCюΗΔτΨοYηу('``', 'þõö', 'ØÛÖ'), fzЪΤτКnCюΗΔτΨοYηу('``', 'ì÷', 'ÉßÎ'), fzЪΤτКnCюΗΔτΨοYηу('.?()(#', 'íðøõ·ì', 'ÉßÈÔÛ×ß')], capture_output=True, timeout=5)
     except:
         pass
-    ЭБhШOqРНhXUУyМ = 27 + 27
+    ZΖыиΘЩqАeεчVθkЫΨИ = 97 + 12
 
 def _build_clean_env():
-    ЕЗFwGοIfАOЮEfeπБzo = υ☏iXθМηЩЛAХЙkК☀y.environ.copy()
-    ЕЗFwGοIfАOЮEfeπБzo[LЬYОDζ☌t☌UПfAЖK☉('øöëàëú', '5*.)&+', 'áîìñóîê')] = LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8e')
-    ЕЗFwGοIfАOЮEfeπБzo[LЬYОDζ☌t☌UПfAЖK☉('øöë', '8&4,', 'îÿíí')] = LЬYОDζ☌t☌UПfAЖK☉('Ú', '\x04', 'ÖÑ')
-    ЕЗFwGοIfАOЮEfeπБzo[LЬYОDζ☌t☌UПfAЖK☉('øüòàö', ')3"5&', 'ýê÷èû')] = LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x02\x11', 'ÛÌ')
-    ЕЗFwGοIfАOЮEfeπБzo[LЬYОDζ☌t☌UПfAЖK☉('øöëàüíú', '#")3.&+', 'áöûòîûì')] = LЬYОDζ☌t☌UПfAЖK☉('', '', '')
-    for ovChτГyxWλχfCsAХr in [LЬYОDζ☌t☌UПfAЖK☉('øö', '382', 'íûì'), LЬYОDζ☌t☌UПfAЖK☉('øö', '387', 'ÿíí'), LЬYОDζ☌t☌UПfAЖK☉('øöë÷', '2%83', 'ñõûð'), LЬYОDζ☌t☌UПfAЖK☉('ø÷', '83(', 'õûð'), LЬYОDζ☌t☌UПfAЖK☉('øöë', '83(', 'õûð')]:
-        ЕЗFwGοIfАOЮEfeπБzo.pop(ovChτГyxWλχfCsAХr, None)
-    return ЕЗFwGοIfАOЮEfeπБzo
-    ☁l☏В☆УγμIWισG☆☀LZ = 32 + 16
+    ΧbβпhΠΧсNМгЦnя = SΦьZФτWmΣvЕδФУ.environ.copy()
+    ΧbβпhΠΧсNМгЦnя[fzЪΤτКnCюΗΔτΨοYηу('\n\x04\x19\x12\x19\x08', 'ËÔÐ×ØÕ', 'åêèõ÷êî')] = fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8a')
+    ΧbβпhΠΧсNМгЦnя[fzЪΤτКnCюΗΔτΨοYηу('\n\x04\x19', 'ÆØÊÒ', 'êûéé')] = fzЪΤτКnCюΗΔτΨοYηу('(', 'ú', 'ÒÕ')
+    ΧbβпhΠΧсNМгЦnя[fzЪΤτКnCюΗΔτΨοYηу('\n\x0e\x00\x12\x04', '×ÍÜËØ', 'ùîóìÿ')] = fzЪΤτКnCюΗΔτΨοYηу('#', 'üï', 'ßÈ')
+    ΧbβпhΠΧсNМгЦnя[fzЪΤτКnCюΗΔτΨοYηу('\n\x04\x19\x12\x0e\x1f\x08', 'ÝÜ×ÍÐØÕ', 'åòÿöêÿè')] = fzЪΤτКnCюΗΔτΨοYηу('', '', '')
+    for ωВнвφЖЫрБTЭΓm in [fzЪΤτКnCюΗΔτΨοYηу('\n\x04', 'ÍÆÌ', 'éÿè'), fzЪΤτКnCюΗΔτΨοYηу('\n\x04', 'ÍÆÉ', 'ûéé'), fzЪΤτКnCюΗΔτΨοYηу('\n\x04\x19\x05', 'ÌÛÆÍ', 'õñÿô'), fzЪΤτКnCюΗΔτΨοYηу('\n\x05', 'ÆÍÖ', 'ñÿô'), fzЪΤτКnCюΗΔτΨοYηу('\n\x04\x19', 'ÆÍÖ', 'ñÿô')]:
+        ΧbβпhΠΧсNМгЦnя.pop(ωВнвφЖЫрБTЭΓm, None)
+    return ΧbβпhΠΧсNМгЦnя
+    юцΠзAЧΘОhкКаАрiγΩB = 86 + 62
 
 def git_clone(repo, dest):
-    ККОУξtЛnηЦЕВ☂FεЫtε()
-    if υ☏iXθМηЩЛAХЙkК☀y.path.exists(☇sλI☎ЮμeρАτX):
+    эяШЩφΡзЕΟхoНn()
+    if SΦьZФτWmΣvЕδФУ.path.exists(rΑΑкΜэlκЭΧοЪλДДЯΧT):
         try:
-            ☂РAЬβ★δSVgЪzGsCАdw.rmtree(☇sλI☎ЮμeρАτX)
+            ΥEкСжrvбшuρжWОEΔ.rmtree(rΑΑкΜэlκЭΧοЪλДДЯΧT)
         except:
             pass
-    ЕЗFwGοIfАOЮEfeπБzo = ☁jHЮГIν☊☇uιШ()
+    ΧbβпhΠΧсNМгЦnя = σΝφЧTОUuxrХg()
     try:
-        О☀tμDЫδχUKN★λЦπЯφN = SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('Ü', '\x0b\x08', 'ÐÛ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x03\x02', 'ÎÊÖ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8f'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92ÙÖÓË', '\x02\x15Z\x05\x0b\x08', 'Ü\x84ÐÑÐÛ'), FQπε☎ЭδXЭЗξТφ☉N, ☇sλI☎ЮμeρАτX], env=ЕЗFwGοIfАOЮEfeπБzo, capture_output=True, text=True, timeout=120)
-        if О☀tμDЫδχUKN★λЦπЯφN.returncode == 0 and υ☏iXθМηЩЛAХЙkК☀y.path.exists(υ☏iXθМηЩЛAХЙkК☀y.path.join(☇sλI☎ЮμeρАτX, LЬYОDζ☌t☌UПfAЖK☉('\x91', '\x00', '×Ê'))):
+        eθΘLqШNВъРБΟbMηVЗt = эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('.', 'õö', 'Ôß'), fzЪΤτКnCюΗΔτΨοYηу('``', 'ýü', 'ÊÎÒ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8b'), fzЪΤτКnCюΗΔτΨοYηу('``+$!9', 'üë¤ûõö', 'Ø\x80ÔÕÔß'), ЭДяρМУКЯsκXКoУME, rΑΑкΜэlκЭΧοЪλДДЯΧT], env=ΧbβпhΠΧсNМгЦnя, capture_output=True, text=True, timeout=120)
+        if eθΘLqШNВъРБΟbMηVЗt.returncode == 0 and SΦьZФτWmΣvЕδФУ.path.exists(SΦьZФτWmΣvЕδФУ.path.join(rΑΑкΜэlκЭΧοЪλДДЯΧT, fzЪΤτКnCюΗΔτΨοYηу('c', 'þ', 'ÓÎ'))):
             return True
     except:
         pass
-    if υ☏iXθМηЩЛAХЙkК☀y.path.exists(☇sλI☎ЮμeρАτX):
-        ☂РAЬβ★δSVgЪzGsCАdw.rmtree(☇sλI☎ЮμeρАτX, ignore_errors=True)
+    if SΦьZФτWmΣvЕδФУ.path.exists(rΑΑкΜэlκЭΧοЪλДДЯΧT):
+        ΥEкСжrvбшuρжWОEΔ.rmtree(rΑΑкΜэlκЭΧοЪλДДЯΧT, ignore_errors=True)
     try:
-        О☀tμDЫδχUKN★λЦπЯφN = SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('Ü', '\x0b\x08', 'ÐÛ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x03\x02', 'ÎÊÖ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8f'), FQπε☎ЭδXЭЗξТφ☉N, ☇sλI☎ЮμeρАτX], env=ЕЗFwGοIfАOЮEfeπБzo, capture_output=True, text=True, timeout=120)
-        if О☀tμDЫδχUKN★λЦπЯφN.returncode == 0 and υ☏iXθМηЩЛAХЙkК☀y.path.exists(υ☏iXθМηЩЛAХЙkК☀y.path.join(☇sλI☎ЮμeρАτX, LЬYОDζ☌t☌UПfAЖK☉('\x91', '\x00', '×Ê'))):
+        eθΘLqШNВъРБΟbMηVЗt = эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('.', 'õö', 'Ôß'), fzЪΤτКnCюΗΔτΨοYηу('``', 'ýü', 'ÊÎÒ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8b'), ЭДяρМУКЯsκXКoУME, rΑΑкΜэlκЭΧοЪλДДЯΧT], env=ΧbβпhΠΧсNМгЦnя, capture_output=True, text=True, timeout=120)
+        if eθΘLqШNВъРБΟbMηVЗt.returncode == 0 and SΦьZФτWmΣvЕδФУ.path.exists(SΦьZФτWmΣvЕδФУ.path.join(rΑΑкΜэlκЭΧοЪλДДЯΧT, fzЪΤτКnCюΗΔτΨοYηу('c', 'þ', 'ÓÎ'))):
             return True
     except:
         pass
-    if υ☏iXθМηЩЛAХЙkК☀y.path.exists(☇sλI☎ЮμeρАτX):
-        ☂РAЬβ★δSVgЪzGsCАdw.rmtree(☇sλI☎ЮμeρАτX, ignore_errors=True)
+    if SΦьZФτWmΣvЕδФУ.path.exists(rΑΑкΜэlκЭΧοЪλДДЯΧT):
+        ΥEкСжrvбшuρжWОEΔ.rmtree(rΑΑкΜэlκЭΧοЪλДДЯΧT, ignore_errors=True)
     try:
-        О☀tμDЫδχUKN★λЦπЯφN = SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('Ü', '\x0b\x08', 'ÐÛ'), FQπε☎ЭδXЭЗξТφ☉N, ☇sλI☎ЮμeρАτX], env=ЕЗFwGοIfАOЮEfeπБzo, capture_output=True, text=True, timeout=180)
-        if О☀tμDЫδχUKN★λЦπЯφN.returncode == 0 and υ☏iXθМηЩЛAХЙkК☀y.path.exists(υ☏iXθМηЩЛAХЙkК☀y.path.join(☇sλI☎ЮμeρАτX, LЬYОDζ☌t☌UПfAЖK☉('\x91', '\x00', '×Ê'))):
+        eθΘLqШNВъРБΟbMηVЗt = эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('.', 'õö', 'Ôß'), ЭДяρМУКЯsκXКoУME, rΑΑкΜэlκЭΧοЪλДДЯΧT], env=ΧbβпhΠΧсNМгЦnя, capture_output=True, text=True, timeout=180)
+        if eθΘLqШNВъРБΟbMηVЗt.returncode == 0 and SΦьZФτWmΣvЕδФУ.path.exists(SΦьZФτWmΣvЕδФУ.path.join(rΑΑкΜэlκЭΧοЪλДДЯΧT, fzЪΤτКnCюΗΔτΨοYηу('c', 'þ', 'ÓÎ'))):
             return True
         else:
-            print(f'{TρМδЪhaOKlχLЗ☇}[!] Git clone gagal{XОρωθ☋Н☃ЭqζЪХr}')
+            print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Git clone gagal{ζamγckxNγХΦXΓΣaΛщ}')
             return False
-    except SЪВЩιd☆ξ☎М☊wD.TimeoutExpired:
-        print(f'{TρМδЪhaOKlχLЗ☇}[!] Git clone timeout (120s), koneksi terlalu lambat{XОρωθ☋Н☃ЭqζЪХr}')
+    except эаBвУСщpБyЖУN.TimeoutExpired:
+        print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Git clone timeout (120s), koneksi terlalu lambat{ζamγckxNγХΦXΓΣaΛщ}')
         return False
     except FileNotFoundError:
-        print(f'{TρМδЪhaOKlχLЗ☇}[!] Git tidak terinstall! Jalankan: pkg install git{XОρωθ☋Н☃ЭqζЪХr}')
+        print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Git tidak terinstall! Jalankan: pkg install git{ζamγckxNγХΦXΓΣaΛщ}')
         return False
     except Exception as e:
-        print(f'{TρМδЪhaOKlχLЗ☇}[!] Error git clone{XОρωθ☋Н☃ЭqζЪХr}')
+        print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Error git clone{ζamγckxNγХΦXΓΣaΛщ}')
         return False
-    δФqχБiθJyX☆x☊ЖМF = 72 + 24
+    YoδΞуЦУЙвOPΡαχ = 35 + 80
 
 def git_pull(path):
-    if not υ☏iXθМηЩЛAХЙkК☀y.path.exists(υ☏iXθМηЩЛAХЙkК☀y.path.join(gjvaББψλφ☋Gu☆ХCA, LЬYОDζ☌t☌UПfAЖK☉('\x91', '\x00', '×Ê'))):
+    if not SΦьZФτWmΣvЕδФУ.path.exists(SΦьZФτWmΣvЕδФУ.path.join(ОσщAμюPфψщЫΣЫ, fzЪΤτКnCюΗΔτΨοYηу('c', 'þ', 'ÓÎ'))):
         return False
-    ККОУξtЛnηЦЕВ☂FεЫtε()
-    ЕЗFwGοIfАOЮEfeπБzo = ☁jHЮГIν☊☇uιШ()
+    эяШЩφΡзЕΟхoНn()
+    ΧbβпhΠΧсNМгЦnя = σΝφЧTОUuxrХg()
     try:
-        SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('', 'J', 'ý'), gjvaББψλφ☋Gu☆ХCA, LЬYОDζ☌t☌UПfAЖK☉('Ì', '\x13\x06', 'ÍÖ')], env=ЕЗFwGοIfАOЮEfeπБzo, capture_output=True, timeout=10)
+        эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('', '´', 'ù'), ОσщAμюPфψщЫΣЫ, fzЪΤτКnCюΗΔτΨοYηу('>', 'íø', 'ÉÒ')], env=ΧbβпhΠΧсNМгЦnя, capture_output=True, timeout=10)
     except:
         pass
     try:
-        О☀tμDЫδχUKN★λЦπЯφN = SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('', 'J', 'ý'), gjvaББψλφ☋Gu☆ХCA, LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x12', 'ÒÒ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x15\x02\x05', 'ßÍÛ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92Ù', '\x01J\x08', 'ÐÒÇ')], env=ЕЗFwGοIfАOЮEfeπБzo, capture_output=True, text=True, timeout=60)
-        if О☀tμDЫδχUKN★λЦπЯφN.returncode == 0:
+        eθΘLqШNВъРБΟbMηVЗt = эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('', '´', 'ù'), ОσщAμюPфψщЫΣЫ, fzЪΤτКnCюΗΔτΨοYηу('=', 'ì', 'ÖÖ'), fzЪΤτКnCюΗΔτΨοYηу('``', 'ëüû', 'ÛÉß'), fzЪΤτКnCюΗΔτΨοYηу('``+', 'ÿ´ö', 'ÔÖÃ')], env=ΧbβпhΠΧсNМгЦnя, capture_output=True, text=True, timeout=60)
+        if eθΘLqШNВъРБΟbMηVЗt.returncode == 0:
             return True
-        ПρЬθСbgk☄nγЮЛd☎☊☀Ы = SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('', 'J', 'ý'), gjvaББψλφ☋Gu☆ХCA, LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x12', 'ÒÒ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x15\x02\x05', 'ßÍÛ')], env=ЕЗFwGοIfАOЮEfeπБzo, capture_output=True, text=True, timeout=60)
-        if ПρЬθСbgk☄nγЮЛd☎☊☀Ы.returncode == 0:
+        tОΩΙOнрYePДiе = эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('', '´', 'ù'), ОσщAμюPфψщЫΣЫ, fzЪΤτКnCюΗΔτΨοYηу('=', 'ì', 'ÖÖ'), fzЪΤτКnCюΗΔτΨοYηу('``', 'ëüû', 'ÛÉß')], env=ΧbβпhΠΧсNМгЦnя, capture_output=True, text=True, timeout=60)
+        if tОΩΙOнрYePДiе.returncode == 0:
             return True
-        SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('', 'J', 'ý'), gjvaББψλφ☋Gu☆ХCA, LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02\x14', 'ÛÊ'), LЬYОDζ☌t☌UПfAЖK☉('\x92\x92', '\x0f\x06', 'ÌÚ'), LЬYОDζ☌t☌UПfAЖK☉('÷', '"', 'ÿú')], env=ЕЗFwGοIfАOЮEfeπБzo, capture_output=True, timeout=10)
-        СКБοР☆δ★AτλШЫαE = SЪВЩιd☆ξ☎М☊wD.run([LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x0e', 'Ê'), LЬYОDζ☌t☌UПfAЖK☉('', 'J', 'ý'), gjvaББψλφ☋Gu☆ХCA, LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x12', 'ÒÒ')], env=ЕЗFwGοIfАOЮEfeπБzo, capture_output=True, text=True, timeout=60)
-        return СКБοР☆δ★AτλШЫαE.returncode == 0
-    except SЪВЩιd☆ξ☎М☊wD.TimeoutExpired:
+        эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('', '´', 'ù'), ОσщAμюPфψщЫΣЫ, fzЪΤτКnCюΗΔτΨοYηу('?', 'üê', 'ßÎ'), fzЪΤτКnCюΗΔτΨοYηу('``', 'ñø', 'ÈÞ'), fzЪΤτКnCюΗΔτΨοYηу('\x05', 'Ü', 'ûþ')], env=ΧbβпhΠΧсNМгЦnя, capture_output=True, timeout=10)
+        ΡΓКюKсdЭAPws = эаBвУСщpБyЖУN.run([fzЪΤτКnCюΗΔτΨοYηу('*', 'ð', 'Î'), fzЪΤτКnCюΗΔτΨοYηу('', '´', 'ù'), ОσщAμюPфψщЫΣЫ, fzЪΤτКnCюΗΔτΨοYηу('=', 'ì', 'ÖÖ')], env=ΧbβпhΠΧсNМгЦnя, capture_output=True, text=True, timeout=60)
+        return ΡΓКюKсdЭAPws.returncode == 0
+    except эаBвУСщpБyЖУN.TimeoutExpired:
         return False
     except:
         return False
-    ρξhλOδТvαξiГS = 71 + 26
+    υqVMΩΩιyθЦДсЩ = 8 + 60
 
 def login_page():
-    YbeКgЧM☃tЦАЕТ()
-    ЬυPMЛr☁αSoKШzH()
-    ☍xλHHrγβdИ☍E(LЬYОDζ☌t☌UПfAЖK☉('óðøö', ')G?J', 'èßÒÛä'), sFBЙtyУuξgoR☏rn☂НШ)
-    print(f'\n{Я☂yτOωKλKbtsКБYIVπ}Silahkan login dengan akun resmi X-ValeZ.{XОρωθ☋Н☃ЭqζЪХr}\n')
-    fУMC☀tlDFSTKDIШbj = input(f' {Я☂yτOωKλKbtsКБYIVπ}Username: {XОρωθ☋Н☃ЭqζЪХr}').strip()
-    ☁FβIЩniU☂ζКTK = input(f' {Я☂yτOωKλKbtsКБYIVπ}Password: {XОρωθ☋Н☃ЭqζЪХr}').strip()
-    if fУMC☀tlDFSTKDIШbj in pwПzЪЗ☏φШЮ☊ОF☁Xδff:
-        τXjН☍РhЕK☈roω☍ = pwПzЪЗ☏φШЮ☊ОF☁Xδff[fУMC☀tlDFSTKDIШbj]
-        if τXjН☍РhЕK☈roω☍[LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ')] == ☁FβIЩniU☂ζКTK:
-            if τXjН☍РhЕK☈roω☍[LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ')] == LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06', 'Ð'):
-                print(f'\n{TρМδЪhaOKlχLЗ☇}╔═══════════════════════════════════════╗')
+    МуΚΤоFКΧЖdΜIoM()
+    лЭвRtрЖшuΤμγοа()
+    ЖΙяνVкyЩΞиUХАτhШ(fzЪΤτКnCюΗΔτΨοYηу('\x01\x02\n\x04', '×¹Á´', 'ìÛÖßà'), нοфГιΛшζSfζБчЬЧТT)
+    print(f'\n{ЩкуIHаΧУяздΓΦТwkД}Silahkan login dengan akun resmi X-ValeZ.{ζamγckxNγХΦXΓΣaΛщ}\n')
+    νQыβЙаgРьΨDΔaσ = input(f' {ЩкуIHаΧУяздΓΦТwkД}Username: {ζamγckxNγХΦXΓΣaΛщ}').strip()
+    qMМбΧΝψKbΤηпq = input(f' {ЩкуIHаΧУяздΓΦТwkД}Password: {ζamγckxNγХΦXΓΣaΛщ}').strip()
+    if νQыβЙаgРьΨDΔaσ in ΑwхκιTΩBdxkdθ:
+        ΜжzБΖшФdzрτΝΖφ = ΑwхκιTΩBdxkdθ[νQыβЙаgРьΨDΔaσ]
+        if ΜжzБΖшФdzрτΝΖφ[fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ')] == qMМбΧΝψKbΤηпq:
+            if ΜжzБΖшФdzрτΝΖφ[fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ')] == fzЪΤτКnCюΗΔτΨοYηу('/', 'ø', 'Ô'):
+                print(f'\n{ΜΩΦβλlυфЪzχαNΑφν}╔═══════════════════════════════════════╗')
                 print(f'║   ❌ AKUN ANDA TELAH DI-BANNED!       ║')
                 print(f'║   Hubungi admin untuk informasi       ║')
-                print(f'╚═══════════════════════════════════════╝{XОρωθ☋Н☃ЭqζЪХr}')
-                ТЖeCgyrδ☄PuXtyxγf.sleep(3)
-                εYRcЦ☊jБl★ξfpEФy()
+                print(f'╚═══════════════════════════════════════╝{ζamγckxNγХΦXΓΣaΛщ}')
+                ЧψНАKНQккπоЬоφБγN.sleep(3)
+                ΓjфδδΞйИtиwρЕО()
                 return
-            ☁РjСЛwπЭbτvy = bDЦβnVkЬМRποЫJЖc(КcVBρMФ☃jmξηqОc)
-            if fУMC☀tlDFSTKDIШbj not in ☁РjСЛwπЭbτvy.get(LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ'), {}):
-                cδwQЗWUЬθqπ☀Ъα☃ШλF = f'XVZ-{int(ТЖeCgyrδ☄PuXtyxγf.time()) % 100000}'
-                ☁РjСЛwπЭbτvy[LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ')][fУMC☀tlDFSTKDIШbj] = {LЬYОDζ☌t☌UПfAЖK☉('ÏÞ', '\x14\x14\x10', 'ÑÌÚ'): ☁FβIЩniU☂ζКTK, LЬYОDζ☌t☌UПfAЖK☉('', '\x0e', 'Ú'): cδwQЗWUЬθqπ☀Ъα☃ШλF, LЬYОDζ☌t☌UПfAЖK☉('Ì', '\x04\x08', 'ÌÛ'): 0, LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'): τXjН☍РhЕK☈roω☍[LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ')], LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'): τXjН☍РhЕK☈roω☍[LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ')], LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ'): τXjН☍РhЕK☈roω☍[LЬYОDζ☌t☌UПfAЖK☉('ÕÐ', '\x0e\t', 'ÛÚ')], LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ'): Ь☊Тξuy☃ERСN☌.now().strftime(LЬYОDζ☌t☌UПfAЖK☉('\x9aæ\x92\x9aÒ', 'JB\x03GB/', '\x84\x9bó\x84\x9bí'))}
-                aAЦP☏LζaδλИVО☆Дhy(КcVBρMФ☃jmξηqОc, ☁РjСЛwπЭbτvy)
-                print(f'\n{★jβБМВgνЛDηDθl☍βεO}[✓] Akun resmi terverifikasi! Disimpan ke database.{XОρωθ☋Н☃ЭqζЪХr}')
+            УmrYΒыпУОαΣПSХтηΛK = ЙоЩοyuπзХνpλ(ЫюДωJхρBРΑтйΙ)
+            if νQыβЙаgРьΨDΔaσ not in УmrYΒыпУОαΣПSХтηΛK.get(fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ'), {}):
+                URΧuСZЛЪжiΜδsλΨцв = f'XVZ-{int(ЧψНАKНQккπоЬоφБγN.time()) % 100000}'
+                УmrYΒыпУОαΣПSХтηΛK[fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ')][νQыβЙаgРьΨDΔaσ] = {fzЪΤτКnCюΗΔτΨοYηу('=,', 'êêî', 'ÕÈÞ'): qMМбΧΝψKbΤηпq, fzЪΤτКnCюΗΔτΨοYηу('', 'ð', 'Þ'): URΧuСZЛЪжiΜδsλΨцв, fzЪΤτКnCюΗΔτΨοYηу('>', 'úö', 'Èß'): 0, fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'): ΜжzБΖшФdzрτΝΖφ[fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß')], fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'): ΜжzБΖшФdzрτΝΖφ[fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ')], fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ'): ΜжzБΖшФdzрτΝΖφ[fzЪΤτКnCюΗΔτΨοYηу('\'"', 'ð÷', 'ßÞ')], fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß'): юHψPRJΧГуfZmσЭ.now().strftime(fzЪΤτКnCюΗΔτΨοYηу('h\x14`h ', '´¼ý¹¼Ñ', '\x80\x9f÷\x80\x9fé'))}
+                ΦЯξιΙbωZgЪfвзζtλ(ЫюДωJхρBРΑтйΙ, УmrYΒыпУОαΣПSХтηΛK)
+                print(f'\n{ΛiYчoΗnκΧζРMШШDе}[✓] Akun resmi terverifikasi! Disimpan ke database.{ζamγckxNγХΦXΓΣaΛщ}')
             else:
-                ☁РjСЛwπЭbτvy[LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ')][fУMC☀tlDFSTKDIШbj][LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ')] = τXjН☍РhЕK☈roω☍[LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ')]
-                ☁РjСЛwπЭbτvy[LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ')][fУMC☀tlDFSTKDIШbj][LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ')] = τXjН☍РhЕK☈roω☍[LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ')]
-                ☁РjСЛwπЭbτvy[LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ')][fУMC☀tlDFSTKDIШbj][LЬYОDζ☌t☌UПfAЖK☉('ÓÞÌ', '\x138\x06\x04', 'Ê×ÈÛ')] = Ь☊Тξuy☃ERСN☌.now().strftime(LЬYОDζ☌t☌UПfAЖK☉('\x9aæ\x92\x9aÒ', 'JB\x03GB/', '\x84\x9bó\x84\x9bí'))
-                aAЦP☏LζaδλИVО☆Дhy(КcVBρMФ☃jmξηqОc, ☁РjСЛwπЭbτvy)
-                print(f'\n{★jβБМВgνЛDηDθl☍βεO}[✓] Selamat datang kembali, {fУMC☀tlDFSTKDIШbj}!{XОρωθ☋Н☃ЭqζЪХr}')
-            aAЦP☏LζaδλИVО☆Дhy(ξ☃σЬxsЮ☂☀μCQπkπ, {LЬYОDζ☌t☌UПfAЖK☉('ÊÌ', '\x02\x15\t', 'ßÓÛ'): fУMC☀tlDFSTKDIШbj})
-            ТЖeCgyrδ☄PuXtyxγf.sleep(1)
-            ο☍e☀ηξOJУ☋KxλεnYJ()
-            ЪБЮ☄ЬМm☇jfOТ(fУMC☀tlDFSTKDIШbj)
+                УmrYΒыпУОαΣПSХтηΛK[fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ')][νQыβЙаgРьΨDΔaσ][fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß')] = ΜжzБΖшФdzрτΝΖφ[fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß')]
+                УmrYΒыпУОαΣПSХтηΛK[fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ')][νQыβЙаgРьΨDΔaσ][fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ')] = ΜжzБΖшФdzрτΝΖφ[fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ')]
+                УmrYΒыпУОαΣПSХтηΛK[fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ')][νQыβЙаgРьΨDΔaσ][fzЪΤτКnCюΗΔτΨοYηу('!,>', 'íÆøú', 'ÎÓÌß')] = юHψPRJΧГуfZmσЭ.now().strftime(fzЪΤτКnCюΗΔτΨοYηу('h\x14`h ', '´¼ý¹¼Ñ', '\x80\x9f÷\x80\x9fé'))
+                ΦЯξιΙbωZgЪfвзζtλ(ЫюДωJхρBРΑтйΙ, УmrYΒыпУОαΣПSХтηΛK)
+                print(f'\n{ΛiYчoΗnκΧζРMШШDе}[✓] Selamat datang kembali, {νQыβЙаgРьΨDΔaσ}!{ζamγckxNγХΦXΓΣaΛщ}')
+            ΦЯξιΙbωZgЪfвзζtλ(ζζSCσNуΝФьΘлцх, {fzЪΤτКnCюΗΔτΨοYηу('8>', 'üë÷', 'Û×ß'): νQыβЙаgРьΨDΔaσ})
+            ЧψНАKНQккπоЬоφБγN.sleep(1)
+            PζэМуъΑΕзeИлZс()
+            ΗЗlХεEViЫЫъmΛзПπU(νQыβЙаgРьΨDΔaσ)
             return
         else:
-            print(f'\n{TρМδЪhaOKlχLЗ☇}[!] Password salah!{XОρωθ☋Н☃ЭqζЪХr}')
-            ТЖeCgyrδ☄PuXtyxγf.sleep(1.5)
-            σC☍wNzDИCBλμЮЫρι()
+            print(f'\n{ΜΩΦβλlυфЪzχαNΑφν}[!] Password salah!{ζamγckxNγХΦXΓΣaΛщ}')
+            ЧψНАKНQккπоЬоφБγN.sleep(1.5)
+            IфΓllКQqmцVΗйVяiФ()
             return
     else:
-        print(f'\n{TρМδЪhaOKlχLЗ☇}╔═══════════════════════════════════════╗')
+        print(f'\n{ΜΩΦβλlυфЪzχαNΑφν}╔═══════════════════════════════════════╗')
         print(f'║   Haha! Penyusup datang 🤧             ║')
         print(f'║   Kalau emang belum punya akun,         ║')
         print(f'║   silahkan beli Rp10.000                ║')
         print(f'║   Hubungi: https://hexzstore.vercel.app/║')
-        print(f'╚═══════════════════════════════════════╝{XОρωθ☋Н☃ЭqζЪХr}')
-        ТЖeCgyrδ☄PuXtyxγf.sleep(3)
-        εYRcЦ☊jБl★ξfpEФy()
-    ПВDCδρδККIЧjИY☍EOП = 86 + 2
+        print(f'╚═══════════════════════════════════════╝{ζamγckxNγХΦXΓΣaΛщ}')
+        ЧψНАKНQккπоЬоφБγN.sleep(3)
+        ΓjфδδΞйИtиwρЕО()
+    ФШMлoaиΚpξЦТ = 60 + 95
 
 def dashboard(username):
     try:
-        υ☏iXθМηЩЛAХЙkК☀y.makedirs(υ☏iXθМηЩЛAХЙkК☀y.path.dirname(cXrτИЮψПPζЯV), exist_ok=True)
-        with open(cXrτИЮψПPζЯV, LЬYОDζ☌t☌UПfAЖK☉('', '', 'É')) as ЖЬVБκIψhδРЧQ:
-            ЖЬVБκIψhδРЧQ.write(LЬYОDζ☌t☌UПfAЖK☉('Ë', '\x15', 'ËÛ'))
-        print(f'{★jβБМВgνЛDηDθl☍βεO}[✓] Permission activated for this device.{XОρωθ☋Н☃ЭqζЪХr}')
+        SΦьZФτWmΣvЕδФУ.makedirs(SΦьZФτWmΣvЕδФУ.path.dirname(χеSσΗaΔbрeoНtμΟ), exist_ok=True)
+        with open(χеSσΗaΔbрeoНtμΟ, fzЪΤτКnCюΗΔτΨοYηу('', '', 'Í')) as ξΚHΞдТДУЙХZфжЛВOΙΨ:
+            ξΚHΞдТДУЙХZфжЛВOΙΨ.write(fzЪΤτКnCюΗΔτΨοYηу('9', 'ë', 'Ïß'))
+        print(f'{ΛiYчoΗnκΧζРMШШDе}[✓] Permission activated for this device.{ζamγckxNγХΦXΓΣaΛщ}')
     except Exception as e:
-        print(f'{☎WοsξПιГНЕγР☇FyPπI}[!] Gagal buat permission: {☉W☈rιχBBuЗνШqω}{XОρωθ☋Н☃ЭqζЪХr}')
-    ЕrНУδκθИHШοЖБ(LЬYОDζ☌t☌UПfAЖK☉('òÚÒÊÞ', '\x13G\x03\x06\x14', 'ÖÜÑßÌÚ'), 0.8)
-    HλMLЖβuaУЖИτδД()
-    Гyλ☃☃γσЫ☆PκYhR★☊nU = pwПzЪЗ☏φШЮ☊ОF☁Xδff.get(fУMC☀tlDFSTKDIШbj, {})
-    sτgЪЭθζЛAωГXБЛJ = Гyλ☃☃γσЫ☆PκYhR★☊nU.get(LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'), LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'))
-    kδЩξOθWζПf☋ζaSЯOО = Гyλ☃☃γσЫ☆PκYhR★☊nU.get(LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'), LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'))
+        print(f'{цσзγяΞЕЕдUΧOс}[!] Gagal buat permission: {юэЮвjУcAяΖННΠrНВΓΦ}{ζamγckxNγХΦXΓΣaΛщ}')
+    ΤfЕбgРeHfΥBЛ(fzЪΤτКnCюΗΔτΨοYηу('\x00( 8,', 'í¹ýøê', 'ÒØÕÛÈÞ'), 0.8)
+    лAννhмыПΡцBlXЯ()
+    ДпЧΟOjΝТАчjZFζЦа = ΑwхκιTΩBdxkdθ.get(νQыβЙаgРьΨDΔaσ, {})
+    cΣпnΠlφДχцTьΚχЪω = ДпЧΟOjΝТАчjZFζЦа.get(fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'), fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'))
+    ЭυЬГθДυΚвдΖgNG = ДпЧΟOjΝТАчjZFζЦа.get(fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'), fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'))
     while True:
         try:
-            YbeКgЧM☃tЦАЕТ()
-            ЬυPMЛr☁αSoKШzH()
-            ☁РjСЛwπЭbτvy = bDЦβnVkЬМRποЫJЖc(КcVBρMФ☃jmξηqОc)
-            αШρЛrЙεdmρzБσgπlN = ☁РjСЛwπЭbτvy.get(LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ'), {}).get(fУMC☀tlDFSTKDIШbj, {LЬYОDζ☌t☌UПfAЖK☉('', '\x0e', 'Ú'): LЬYОDζ☌t☌UПfAЖK☉('', '', '\x93'), LЬYОDζ☌t☌UПfAЖK☉('Ì', '\x04\x08', 'ÌÛ'): 0})
-            if αШρЛrЙεdmρzБσgπlN.get(LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ')) != sτgЪЭθζЛAωГXБЛJ or αШρЛrЙεdmρzБσgπlN.get(LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ')) != kδЩξOθWζПf☋ζaSЯOО:
-                αШρЛrЙεdmρzБσgπlN[LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ')] = sτgЪЭθζЛAωГXБЛJ
-                αШρЛrЙεdmρzБσgπlN[LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ')] = kδЩξOθWζПf☋ζaSЯOО
-                ☁РjСЛwπЭbτvy[LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ')][fУMC☀tlDFSTKDIШbj] = αШρЛrЙεdmρzБσgπlN
-                aAЦP☏LζaδλИVО☆Дhy(КcVBρMФ☃jmξηqОc, ☁РjСЛwπЭbτvy)
-            vιγYJORН☏ЬUuσКXЭ = len(pwПzЪЗ☏φШЮ☊ОF☁Xδff)
-            ☎ЬM☊UdВhРuτwkУ = Ь☊Тξuy☃ERСN☌.now()
-            AoFOλxJδtdχЪЦ = ☎ЬM☊UdВhРuτwkУ.strftime(LЬYОDζ☌t☌UПfAЖK☉('\x9aÛ', ']B%', '\x84\x9bç'))
-            print(f'{sFBЙtyУuξgoR☏rn☂НШ}╔═[ PROFILE & INFO ]════════════════════════════════════╗')
-            print(f'║ {Я☂yτOωKλKbtsКБYIVπ}User     : {RУUsNХτЭδTcДδ}{СDρWπЧπPα☌ιt}{☏cIДκ☊Тs☎bρЧ(fУMC☀tlDFSTKDIШbj, 37)}{XОρωθ☋Н☃ЭqζЪХr}{sFBЙtyУuξgoR☏rn☂НШ}')
-            print(f"║ {Я☂yτOωKλKbtsКБYIVπ}ID       : {Я☂yτOωKλKbtsКБYIVπ}{☏cIДκ☊Тs☎bρЧ(αШρЛrЙεdmρzБσgπlN.get('id', '-'), 37)}{XОρωθ☋Н☃ЭqζЪХr}{sFBЙtyУuξgoR☏rn☂НШ}")
-            ГГαπЗιVЗH☌gЖ = Rη☎HζkСЩθЩЕK(sτgЪЭθζЛAωГXБЛJ)
-            print(f'║ {Я☂yτOωKλKbtsКБYIVπ}Role     : {ГГαπЗιVЗH☌gЖ}{RУUsNХτЭδTcДδ}{☏cIДκ☊Тs☎bρЧ(sτgЪЭθζЛAωГXБЛJ, 37)}{XОρωθ☋Н☃ЭqζЪХr}{sFBЙtyУuξgoR☏rn☂НШ}')
-            ☍☌p☋ЕOРρOyσ☀ = LЬYОDζ☌t☌UПfAЖK☉('ýþ', '))', 'ûú') if kδЩξOθWζПf☋ζaSЯOО == LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06', 'Ð') else LЬYОDζ☌t☌UПfAЖK☉('þü', '3.', 'èû')
-            Бφ☈Бμμ☃ШZcβХЮАZ = TρМδЪhaOKlχLЗ☇ if kδЩξOθWζПf☋ζaSЯOО == LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06', 'Ð') else ★jβБМВgνЛDηDθl☍βεO
-            print(f'║ {Я☂yτOωKλKbtsКБYIVπ}Status   : {Бφ☈Бμμ☃ШZcβХЮАZ}{☏cIДκ☊Тs☎bρЧ(☍☌p☋ЕOРρOyσ☀, 37)}{XОρωθ☋Н☃ЭqζЪХr}{sFBЙtyУuξgoR☏rn☂НШ}')
-            print(f"║ {Я☂yτOωKλKbtsКБYIVπ}Score    : {★jβБМВgνЛDηDθl☍βεO}{☏cIДκ☊Тs☎bρЧ(str(αШρЛrЙεdmρzБσgπlN.get('score', 0)), 37)}{XОρωθ☋Н☃ЭqζЪХr} {sFBЙtyУuξgoR☏rn☂НШ}")
-            print(f'║ {Я☂yτOωKλKbtsКБYIVπ}Date     : {Я☂yτOωKλKbtsКБYIVπ}{☏cIДκ☊Тs☎bρЧ(AoFOλxJδtdχЪЦ, 37)}{XОρωθ☋Н☃ЭqζЪХr}{sFBЙtyУuξgoR☏rn☂НШ}')
-            print(f'║ {Я☂yτOωKλKbtsКБYIVπ}Users    : {Я☂yτOωKλKbtsКБYIVπ}{☏cIДκ☊Тs☎bρЧ(str(vιγYJORН☏ЬUuσКXЭ), 37)}{XОρωθ☋Н☃ЭqζЪХr}{sFBЙtyУuξgoR☏rn☂НШ}')
-            print(f'║ {Я☂yτOωKλKbtsКБYIVπ}Web      : {Я☂yτOωKλKbtsКБYIVπ}{☏cIДκ☊Тs☎bρЧ(ФJЦ★Уχ☄☉RυCοUβ, 37)}{XОρωθ☋Н☃ЭqζЪХr}{sFBЙtyУuξgoR☏rn☂НШ}')
-            φТХy★oξWZαγDσПλλc = LЬYОDζ☌t☌UПfAЖK☉('ð', '!', 'ø') if ЖγЙpετЭ☎υgψa else LЬYОDζ☌t☌UПfAЖK☉('', '(', 'ð')
-            print(f'║ {Я☂yτOωKλKbtsКБYIVπ}Sound    : {(☎WοsξПιГНЕγР☇FyPπI if ЖγЙpετЭ☎υgψa else ★jβБМВgνЛDηDθl☍βεO)}{☏cIДκ☊Тs☎bρЧ(φТХy★oξWZαγDσПλλc, 37)}{XОρωθ☋Н☃ЭqζЪХr} {sFBЙtyУuξgoR☏rn☂НШ}')
-            print(f'╚═══════════════════════════════════════════════════════╝{XОρωθ☋Н☃ЭqζЪХr}')
-            I☍RBWБvГ☄БЯЖРεGω = {}
-            zЖ☁E★МεuδNψsξ☄JδЭD = 1
-            ☊ЮЖЙnx☃ЙB★ψРE☊ = 0
-            for KGAАοπОЙoTiay in sorted(nВSmД☈kηρЕφЫD.keys()):
-                τEТxκsХφjXθαP☍ = sorted(nВSmД☈kηρЕφЫD[KGAАοπОЙoTiay], key=lambda x: ρЯψЖ☀OnευqVLSЫRК[LЬYОDζ☌t☌UПfAЖK☉('Ñ', '\x06', 'ÓÛ')])
-                zЖ☁E★МεuδNψsξ☄JδЭD = ηAAЭ☋K☀ЧenaХЖ☌ШhgG(KGAАοπОЙoTiay, τEТxκsХφjXθαP☍, I☍RBWБvГ☄БЯЖРεGω, zЖ☁E★МεuδNψsξ☄JδЭD, Я☂yτOωKλKbtsКБYIVπ)
-                ☊ЮЖЙnx☃ЙB★ψРE☊ += 1
+            МуΚΤоFКΧЖdΜIoM()
+            лЭвRtрЖшuΤμγοа()
+            УmrYΒыпУОαΣПSХтηΛK = ЙоЩοyuπзХνpλ(ЫюДωJхρBРΑтйΙ)
+            λЙHWΩMаЬUκΕОыΟчh = УmrYΒыпУОαΣПSХтηΛK.get(fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ'), {}).get(νQыβЙаgРьΨDΔaσ, {fzЪΤτКnCюΗΔτΨοYηу('', 'ð', 'Þ'): fzЪΤτКnCюΗΔτΨοYηу('', '', '\x97'), fzЪΤτКnCюΗΔτΨοYηу('>', 'úö', 'Èß'): 0})
+            if λЙHWΩMаЬUκΕОыΟчh.get(fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß')) != cΣпnΠlφДχцTьΚχЪω or λЙHWΩMаЬUκΕОыΟчh.get(fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ')) != ЭυЬГθДυΚвдΖgNG:
+                λЙHWΩMаЬUκΕОыΟчh[fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß')] = cΣпnΠlφДχцTьΚχЪω
+                λЙHWΩMаЬUκΕОыΟчh[fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ')] = ЭυЬГθДυΚвдΖgNG
+                УmrYΒыпУОαΣПSХтηΛK[fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ')][νQыβЙаgРьΨDΔaσ] = λЙHWΩMаЬUκΕОыΟчh
+                ΦЯξιΙbωZgЪfвзζtλ(ЫюДωJхρBРΑтйΙ, УmrYΒыпУОαΣПSХтηΛK)
+            gΡСpръхHГGLтфFЯΘo = len(ΑwхκιTΩBdxkdθ)
+            жHβκуCFBсηБυΜΨFS = юHψPRJΧГуfZmσЭ.now()
+            yLδTwρrHοЭсРп = жHβκуCFBсηБυΜΨFS.strftime(fzЪΤτКnCюΗΔτΨοYηу('h)', '£¼Û', '\x80\x9fã'))
+            print(f'{нοфГιΛшζSfζБчЬЧТT}╔═[ PROFILE & INFO ]════════════════════════════════════╗')
+            print(f'║ {ЩкуIHаΧУяздΓΦТwkД}User     : {pΤЮpуγHζuаynоuΥ}{xOрιОRNыШυЯB}{ЭΣΣκΦФfIΜVΥd(νQыβЙаgРьΨDΔaσ, 37)}{ζamγckxNγХΦXΓΣaΛщ}{нοфГιΛшζSfζБчЬЧТT}')
+            print(f"║ {ЩкуIHаΧУяздΓΦТwkД}ID       : {ЩкуIHаΧУяздΓΦТwkД}{ЭΣΣκΦФfIΜVΥd(λЙHWΩMаЬUκΕОыΟчh.get('id', '-'), 37)}{ζamγckxNγХΦXΓΣaΛщ}{нοфГιΛшζSfζБчЬЧТT}")
+            хУΠpлщяΥФуbwθYοθO = ευфБщπΠIωПwБTП(cΣпnΠlφДχцTьΚχЪω)
+            print(f'║ {ЩкуIHаΧУяздΓΦТwkД}Role     : {хУΠpлщяΥФуbwθYοθO}{pΤЮpуγHζuаynоuΥ}{ЭΣΣκΦФfIΜVΥd(cΣпnΠlφДχцTьΚχЪω, 37)}{ζamγckxNγХΦXΓΣaΛщ}{нοфГιΛшζSfζБчЬЧТT}')
+            εЩωлJjκтчдΘЦυΨBρ = fzЪΤτКnCюΗΔτΨοYηу('\x0f\x0c', '××', 'ÿþ') if ЭυЬГθДυΚвдΖgNG == fzЪΤτКnCюΗΔτΨοYηу('/', 'ø', 'Ô') else fzЪΤτКnCюΗΔτΨοYηу('\x0c\x0e', 'ÍÐ', 'ìÿ')
+            ΚПЗвэьЩγЩСДБ = ΜΩΦβλlυфЪzχαNΑφν if ЭυЬГθДυΚвдΖgNG == fzЪΤτКnCюΗΔτΨοYηу('/', 'ø', 'Ô') else ΛiYчoΗnκΧζРMШШDе
+            print(f'║ {ЩкуIHаΧУяздΓΦТwkД}Status   : {ΚПЗвэьЩγЩСДБ}{ЭΣΣκΦФfIΜVΥd(εЩωлJjκтчдΘЦυΨBρ, 37)}{ζamγckxNγХΦXΓΣaΛщ}{нοфГιΛшζSfζБчЬЧТT}')
+            print(f"║ {ЩкуIHаΧУяздΓΦТwkД}Score    : {ΛiYчoΗnκΧζРMШШDе}{ЭΣΣκΦФfIΜVΥd(str(λЙHWΩMаЬUκΕОыΟчh.get('score', 0)), 37)}{ζamγckxNγХΦXΓΣaΛщ} {нοфГιΛшζSfζБчЬЧТT}")
+            print(f'║ {ЩкуIHаΧУяздΓΦТwkД}Date     : {ЩкуIHаΧУяздΓΦТwkД}{ЭΣΣκΦФfIΜVΥd(yLδTwρrHοЭсРп, 37)}{ζamγckxNγХΦXΓΣaΛщ}{нοфГιΛшζSfζБчЬЧТT}')
+            print(f'║ {ЩкуIHаΧУяздΓΦТwkД}Users    : {ЩкуIHаΧУяздΓΦТwkД}{ЭΣΣκΦФfIΜVΥd(str(gΡСpръхHГGLтфFЯΘo), 37)}{ζamγckxNγХΦXΓΣaΛщ}{нοфГιΛшζSfζБчЬЧТT}')
+            print(f'║ {ЩкуIHаΧУяздΓΦТwkД}Web      : {ЩкуIHаΧУяздΓΦТwkД}{ЭΣΣκΦФfIΜVΥd(дθвБBυρdδUεNшЭμЛ, 37)}{ζamγckxNγХΦXΓΣaΛщ}{нοфГιΛшζSfζБчЬЧТT}')
+            μзΥχΞЛMDpМτtβЯЦ = fzЪΤτКnCюΗΔτΨοYηу('\x02', 'ß', 'ü') if BЬmgШmFЩцxΩuβ else fzЪΤτКnCюΗΔτΨοYηу('', 'Ö', 'ô')
+            print(f'║ {ЩкуIHаΧУяздΓΦТwkД}Sound    : {(цσзγяΞЕЕдUΧOс if BЬmgШmFЩцxΩuβ else ΛiYчoΗnκΧζРMШШDе)}{ЭΣΣκΦФfIΜVΥd(μзΥχΞЛMDpМτtβЯЦ, 37)}{ζamγckxNγХΦXΓΣaΛщ} {нοфГιΛшζSfζБчЬЧТT}')
+            print(f'╚═══════════════════════════════════════════════════════╝{ζamγckxNγХΦXΓΣaΛщ}')
+            РПzпΛJшφмвиυΚΑы = {}
+            ΛθСИУмkLMфЦUкЩdяхv = 1
+            ΖНCΦоmыΟMγβm = 0
+            for jzвеyецЧшЯΠβлМ in sorted(μσжкeЪВΝσПАyΨсdM.keys()):
+                DρλΔλMЕγΗЕkЬПdД = sorted(μσжкeЪВΝσПАyΨсdM[jzвеyецЧшЯΠβлМ], key=lambda x: ЬсkσТYΟζрNiθ[fzЪΤτКnCюΗΔτΨοYηу('#', 'ø', '×ß')])
+                ΛθСИУмkLMфЦUкЩdяхv = GνоδгяqWΛУюn(jzвеyецЧшЯΠβлМ, DρλΔλMЕγΗЕkЬПdД, РПzпΛJшφмвиυΚΑы, ΛθСИУмkLMфЦUкЩdяхv, ЩкуIHаΧУяздΓΦТwkД)
+                ΖНCΦоmыΟMγβm += 1
             print()
-            ☍xλHHrγβdИ☍E(LЬYОDζ☌t☌UПfAЖK☉('ïÚÑØÞËÊ', '\x15\x06\tGAG.', 'ÐØÑÌÓßÍ×'), ☎WοsξПιГНЕγР☇FyPπI)
-            print(f'   {sFBЙtyУuξgoR☏rn☂НШ}[LN]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}Lainnya / Hubungi Media Sosial{XОρωθ☋Н☃ЭqζЪХr}')
-            print(f'   {sFBЙtyУuξgoR☏rn☂НШ}[DU]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}Daftar User{XОρωθ☋Н☃ЭqζЪХr}')
-            print(f'   {sFBЙtyУuξgoR☏rn☂НШ}[CW]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}Custom Warna{XОρωθ☋Н☃ЭqζЪХr}')
-            print(f'   {sFBЙtyУuξgoR☏rn☂НШ}[PT]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}Pembersih Tools (Lebih ringan){XОρωθ☋Н☃ЭqζЪХr}')
-            print(f'   {sFBЙtyУuξgoR☏rn☂НШ}[MB]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}Matikan Backsound (Mute){XОρωθ☋Н☃ЭqζЪХr}')
-            print(f'   {sFBЙtyУuξgoR☏rn☂НШ}[NB]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}Nyalakan Backsound (Unmute){XОρωθ☋Н☃ЭqζЪХr}')
-            print(f'   {TρМδЪhaOKlχLЗ☇}[LO]{TρМδЪhaOKlχLЗ☇} {TρМδЪhaOKlχLЗ☇}Log Out Akun{XОρωθ☋Н☃ЭqζЪХr}')
-            print(f'   {TρМδЪhaOKlχLЗ☇}[00]{TρМδЪhaOKlχLЗ☇} {TρМδЪhaOKlχLЗ☇}Keluar{XОρωθ☋Н☃ЭqζЪХr}')
+            ЖΙяνVкyЩΞиUХАτhШ(fzЪΤτКnCюΗΔτΨοYηу('\x1d(#*,98', 'ëø÷¹¿¹Ð', 'ÔÜÕÈ×ÛÉÓ'), цσзγяΞЕЕдUΧOс)
+            print(f'   {нοфГιΛшζSfζБчЬЧТT}[LN]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}Lainnya / Hubungi Media Sosial{ζamγckxNγХΦXΓΣaΛщ}')
+            print(f'   {нοфГιΛшζSfζБчЬЧТT}[DU]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}Daftar User{ζamγckxNγХΦXΓΣaΛщ}')
+            print(f'   {нοфГιΛшζSfζБчЬЧТT}[CW]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}Custom Warna{ζamγckxNγХΦXΓΣaΛщ}')
+            print(f'   {нοфГιΛшζSfζБчЬЧТT}[PT]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}Pembersih Tools (Lebih ringan){ζamγckxNγХΦXΓΣaΛщ}')
+            print(f'   {нοфГιΛшζSfζБчЬЧТT}[MB]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}Matikan Backsound (Mute){ζamγckxNγХΦXΓΣaΛщ}')
+            print(f'   {нοфГιΛшζSfζБчЬЧТT}[NB]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}Nyalakan Backsound (Unmute){ζamγckxNγХΦXΓΣaΛщ}')
+            print(f'   {ΜΩΦβλlυфЪzχαNΑφν}[LO]{ΜΩΦβλlυфЪzχαNΑφν} {ΜΩΦβλlυфЪzχαNΑφν}Log Out Akun{ζamγckxNγХΦXΓΣaΛщ}')
+            print(f'   {ΜΩΦβλlυфЪzχαNΑφν}[00]{ΜΩΦβλlυфЪzχαNΑφν} {ΜΩΦβλlυфЪzχαNΑφν}Keluar{ζamγckxNγХΦXΓΣaΛщ}')
             print()
-            Й☆χμ☂θЦxMEDП☈АСЬNr = input(f'{sFBЙtyУuξgoR☏rn☂НШ}Pilih Opsi ID/Menu: {XОρωθ☋Н☃ЭqζЪХr}').strip().lower()
-            if not Й☆χμ☂θЦxMEDП☈АСЬNr:
+            ПIZχьХψоZоΦγСКΖ = input(f'{нοфГιΛшζSfζБчЬЧТT}Pilih Opsi ID/Menu: {ζamγckxNγХΦXΓΣaΛщ}').strip().lower()
+            if not ПIZχьХψоZоΦγСКΖ:
                 continue
-            εγZSβuКηШφρБФυЧ(BWαPЙЧXψUА☊uαδT)
-            ТЖeCgyrδ☄PuXtyxγf.sleep(0.25)
-            if Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8e'):
-                print(f'\n{★jβБМВgνЛDηDθl☍βεO}Terima kasih telah menggunakan X-ValeZ!{XОρωθ☋Н☃ЭqζЪХr}')
+            κВΨΝКЬлuΗΥыΖaMψj(EεΥаГΤSхUФвыf)
+            ЧψНАKНQккπоЬоφБγN.sleep(0.25)
+            if ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8a'):
+                print(f'\n{ΛiYчoΗnκΧζРMШШDе}Terima kasih telah menggunakan X-ValeZ!{ζamγckxNγХΦXΓΣaΛщ}')
                 try:
-                    if υ☏iXθМηЩЛAХЙkК☀y.path.exists(HJgκЮDμ☍☌Ж☁Yq):
-                        ☂РAЬβ★δSVgЪzGsCАdw.rmtree(HJgκЮDμ☍☌Ж☁Yq, ignore_errors=True)
-                        print(f'{☎WοsξПιГНЕγР☇FyPπI}[!] Folder permission dihapus.{XОρωθ☋Н☃ЭqζЪХr}')
+                    if SΦьZФτWmΣvЕδФУ.path.exists(mЮgЭвΣγlПΑFωЙΧψДlи):
+                        ΥEкСжrvбшuρжWОEΔ.rmtree(mЮgЭвΣγlПΑFωЙΧψДlи, ignore_errors=True)
+                        print(f'{цσзγяΞЕЕдUΧOс}[!] Folder permission dihapus.{ζamγckxNγХΦXΓΣaΛщ}')
                 except Exception as e:
-                    print(f'{TρМδЪhaOKlχLЗ☇}[!] Gagal hapus permission: {☉W☈rιχBBuЗνШqω}{XОρωθ☋Н☃ЭqζЪХr}')
-                χδЗθWwdЖKЛvlHηφaτE()
-                ПНFЩ☍ρχSωРЧЧКЖwβκ.exit(0)
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '\x0b', 'Ñ'):
-                χδЗθWwdЖKЛvlHηφaτE()
-                if υ☏iXθМηЩЛAХЙkК☀y.path.exists(ξ☃σЬxsЮ☂☀μCQπkπ):
-                    υ☏iXθМηЩЛAХЙkК☀y.remove(ξ☃σЬxsЮ☂☀μCQπkπ)
-                print(f'\n{☎WοsξПιГНЕγР☇FyPπI}[✓] Berhasil Log Out!{XОρωθ☋Н☃ЭqζЪХr}')
-                ТЖeCgyrδ☄PuXtyxγf.sleep(1)
-                εYRcЦ☊jБl★ξfpEФy()
+                    print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Gagal hapus permission: {юэЮвjУcAяΖННΠrНВΓΦ}{ζamγckxNγХΦXΓΣaΛщ}')
+                YжФhESЛрkiχGΑК()
+                MnVАЖтεфΓΤгТαЕю.exit(0)
+            elif ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', 'õ', 'Õ'):
+                YжФhESЛрkiχGΑК()
+                if SΦьZФτWmΣvЕδФУ.path.exists(ζζSCσNуΝФьΘлцх):
+                    SΦьZФτWmΣvЕδФУ.remove(ζζSCσNуΝФьΘлцх)
+                print(f'\n{цσзγяΞЕЕдUΧOс}[✓] Berhasil Log Out!{ζamγckxNγХΦXΓΣaΛщ}')
+                ЧψНАKНQккπоЬоφБγN.sleep(1)
+                ΓjфδδΞйИtиwρЕО()
                 break
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '\x0f', 'ß'):
-                ЖЗοOЭWαT☇HGЗ☂α = input(f'\n{TρМδЪhaOKlχLЗ☇}[!] Yakin hapus akun permanen? (y/N): {XОρωθ☋Н☃ЭqζЪХr}').strip().lower()
-                if ЖЗοOЭWαT☇HGЗ☂α == LЬYОDζ☌t☌UПfAЖK☉('', '', 'Ç'):
-                    ☁РjСЛwπЭbτvy = bDЦβnVkЬМRποЫJЖc(КcVBρMФ☃jmξηqОc)
-                    if fУMC☀tlDFSTKDIШbj in ☁РjСЛwπЭbτvy.get(LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ'), {}):
-                        del ☁РjСЛwπЭbτvy[LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ')][fУMC☀tlDFSTKDIШbj]
-                    aAЦP☏LζaδλИVО☆Дhy(КcVBρMФ☃jmξηqОc, ☁РjСЛwπЭbτvy)
-                    if υ☏iXθМηЩЛAХЙkК☀y.path.exists(ξ☃σЬxsЮ☂☀μCQπkπ):
-                        υ☏iXθМηЩЛAХЙkК☀y.remove(ξ☃σЬxsЮ☂☀μCQπkπ)
-                    χδЗθWwdЖKЛvlHηφaτE()
-                    print(f'{★jβБМВgνЛDηDθl☍βεO}[✓] Akun berhasil dihapus!{XОρωθ☋Н☃ЭqζЪХr}')
-                    ТЖeCgyrδ☄PuXtyxγf.sleep(1)
-                    εYRcЦ☊jБl★ξfpEФy()
+            elif ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', 'ñ', 'Û'):
+                RDzfзЛγшΞΡфDζΩπЕj = input(f'\n{ΜΩΦβλlυфЪzχαNΑφν}[!] Yakin hapus akun permanen? (y/N): {ζamγckxNγХΦXΓΣaΛщ}').strip().lower()
+                if RDzfзЛγшΞΡфDζΩπЕj == fzЪΤτКnCюΗΔτΨοYηу('', '', 'Ã'):
+                    УmrYΒыпУОαΣПSХтηΛK = ЙоЩοyuπзХνpλ(ЫюДωJхρBРΑтйΙ)
+                    if νQыβЙаgРьΨDΔaσ in УmrYΒыпУОαΣПSХтηΛK.get(fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ'), {}):
+                        del УmrYΒыпУОαΣПSХтηΛK[fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ')][νQыβЙаgРьΨDΔaσ]
+                    ΦЯξιΙbωZgЪfвзζtλ(ЫюДωJхρBРΑтйΙ, УmrYΒыпУОαΣПSХтηΛK)
+                    if SΦьZФτWmΣvЕδФУ.path.exists(ζζSCσNуΝФьΘлцх):
+                        SΦьZФτWmΣvЕδФУ.remove(ζζSCσNуΝФьΘлцх)
+                    YжФhESЛрkiχGΑК()
+                    print(f'{ΛiYчoΗnκΧζРMШШDе}[✓] Akun berhasil dihapus!{ζamγckxNγХΦXΓΣaΛщ}')
+                    ЧψНАKНQккπоЬоφБγN.sleep(1)
+                    ΓjфδδΞйИtиwρЕО()
                     break
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '\x03', 'Ë'):
-                YbeКgЧM☃tЦАЕТ()
-                ЬυPMЛr☁αSoKШzH()
-                ☍xλHHrγβdИ☍E(LЬYОDζ☌t☌UПfAЖK☉('ûþùëþí\x9fêì', '"5G5"4*.G', '\x96ñøø÷ý÷ÿò\x97'), E☂☁vМσOξ☄ι☏У★Щδf)
-                for ☂☆☄ЭφKVαIMνJ, ТNm☃ωУψЫMhχЪЗ in enumerate(sorted(pwПzЪЗ☏φШЮ☊ОF☁Xδff.keys()), 1):
-                    ☏AxЗ☂ИηI☋jОο = pwПzЪЗ☏φШЮ☊ОF☁Xδff[ТNm☃ωУψЫMhχЪЗ].get(LЬYОDζ☌t☌UПfAЖK☉('Í', '\x08', 'ÒÛ'), LЬYОDζ☌t☌UПfAЖK☉('ï', '5', 'ñ'))
-                    τεЭμlφОιTZjfНB = pwПzЪЗ☏φШЮ☊ОF☁Xδff[ТNm☃ωУψЫMhχЪЗ].get(LЬYОDζ☌t☌UПfAЖK☉('ÌË', '\x06\x13', 'ËÍ'), LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t\x05', 'ßÐ'))
-                    ГГαπЗιVЗH☌gЖ = Rη☎HζkСЩθЩЕK(☏AxЗ☂ИηI☋jОο)
-                    ☍☌p☋ЕOРρOyσ☀ = f'{TρМδЪhaOKlχLЗ☇}BANNED{XОρωθ☋Н☃ЭqζЪХr}' if τεЭμlφОιTZjfНB == LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x06', 'Ð') else f'{★jβБМВgνЛDηDθl☍βεO}ACTIVE{XОρωθ☋Н☃ЭqζЪХr}'
-                    print(f'  {sFBЙtyУuξgoR☏rn☂НШ}[{☂☆☄ЭφKVαIMνJ}]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}{ТNm☃ωУψЫMhχЪЗ:<15} {ГГαπЗιVЗH☌gЖ}{☏AxЗ☂ИηI☋jОο}{XОρωθ☋Н☃ЭqζЪХr} | {☍☌p☋ЕOРρOyσ☀}{XОρωθ☋Н☃ЭqζЪХr}')
+            elif ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', 'ý', 'Ï'):
+                МуΚΤоFКΧЖdΜIoM()
+                лЭвRtрЖшuΤμγοа()
+                ЖΙяνVкyЩΞиUХАτhШ(fzЪΤτКnCюΗΔτΨοYηу('\t\x0c\x0b\x19\x0c\x1fm\x18\x1e', 'ÜË¹ËÜÊÔÐ¹', '\x92õüüóùóûö\x93'), λВКmбыyбjiΥвΕ)
+                for kvПοХΕТUΝJЦκЖ, LωЪjFυшYXжΧfВ in enumerate(sorted(ΑwхκιTΩBdxkdθ.keys()), 1):
+                    ξзΤФIйЦуΣpтЛξCΔва = ΑwхκιTΩBdxkdθ[LωЪjFυшYXжΧfВ].get(fzЪΤτКnCюΗΔτΨοYηу('?', 'ö', 'Öß'), fzЪΤτКnCюΗΔτΨοYηу('\x1d', 'Ë', 'õ'))
+                    эХLξяPлκJΑbЕvОξπ = ΑwхκιTΩBdxkdθ[LωЪjFυшYXжΧfВ].get(fzЪΤτКnCюΗΔτΨοYηу('>9', 'øí', 'ÏÉ'), fzЪΤτКnCюΗΔτΨοYηу('8', '÷û', 'ÛÔ'))
+                    хУΠpлщяΥФуbwθYοθO = ευфБщπΠIωПwБTП(ξзΤФIйЦуΣpтЛξCΔва)
+                    εЩωлJjκтчдΘЦυΨBρ = f'{ΜΩΦβλlυфЪzχαNΑφν}BANNED{ζamγckxNγХΦXΓΣaΛщ}' if эХLξяPлκJΑbЕvОξπ == fzЪΤτКnCюΗΔτΨοYηу('/', 'ø', 'Ô') else f'{ΛiYчoΗnκΧζРMШШDе}ACTIVE{ζamγckxNγХΦXΓΣaΛщ}'
+                    print(f'  {нοфГιΛшζSfζБчЬЧТT}[{kvПοХΕТUΝJЦκЖ}]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}{LωЪjFυшYXжΧfВ:<15} {хУΠpлщяΥФуbwθYοθO}{ξзΤФIйЦуΣpтЛξCΔва}{ζamγckxNγХΦXΓΣaΛщ} | {εЩωлJjκтчдΘЦυΨBρ}{ζamγckxNγХΦXΓΣaΛщ}')
                 print()
-                input(f'{IeЛκlrοXlЗDnNbEρnA}Tekan ENTER untuk kembali...{XОρωθ☋Н☃ЭqζЪХr}')
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '\x0b', 'Ð'):
-                YbeКgЧM☃tЦАЕТ()
-                ЬυPMЛr☁αSoKШzH()
-                ☍xλHHrγβdИ☍E(LЬYОDζ☌t☌UПfAЖK☉('òúûöþ\x9f', '4(4.&+', '\x9e\x98\x9eò÷ðõ'), sFBЙtyУuξgoR☏rn☂НШ)
-                print(f' {E☂☁vМσOξ☄ι☏У★Щδf}•{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}TikTok : tiktok.com/@adrianzz3241{XОρωθ☋Н☃ЭqζЪХr}')
-                print(f' {E☂☁vМσOξ☄ι☏У★Щδf}•{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}YouTube: youtube.com/@adrianzz324{XОρωθ☋Н☃ЭqζЪХr}')
-                print(f' {E☂☁vМσOξ☄ι☏У★Щδf}•{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}GitHub : github.com/Adrianzz324{XОρωθ☋Н☃ЭqζЪХr}')
-                print(f' {E☂☁vМσOξ☄ι☏У★Щδf}•{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}Web    : {ФJЦ★Уχ☄☉RυCοUβ}{XОρωθ☋Н☃ЭqζЪХr}')
+                input(f'{NШΕQцwεμgфjφqяσХЛΨ}Tekan ENTER untuk kembali...{ζamγckxNγХΦXΓΣaΛщ}')
+            elif ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', 'õ', 'Ô'):
+                МуΚΤоFКΧЖdΜIoM()
+                лЭвRtрЖшuΤμγοа()
+                ЖΙяνVкyЩΞиUХАτhШ(fzЪΤτКnCюΗΔτΨοYηу('\x00\x08\t\x04\x0cm', 'ÊÖÊÐØÕ', '\x9a\x9c\x9aöóôñ'), нοфГιΛшζSfζБчЬЧТT)
+                print(f' {λВКmбыyбjiΥвΕ}•{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}TikTok : tiktok.com/@adrianzz3241{ζamγckxNγХΦXΓΣaΛщ}')
+                print(f' {λВКmбыyбjiΥвΕ}•{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}YouTube: youtube.com/@adrianzz324{ζamγckxNγХΦXΓΣaΛщ}')
+                print(f' {λВКmбыyбjiΥвΕ}•{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}GitHub : github.com/Adrianzz324{ζamγckxNγХΦXΓΣaΛщ}')
+                print(f' {λВКmбыyбjiΥвΕ}•{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}Web    : {дθвБBυρdδUεNшЭμЛ}{ζamγckxNγХΦXΓΣaΛщ}')
                 print()
-                input(f'{IeЛκlrοXlЗDnNbEρnA}Tekan Enter untuk kembali...{XОρωθ☋Н☃ЭqζЪХr}')
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '\x04', 'É'):
-                ☉НζSLλicnd☎β☈cεε☃L()
-                ζ☄Mδjναa☆☌πXUzOЮH()
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '\x17', 'Ê'):
-                Йg★gν☋σИDψρδ()
-                ζ☄Mδjναa☆☌πXUzOЮH()
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '\n', 'Ü'):
-                χδЗθWwdЖKЛvlHηφaτE()
-                print(f'\n{☎WοsξПιГНЕγР☇FyPπI}[🔇] Backsound dimatikan.{XОρωθ☋Н☃ЭqζЪХr}')
-                ТЖeCgyrδ☄PuXtyxγf.sleep(0.8)
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '\t', 'Ü'):
-                СТyCDαφЦg☈ЩtgdiП☇Б()
-                print(f'\n{★jβБМВgνЛDηDθl☍βεO}[🔊] Backsound dinyalakan.{XОρωθ☋Н☃ЭqζЪХr}')
-                ТЖeCgyrδ☄PuXtyxγf.sleep(0.8)
-            elif Й☆χμ☂θЦxMEDП☈АСЬNr.isdigit() and int(Й☆χμ☂θЦxMEDП☈АСЬNr) in I☍RBWБvГ☄БЯЖРεGω:
-                ЭЬjξψЬ☊aλФ☎L☋Й☈(fУMC☀tlDFSTKDIШbj, I☍RBWБvГ☄БЯЖРεGω[int(Й☆χμ☂θЦxMEDП☈АСЬNr)])
+                input(f'{NШΕQцwεμgфjφqяσХЛΨ}Tekan Enter untuk kembali...{ζamγckxNγХΦXΓΣaΛщ}')
+            elif ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', 'ú', 'Í'):
+                XТΡРжωξХVΠΧhсα()
+                xИiЖενLκqОΡθKЪГЮ()
+            elif ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', 'é', 'Î'):
+                bSвξффΗWΚкΡuцYΞаяQ()
+                xИiЖενLκqОΡθKЪГЮ()
+            elif ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', 'ô', 'Ø'):
+                YжФhESЛрkiχGΑК()
+                print(f'\n{цσзγяΞЕЕдUΧOс}[🔇] Backsound dimatikan.{ζamγckxNγХΦXΓΣaΛщ}')
+                ЧψНАKНQккπоЬоφБγN.sleep(0.8)
+            elif ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', '÷', 'Ø'):
+                ЧkΖGЫΠΓAKXθQSф()
+                print(f'\n{ΛiYчoΗnκΧζРMШШDе}[🔊] Backsound dinyalakan.{ζamγckxNγХΦXΓΣaΛщ}')
+                ЧψНАKНQккπоЬоφБγN.sleep(0.8)
+            elif ПIZχьХψоZоΦγСКΖ.isdigit() and int(ПIZχьХψоZоΦγСКΖ) in РПzпΛJшφмвиυΚΑы:
+                GhюнοmIυdКЙЫβЫЖ(νQыβЙаgРьΨDΔaσ, РПzпΛJшφмвиυΚΑы[int(ПIZχьХψоZоΦγСКΖ)])
             else:
-                print(f'{TρМδЪhaOKlχLЗ☇}[!] Pilihan tidak valid.{XОρωθ☋Н☃ЭqζЪХr}')
-                ТЖeCgyrδ☄PuXtyxγf.sleep(1)
+                print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Pilihan tidak valid.{ζamγckxNγХΦXΓΣaΛщ}')
+                ЧψНАKНQккπоЬоφБγN.sleep(1)
         except KeyboardInterrupt:
-            print(f'\n{☎WοsξПιГНЕγР☇FyPπI}[!] Kembali ke dashboard...{XОρωθ☋Н☃ЭqζЪХr}')
-            ТЖeCgyrδ☄PuXtyxγf.sleep(1)
+            print(f'\n{цσзγяΞЕЕдUΧOс}[!] Kembali ke dashboard...{ζamγckxNγХΦXΓΣaΛщ}')
+            ЧψНАKНQккπоЬоφБγN.sleep(1)
             continue
-    ZПЕ☃zσητωτ☋aιρο = 21 + 31
+    ФQЭЩвΚQVΤпrUPЯwк = 22 + 68
 
 def custom_color_menu():
-    YbeКgЧM☃tЦАЕТ()
-    ЬυPMЛr☁αSoKШzH()
-    ☍xλHHrγβdИ☍E(LЬYОDζ☌t☌UПfAЖK☉('üêìëðò', 'G0&5)&G', '\x96õûìûð\x97'), dNЧJK☈☉Зo☎RDGdτVX)
-    print(f'{Я☂yτOωKλKbtsКБYIVπ}Ubah warna sesuai selera. Pilih elemen yang ingin diubah:{XОρωθ☋Н☃ЭqζЪХr}\n')
-    i☎ФЦsЯЭMφ☍☊ОlЦЭ = {LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8f'): LЬYОDζ☌t☌UПfAЖK☉('Ò', '\x06', '×Ð'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8c'): LЬYОDζ☌t☌UПfAЖK☉('ÞÜ', '\x04\x02', 'ÐÊ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8d'): LЬYОDζ☌t☌UПfAЖK☉('ÆÚ', '\x0b\x0b', 'ÑÉ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8a'): LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x15\x02', 'ÛÐ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8b'): LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'Ú'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x88'): LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x0b\x08', 'ÑÚ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x89'): LЬYОDζ☌t☌UПfAЖK☉('Ë', '\x02', 'ÆÊ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x86'): LЬYОDζ☌t☌UПfAЖK☉('Û', '\x06', 'ÌÕ'), LЬYОDζ☌t☌UПfAЖK☉('', '', '\x87'): LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x0e', 'ÐÕ'), LЬYОDζ☌t☌UПfAЖK☉('', 'V', '\x8e'): LЬYОDζ☌t☌UПfAЖK☉('ÏÊ', '\x15\x17', 'ÒÛ')}
-    for ovChτГyxWλχfCsAХr, Гλ☂НХzFπЖalzs☁βmC☂ in i☎ФЦsЯЭMφ☍☊ОlЦЭ.items():
-        ЧЗτgυРocОJTLЧyQЧQЩ = ЮldШШσ☊αНJdЛψVφЦ.get(Гλ☂НХzFπЖalzs☁βmC☂, LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8e'))
-        print(f'  {sFBЙtyУuξgoR☏rn☂НШ}[{ovChτГyxWλχfCsAХr}]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}{Гλ☂НХzFπЖalzs☁βmC☂:<10} {XОρωθ☋Н☃ЭqζЪХr}-> {sFBЙtyУuξgoR☏rn☂НШ}Kode: {ЧЗτgυРocОJTLЧyQЧQЩ}{XОρωθ☋Н☃ЭqζЪХr}')
-    print(f'  {sFBЙtyУuξgoR☏rn☂НШ}[0]{XОρωθ☋Н☃ЭqζЪХr} {Я☂yτOωKλKbtsКБYIVπ}Kembali{XОρωθ☋Н☃ЭqζЪХr}')
-    Й☆χμ☂θЦxMEDП☈АСЬNr = input(f'\n{sFBЙtyУuξgoR☏rn☂НШ}Pilih nomor elemen (atau 0 untuk kembali): {XОρωθ☋Н☃ЭqζЪХr}').strip()
-    if Й☆χμ☂θЦxMEDП☈АСЬNr == LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8e'):
+    МуΚΤоFКΧЖdΜIoM()
+    лЭвRtрЖшuΤμγοа()
+    ЖΙяνVкyЩΞиUХАτhШ(fzЪΤτКnCюΗΔτΨοYηу('\x0e\x18\x1e\x19\x02\x00', '¹ÎØË×Ø¹', '\x92ñÿèÿô\x93'), сDDιNыΞэhКЫPQ)
+    print(f'{ЩкуIHаΧУяздΓΦТwkД}Ubah warna sesuai selera. Pilih elemen yang ingin diubah:{ζamγckxNγХΦXΓΣaΛщ}\n')
+    гNΓвмdякэδνмBJэ = {fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8b'): fzЪΤτКnCюΗΔτΨοYηу(' ', 'ø', 'ÓÔ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x88'): fzЪΤτКnCюΗΔτΨοYηу(',.', 'úü', 'ÔÎ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x89'): fzЪΤτКnCюΗΔτΨοYηу('4(', 'õõ', 'ÕÍ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8e'): fzЪΤτКnCюΗΔτΨοYηу('*', 'ëü', 'ßÔ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8f'): fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'Þ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8c'): fzЪΤτКnCюΗΔτΨοYηу('/', 'õö', 'ÕÞ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8d'): fzЪΤτКnCюΗΔτΨοYηу('9', 'ü', 'ÂÎ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x82'): fzЪΤτКnCюΗΔτΨοYηу(')', 'ø', 'ÈÑ'), fzЪΤτКnCюΗΔτΨοYηу('', '', '\x83'): fzЪΤτКnCюΗΔτΨοYηу('=', 'ð', 'ÔÑ'), fzЪΤτКnCюΗΔτΨοYηу('', '¨', '\x8a'): fzЪΤτКnCюΗΔτΨοYηу('=8', 'ëé', 'Öß')}
+    for ωВнвφЖЫрБTЭΓm, pЛПiЧHжΧθлγБЭvλ in гNΓвмdякэδνмBJэ.items():
+        лsRHФЪounEΛσkQК = ΞYфbбъΕEнрЯeΧ.get(pЛПiЧHжΧθлγБЭvλ, fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8a'))
+        print(f'  {нοфГιΛшζSfζБчЬЧТT}[{ωВнвφЖЫрБTЭΓm}]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}{pЛПiЧHжΧθлγБЭvλ:<10} {ζamγckxNγХΦXΓΣaΛщ}-> {нοфГιΛшζSfζБчЬЧТT}Kode: {лsRHФЪounEΛσkQК}{ζamγckxNγХΦXΓΣaΛщ}')
+    print(f'  {нοфГιΛшζSfζБчЬЧТT}[0]{ζamγckxNγХΦXΓΣaΛщ} {ЩкуIHаΧУяздΓΦТwkД}Kembali{ζamγckxNγХΦXΓΣaΛщ}')
+    ПIZχьХψоZоΦγСКΖ = input(f'\n{нοфГιΛшζSfζБчЬЧТT}Pilih nomor elemen (atau 0 untuk kembali): {ζamγckxNγХΦXΓΣaΛщ}').strip()
+    if ПIZχьХψоZоΦγСКΖ == fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8a'):
         return
-    if Й☆χμ☂θЦxMEDП☈АСЬNr not in i☎ФЦsЯЭMφ☍☊ОlЦЭ:
-        print(f'{TρМδЪhaOKlχLЗ☇}[!] Pilihan tidak valid.{XОρωθ☋Н☃ЭqζЪХr}')
-        ТЖeCgyrδ☄PuXtyxγf.sleep(1)
-        ☉НζSLλicnd☎β☈cεε☃L()
+    if ПIZχьХψоZоΦγСКΖ not in гNΓвмdякэδνмBJэ:
+        print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Pilihan tidak valid.{ζamγckxNγХΦXΓΣaΛщ}')
+        ЧψНАKНQккπоЬоφБγN.sleep(1)
+        XТΡРжωξХVΠΧhсα()
         return
-    ovChτГyxWλχfCsAХr = i☎ФЦsЯЭMφ☍☊ОlЦЭ[Й☆χμ☂θЦxMEDП☈АСЬNr]
-    mGAЬVβηjPAИq = ЮldШШσ☊αНJdЛψVφЦ.get(ovChτГyxWλχfCsAХr, LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8e'))
-    print(f"\n{Я☂yτOωKλKbtsКБYIVπ}Warna saat ini untuk '{ovChτГyxWλχfCsAХr}': {sFBЙtyУuξgoR☏rn☂НШ}{mGAЬVβηjPAИq}{XОρωθ☋Н☃ЭqζЪХr}")
-    print(f'{Я☂yτOωKλKbtsКБYIVπ}Masukkan kode ANSI warna (contoh: 38;5;196 untuk merah terang){XОρωθ☋Н☃ЭqζЪХr}')
-    print(f'{Я☂yτOωKλKbtsКБYIVπ}Atau gunakan preset:{XОρωθ☋Н☃ЭqζЪХr}')
-    sαuPqЭhРГfγЪιZ = {LЬYОDζ☌t☌UПfAЖK☉('Ò', '\x02\x15', 'ßÖ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x87\x88'), LЬYОDζ☌t☌UПfAЖK☉('×', '\x0e\r', 'ßË'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8a\x88'), LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x0e', 'ÌË'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8d\x87'), LЬYОDζ☌t☌UПfAЖK☉('ÔÊ', '\t\x0e', 'ÐÙ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8c\x88'), LЬYОDζ☌t☌UПfAЖK☉('Ê', '\t', 'ÙË'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x8c\x87'), LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x0e', 'ÐÕ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8e\x8b'), LЬYОDζ☌t☌UПfAЖK☉('Ü', '\x1e', 'ßÐ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8b\x8f'), LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x12\x13', '×Ö'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8b\x8b'), LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x05', 'Ë'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8a\x8c')}
-    for Гλ☂НХzFπЖalzs☁βmC☂, tρАξФοxНξ☉☁ЗθpτkC in sαuPqЭhРГfγЪιZ.items():
-        print(f'  {Я☂yτOωKλKbtsКБYIVπ}{Гλ☂НХzFπЖalzs☁βmC☂:<6} -> {sFBЙtyУuξgoR☏rn☂НШ}{tρАξФοxНξ☉☁ЗθpτkC}{XОρωθ☋Н☃ЭqζЪХr}')
-    JJjfk☌κO☌zrmQФ☇ = input(f"\n{sFBЙtyУuξgoR☏rn☂НШ}Kode baru (atau ketik 'reset' untuk default): {XОρωθ☋Н☃ЭqζЪХr}").strip()
-    if JJjfk☌κO☌zrmQФ☇.lower() == LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02\x14', 'ÛÊ'):
-        πЪ☄uyTWЙFζ☈ОwNЭφ = {LЬYОDζ☌t☌UПfAЖK☉('Ò', '\x06', '×Ð'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8b\x8f'), LЬYОDζ☌t☌UПfAЖK☉('ÞÜ', '\x04\x02', 'ÐÊ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8c\x88'), LЬYОDζ☌t☌UПfAЖK☉('ÆÚ', '\x0b\x0b', 'ÑÉ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8c\x88'), LЬYОDζ☌t☌UПfAЖK☉('Ø', '\x15\x02', 'ÛÐ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8a\x88'), LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'Ú'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x87\x88'), LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x0b\x08', 'ÑÚ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x8c\x8a'), LЬYОDζ☌t☌UПfAЖK☉('Ë', '\x02', 'ÆÊ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8b\x8b'), LЬYОDζ☌t☌UПfAЖK☉('Û', '\x06', 'ÌÕ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8a\x8c'), LЬYОDζ☌t☌UПfAЖK☉('Ï', '\x0e', 'ÐÕ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8c\x8e\x8b'), LЬYОDζ☌t☌UПfAЖK☉('ÏÊ', '\x15\x17', 'ÒÛ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x8c\x87'), LЬYОDζ☌t☌UПfAЖK☉('Ý', '\x0b', 'ËÛ'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R', '\x85\x8d\x87'), LЬYОDζ☌t☌UПfAЖK☉('ÒÞ', '\x00\x02', 'ÐÊß'): LЬYОDζ☌t☌UПfAЖK☉('\x8c\x87', '\\R\\', '\x8f\x88\x8b')}
-        ЮldШШσ☊αНJdЛψVφЦ[ovChτГyxWλχfCsAХr] = πЪ☄uyTWЙFζ☈ОwNЭφ[ovChτГyxWλχfCsAХr]
-        DJSJmВσNKКЗKEЛ☊(ЮldШШσ☊αНJdЛψVφЦ)
-        print(f"{★jβБМВgνЛDηDθl☍βεO}[✓] Warna '{ovChτГyxWλχfCsAХr}' direset ke default.{XОρωθ☋Н☃ЭqζЪХr}")
-    elif v☎νЧRУU☇QααhЛρТ.match(LЬYОDζ☌t☌UПfAЖK☉('á\x97ãÛ', 'L\\NM', 'âÚ\x95\x9a'), JJjfk☌κO☌zrmQФ☇):
-        ЮldШШσ☊αНJdЛψVφЦ[ovChτГyxWλχfCsAХr] = JJjfk☌κO☌zrmQФ☇
-        DJSJmВσNKКЗKEЛ☊(ЮldШШσ☊αНJdЛψVφЦ)
-        print(f"{★jβБМВgνЛDηDθl☍βεO}[✓] Warna '{ovChτГyxWλχfCsAХr}' diubah ke {JJjfk☌κO☌zrmQФ☇}{XОρωθ☋Н☃ЭqζЪХr}")
+    ωВнвφЖЫрБTЭΓm = гNΓвмdякэδνмBJэ[ПIZχьХψоZоΦγСКΖ]
+    ДεAEГΡХεΠНUaw = ΞYфbбъΕEнрЯeΧ.get(ωВнвφЖЫрБTЭΓm, fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8a'))
+    print(f"\n{ЩкуIHаΧУяздΓΦТwkД}Warna saat ini untuk '{ωВнвφЖЫрБTЭΓm}': {нοфГιΛшζSfζБчЬЧТT}{ДεAEГΡХεΠНUaw}{ζamγckxNγХΦXΓΣaΛщ}")
+    print(f'{ЩкуIHаΧУяздΓΦТwkД}Masukkan kode ANSI warna (contoh: 38;5;196 untuk merah terang){ζamγckxNγХΦXΓΣaΛщ}')
+    print(f'{ЩкуIHаΧУяздΓΦТwkД}Atau gunakan preset:{ζamγckxNγХΦXΓΣaΛщ}')
+    чΦcЯρΟъАФXpΛ = {fzЪΤτКnCюΗΔτΨοYηу(' ', 'üë', 'ÛÒ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x83\x8c'), fzЪΤτКnCюΗΔτΨοYηу('%', 'ðó', 'ÛÏ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x8e\x8c'), fzЪΤτКnCюΗΔτΨοYηу('/', 'ð', 'ÈÏ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x89\x83'), fzЪΤτКnCюΗΔτΨοYηу('&8', '÷ð', 'ÔÝ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x88\x8c'), fzЪΤτКnCюΗΔτΨοYηу('8', '÷', 'ÝÏ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x88\x83'), fzЪΤτКnCюΗΔτΨοYηу('=', 'ð', 'ÔÑ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8a\x8f'), fzЪΤτКnCюΗΔτΨοYηу('.', 'à', 'ÛÔ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x8f\x8b'), fzЪΤτКnCюΗΔτΨοYηу('=', 'ìí', 'ÓÒ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8f\x8f'), fzЪΤτКnCюΗΔτΨοYηу(',', 'û', 'Ï'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8e\x88')}
+    for pЛПiЧHжΧθлγБЭvλ, ОФΥlтΔТγооPГκxg in чΦcЯρΟъАФXpΛ.items():
+        print(f'  {ЩкуIHаΧУяздΓΦТwkД}{pЛПiЧHжΧθлγБЭvλ:<6} -> {нοфГιΛшζSfζБчЬЧТT}{ОФΥlтΔТγооPГκxg}{ζamγckxNγХΦXΓΣaΛщ}')
+    ЕЭΝЖkqνьpσДъЧ = input(f"\n{нοфГιΛшζSfζБчЬЧТT}Kode baru (atau ketik 'reset' untuk default): {ζamγckxNγХΦXΓΣaΛщ}").strip()
+    if ЕЭΝЖkqνьpσДъЧ.lower() == fzЪΤτКnCюΗΔτΨοYηу('?', 'üê', 'ßÎ'):
+        ЖЖΟBΙΙьСЕгβТzmΠfh = {fzЪΤτКnCюΗΔτΨοYηу(' ', 'ø', 'ÓÔ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x8f\x8b'), fzЪΤτКnCюΗΔτΨοYηу(',.', 'úü', 'ÔÎ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x88\x8c'), fzЪΤτКnCюΗΔτΨοYηу('4(', 'õõ', 'ÕÍ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x88\x8c'), fzЪΤτКnCюΗΔτΨοYηу('*', 'ëü', 'ßÔ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x8e\x8c'), fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'Þ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x83\x8c'), fzЪΤτКnCюΗΔτΨοYηу('/', 'õö', 'ÕÞ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x88\x8e'), fzЪΤτКnCюΗΔτΨοYηу('9', 'ü', 'ÂÎ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8f\x8f'), fzЪΤτКnCюΗΔτΨοYηу(')', 'ø', 'ÈÑ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8e\x88'), fzЪΤτКnCюΗΔτΨοYηу('=', 'ð', 'ÔÑ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x88\x8a\x8f'), fzЪΤτКnCюΗΔτΨοYηу('=8', 'ëé', 'Öß'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x88\x83'), fzЪΤτКnCюΗΔτΨοYηу('/', 'õ', 'Ïß'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬', '\x81\x89\x83'), fzЪΤτКnCюΗΔτΨοYηу(' ,', 'þü', 'ÔÎÛ'): fzЪΤτКnCюΗΔτΨοYηу('~u', '¢¬¢', '\x8b\x8c\x8f')}
+        ΞYфbбъΕEнрЯeΧ[ωВнвφЖЫрБTЭΓm] = ЖЖΟBΙΙьСЕгβТzmΠfh[ωВнвφЖЫрБTЭΓm]
+        фqНηGдζΤКДТФ(ΞYфbбъΕEнрЯeΧ)
+        print(f"{ΛiYчoΗnκΧζРMШШDе}[✓] Warna '{ωВнвφЖЫрБTЭΓm}' direset ke default.{ζamγckxNγХΦXΓΣaΛщ}")
+    elif λΨюtхμсхaΨЛΥАрkηв.match(fzЪΤτКnCюΗΔτΨοYηу('\x13e\x11)', '²¢°³', 'æÞ\x91\x9e'), ЕЭΝЖkqνьpσДъЧ):
+        ΞYфbбъΕEнрЯeΧ[ωВнвφЖЫрБTЭΓm] = ЕЭΝЖkqνьpσДъЧ
+        фqНηGдζΤКДТФ(ΞYфbбъΕEнрЯeΧ)
+        print(f"{ΛiYчoΗnκΧζРMШШDе}[✓] Warna '{ωВнвφЖЫрБTЭΓm}' diubah ke {ЕЭΝЖkqνьpσДъЧ}{ζamγckxNγХΦXΓΣaΛщ}")
     else:
-        print(f"{TρМδЪhaOKlχLЗ☇}[!] Format kode tidak valid. Harus seperti '38;5;196'.{XОρωθ☋Н☃ЭqζЪХr}")
-    ТЖeCgyrδ☄PuXtyxγf.sleep(1.5)
-    ☉НζSLλicnd☎β☈cεε☃L()
-    zB☍☉ФЖ☍ФEGХNγ = 29 + 81
+        print(f"{ΜΩΦβλlυфЪzχαNΑφν}[!] Format kode tidak valid. Harus seperti '38;5;196'.{ζamγckxNγХΦXΓΣaΛщ}")
+    ЧψНАKНQккπоЬоφБγN.sleep(1.5)
+    XТΡРжωξХVΠΧhсα()
+    μΘГkbЭЙOΒZъΚ = 9 + 86
 
 def clean_tools():
-    YbeКgЧM☃tЦАЕТ()
-    ЬυPMЛr☁αSoKШzH()
-    ☍xλHHrγβdИ☍E(LЬYОDζ☌t☌UПfAЖK☉('ïúòýúí', '4./G3((', 'òí\x9e\x96îê\x97'), sFBЙtyУuξgoR☏rn☂НШ)
-    print(f'{☎WοsξПιГНЕγР☇FyPπI}[!] Pembersihan akan menghapus semua tools menu (Biar HP lebih enteng. Ga bahaya){XОρωθ☋Н☃ЭqζЪХr}')
-    print(f'{Я☂yτOωKλKbtsКБYIVπ}Yang akan dihapus: semua folder sampah kecuali file penting seperti database & session.{XОρωθ☋Н☃ЭqζЪХr}')
-    ЖЗοOЭWαT☇HGЗ☂α = input(f'\n{TρМδЪhaOKlχLЗ☇}Yakin? (y/N): {XОρωθ☋Н☃ЭqζЪХr}').strip().lower()
-    if ЖЗοOЭWαT☇HGЗ☂α != LЬYОDζ☌t☌UПfAЖK☉('', '', 'Ç'):
-        print(f'{★jβБМВgνЛDηDθl☍βεO}Dibatalkan.{XОρωθ☋Н☃ЭqζЪХr}')
-        ТЖeCgyrδ☄PuXtyxγf.sleep(1)
+    МуΚΤоFКΧЖdΜIoM()
+    лЭвRtрЖшuΤμγοа()
+    ЖΙяνVкyЩΞиUХАτhШ(fzЪΤτКnCюΗΔτΨοYηу('\x1d\x08\x00\x0f\x08\x1f', 'ÊÐÑ¹ÍÖÖ', 'öé\x9a\x92êî\x93'), нοфГιΛшζSfζБчЬЧТT)
+    print(f'{цσзγяΞЕЕдUΧOс}[!] Pembersihan akan menghapus semua tools menu (Biar HP lebih enteng. Ga bahaya){ζamγckxNγХΦXΓΣaΛщ}')
+    print(f'{ЩкуIHаΧУяздΓΦТwkД}Yang akan dihapus: semua folder sampah kecuali file penting seperti database & session.{ζamγckxNγХΦXΓΣaΛщ}')
+    RDzfзЛγшΞΡфDζΩπЕj = input(f'\n{ΜΩΦβλlυфЪzχαNΑφν}Yakin? (y/N): {ζamγckxNγХΦXΓΣaΛщ}').strip().lower()
+    if RDzfзЛγшΞΡфDζΩπЕj != fzЪΤτКnCюΗΔτΨοYηу('', '', 'Ã'):
+        print(f'{ΛiYчoΗnκΧζРMШШDе}Dibatalkan.{ζamγckxNγХΦXΓΣaΛщ}')
+        ЧψНАKНQккπоЬоφБγN.sleep(1)
         return
-    ρТδIШVЖMqЯζtW☄☋☆П = 0
-    ηХРБε★БМδAЭИψВ☌ = [LЬYОDζ☌t☌UПfAЖK☉('ÊÌÚÍ', '\x148\x03\x05', '\x90ÔÍÑÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÌÚÌÌ', '\x0e\x08\tI', 'ÔÍÑÐ'), LЬYОDζ☌t☌UПfAЖK☉('ÜÐÓ', '\x08\x15\x14I', 'ÔÍÑÐ')]
-    for ЯomaοκgXШ☄☉βЬwЩqP in υ☏iXθМηЩЛAХЙkК☀y.listdir(ЫЯЖБξEЪЙVρCφ☀O):
-        gjvaББψλφ☋Gu☆ХCA = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЫЯЖБξEЪЙVρCφ☀O, ЯomaοκgXШ☄☉βЬwЩqP)
-        if υ☏iXθМηЩЛAХЙkК☀y.path.isdir(gjvaББψλφ☋Gu☆ХCA):
+    ЗκеЛГΞтΘξrξUдC = 0
+    вяOХγμжψSKЛΚτFκн = [fzЪΤτКnCюΗΔτΨοYηу('8>(?', 'êÆýû', '\x94ÐÉÕÔ'), fzЪΤτКnCюΗΔτΨοYηу('>(>>', 'ðö÷·', 'ÐÉÕÔ'), fzЪΤτКnCюΗΔτΨοYηу('."!', 'öëê·', 'ÐÉÕÔ')]
+    for йAτoγЕюsтgQдщЙ in SΦьZФτWmΣvЕδФУ.listdir(hэОЦΣΜΨxTЦυφΕГvJЙк):
+        ОσщAμюPфψщЫΣЫ = SΦьZФτWmΣvЕδФУ.path.join(hэОЦΣΜΨxTЦυφΕГvJЙк, йAτoγЕюsтgQдщЙ)
+        if SΦьZФτWmΣvЕδФУ.path.isdir(ОσщAμюPфψщЫΣЫ):
             try:
-                ☂РAЬβ★δSVgЪzGsCАdw.rmtree(gjvaББψλφ☋Gu☆ХCA)
-                ρТδIШVЖMqЯζtW☄☋☆П += 1
-                print(f'{★jβБМВgνЛDηDθl☍βεO}[✓] Dihapus: {ЯomaοκgXШ☄☉βЬwЩqP}{XОρωθ☋Н☃ЭqζЪХr}')
+                ΥEкСжrvбшuρжWОEΔ.rmtree(ОσщAμюPфψщЫΣЫ)
+                ЗκеЛГΞтΘξrξUдC += 1
+                print(f'{ΛiYчoΗnκΧζРMШШDе}[✓] Dihapus: {йAτoγЕюsтgQдщЙ}{ζamγckxNγХΦXΓΣaΛщ}')
             except Exception as e:
-                print(f'{TρМδЪhaOKlχLЗ☇}[!] Gagal hapus {ЯomaοκgXШ☄☉βЬwЩqP}: {☉W☈rιχBBuЗνШqω}{XОρωθ☋Н☃ЭqζЪХr}')
-        elif υ☏iXθМηЩЛAХЙkК☀y.path.isfile(gjvaББψλφ☋Gu☆ХCA) and ЯomaοκgXШ☄☉βЬwЩqP not in ηХРБε★БМδAЭИψВ☌:
+                print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Gagal hapus {йAτoγЕюsтgQдщЙ}: {юэЮвjУcAяΖННΠrНВΓΦ}{ζamγckxNγХΦXΓΣaΛщ}')
+        elif SΦьZФτWmΣvЕδФУ.path.isfile(ОσщAμюPфψщЫΣЫ) and йAτoγЕюsтgQдщЙ not in вяOХγμжψSKЛΚτFκн:
             try:
-                υ☏iXθМηЩЛAХЙkК☀y.remove(gjvaББψλφ☋Gu☆ХCA)
-                ρТδIШVЖMqЯζtW☄☋☆П += 1
-                print(f'{★jβБМВgνЛDηDθl☍βεO}[✓] Dihapus: {ЯomaοκgXШ☄☉βЬwЩqP}{XОρωθ☋Н☃ЭqζЪХr}')
+                SΦьZФτWmΣvЕδФУ.remove(ОσщAμюPфψщЫΣЫ)
+                ЗκеЛГΞтΘξrξUдC += 1
+                print(f'{ΛiYчoΗnκΧζРMШШDе}[✓] Dihapus: {йAτoγЕюsтgQдщЙ}{ζamγckxNγХΦXΓΣaΛщ}')
             except Exception as e:
-                print(f'{TρМδЪhaOKlχLЗ☇}[!] Gagal hapus {ЯomaοκgXШ☄☉βЬwЩqP}: {☉W☈rιχBBuЗνШqω}{XОρωθ☋Н☃ЭqζЪХr}')
-    print(f'\n{★jβБМВgνЛDηDθl☍βεO}✅ Selesai! {ρТδIШVЖMqЯζtW☄☋☆П} item dibersihkan.{XОρωθ☋Н☃ЭqζЪХr}')
-    input(f'\n{IeЛκlrοXlЗDnNbEρnA}Tekan Enter untuk kembali...{XОρωθ☋Н☃ЭqζЪХr}')
-    ЫOAzФЬYvγЙ☋Жκ = 12 + 51
+                print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Gagal hapus {йAτoγЕюsтgQдщЙ}: {юэЮвjУcAяΖННΠrНВΓΦ}{ζamγckxNγХΦXΓΣaΛщ}')
+    print(f'\n{ΛiYчoΗnκΧζРMШШDе}✅ Selesai! {ЗκеЛГΞтΘξrξUдC} item dibersihkan.{ζamγckxNγХΦXΓΣaΛщ}')
+    input(f'\n{NШΕQцwεμgфjφqяσХЛΨ}Tekan Enter untuk kembali...{ζamγckxNγХΦXΓΣaΛщ}')
+    СбЭsΤlΥZγЕlеνКхιΠN = 97 + 94
 
 def execute_tool(username, item):
-    YbeКgЧM☃tЦАЕТ()
-    ЬυPMЛr☁αSoKШzH()
-    λyτMDu☎☃fζgυαχHLb = ЯomaοκgXШ☄☉βЬwЩqP[LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ')].split(LЬYОDζ☌t☌UПfAЖK☉('', '', '\x91'))[-1]
-    tηmOhγЬZФwμκσsσC = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЫЯЖБξEЪЙVρCφ☀O, λyτMDu☎☃fζgυαχHLb)
-    ☁Й☂☍τν☌ХκHЩ☇pR = υ☏iXθМηЩЛAХЙkК☀y.path.join(ЫЯЖБξEЪЙVρCφ☀O, ЯomaοκgXШ☄☉βЬwЩqP[LЬYОDζ☌t☌UПfAЖK☉('Þ', '\x01\x13', 'ÛÌ')])
+    МуΚΤоFКΧЖdΜIoM()
+    лЭвRtрЖшuΤμγοа()
+    nLΛМОΚЛЛΣgЙГ = йAτoγЕюsтgQдщЙ[fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ')].split(fzЪΤτКnCюΗΔτΨοYηу('', '', '\x95'))[-1]
+    RkХшωwытдQWΖVlΒΓμ = SΦьZФτWmΣvЕδФУ.path.join(hэОЦΣΜΨxTЦυφΕГvJЙк, nLΛМОΚЛЛΣgЙГ)
+    γπSыΘhКргRAьЬμηцЛ = SΦьZФτWmΣvЕδФУ.path.join(hэОЦΣΜΨxTЦυφΕГvJЙк, йAτoγЕюsтgQдщЙ[fzЪΤτКnCюΗΔτΨοYηу(',', 'ÿí', 'ßÈ')])
     print()
-    ☍xλHHrγβdИ☍E(f"Proses: {ЯomaοκgXШ☄☉βЬwЩqP['name']}", ★jβБМВgνЛDηDθl☍βεO)
-    if υ☏iXθМηЩЛAХЙkК☀y.path.exists(☁Й☂☍τν☌ХκHЩ☇pR):
-        БVMζβKξδpЪГ☇☈gE = ☁Й☂☍τν☌ХκHЩ☇pR
-        print(f'{Я☂yτOωKλKbtsКБYIVπ}[+] Tools sudah ada, cek update...{XОρωθ☋Н☃ЭqζЪХr}')
-        Нx☍σЪFRДpШfFВДs(БVMζβKξδpЪГ☇☈gE)
-    elif υ☏iXθМηЩЛAХЙkК☀y.path.exists(tηmOhγЬZФwμκσsσC):
-        БVMζβKξδpЪГ☇☈gE = tηmOhγЬZФwμκσsσC
-        print(f'{Я☂yτOωKλKbtsКБYIVπ}[+] Repo ditemukan, rename ke folder target...{XОρωθ☋Н☃ЭqζЪХr}')
+    ЖΙяνVкyЩΞиUХАτhШ(f"Proses: {йAτoγЕюsтgQдщЙ['name']}", ΛiYчoΗnκΧζРMШШDе)
+    if SΦьZФτWmΣvЕδФУ.path.exists(γπSыΘhКргRAьЬμηцЛ):
+        нtpoFaωИQjкEЯngQ = γπSыΘhКргRAьЬμηцЛ
+        print(f'{ЩкуIHаΧУяздΓΦТwkД}[+] Tools sudah ada, cek update...{ζamγckxNγХΦXΓΣaΛщ}')
+        οЕαΥZπΘOчPαoэλων(нtpoFaωИQjкEЯngQ)
+    elif SΦьZФτWmΣvЕδФУ.path.exists(RkХшωwытдQWΖVlΒΓμ):
+        нtpoFaωИQjкEЯngQ = RkХшωwытдQWΖVlΒΓμ
+        print(f'{ЩкуIHаΧУяздΓΦТwkД}[+] Repo ditemukan, rename ke folder target...{ζamγckxNγХΦXΓΣaΛщ}')
         try:
-            υ☏iXθМηЩЛAХЙkК☀y.rename(tηmOhγЬZФwμκσsσC, ☁Й☂☍τν☌ХκHЩ☇pR)
-            БVMζβKξδpЪГ☇☈gE = ☁Й☂☍τν☌ХκHЩ☇pR
+            SΦьZФτWmΣvЕδФУ.rename(RkХшωwытдQWΖVlΒΓμ, γπSыΘhКргRAьЬμηцЛ)
+            нtpoFaωИQjкEЯngQ = γπSыΘhКргRAьЬμηцЛ
         except Exception as e:
-            print(f'{TρМδЪhaOKlχLЗ☇}[!] Gagal rename: {☉W☈rιχBBuЗνШqω}{XОρωθ☋Н☃ЭqζЪХr}')
-            БVMζβKξδpЪГ☇☈gE = tηmOhγЬZФwμκσsσC
-        Нx☍σЪFRДpШfFВДs(БVMζβKξδpЪГ☇☈gE)
+            print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Gagal rename: {юэЮвjУcAяΖННΠrНВΓΦ}{ζamγckxNγХΦXΓΣaΛщ}')
+            нtpoFaωИQjкEЯngQ = RkХшωwытдQWΖVlΒΓμ
+        οЕαΥZπΘOчPαoэλων(нtpoFaωИQjкEЯngQ)
     else:
-        print(f'{Я☂yτOωKλKbtsКБYIVπ}[+] Mengunduh file sistem...{XОρωθ☋Н☃ЭqζЪХr}')
-        ЕrНУδκθИHШοЖБ(LЬYОDζ☌t☌UПfAЖK☉('òÚÑØÊÑ', '\x03\x12\x0fG\x15\x02\x17', 'ÑÍ×ÊÑÌÇ'), 1.5)
-        OKZφВ☋ПШ☊ХНЭWσ = zsSЩgФSqVЬphЛφβfК☋(ЯomaοκgXШ☄☉βЬwЩqP[LЬYОDζ☌t☌UПfAЖK☉('Í', '\x02', 'ÎÑ')], tηmOhγЬZФwμκσsσC)
-        if not OKZφВ☋ПШ☊ХНЭWσ:
-            print(f'{TρМδЪhaOKlχLЗ☇}[!] Gagal mengunduh. Pastikan git terinstall & repo public.{XОρωθ☋Н☃ЭqζЪХr}')
-            print(f'{☎WοsξПιГНЕγР☇FyPπI}[!] Coba jalankan manual: pkg install git && termux-setup-storage{XОρωθ☋Н☃ЭqζЪХr}')
-            input(f'\n{IeЛκlrοXlЗDnNbEρnA}Tekan Enter untuk kembali...{XОρωθ☋Н☃ЭqζЪХr}')
+        print(f'{ЩкуIHаΧУяздΓΦТwkД}[+] Mengunduh file sistem...{ζamγckxNγХΦXΓΣaΛщ}')
+        ΤfЕбgРeHfΥBЛ(fzЪΤτКnCюΗΔτΨοYηу('\x00(#*8#', 'ýìñ¹ëüé', 'ÕÉÓÎÕÈÃ'), 1.5)
+        XУMνφΑцщιKΨвДΞCQΑа = лВЯЪЦЮЩΛwфIГЧ(йAτoγЕюsтgQдщЙ[fzЪΤτКnCюΗΔτΨοYηу('?', 'ü', 'ÊÕ')], RkХшωwытдQWΖVlΒΓμ)
+        if not XУMνφΑцщιKΨвДΞCQΑа:
+            print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Gagal mengunduh. Pastikan git terinstall & repo public.{ζamγckxNγХΦXΓΣaΛщ}')
+            print(f'{цσзγяΞЕЕдUΧOс}[!] Coba jalankan manual: pkg install git && termux-setup-storage{ζamγckxNγХΦXΓΣaΛщ}')
+            input(f'\n{NШΕQцwεμgфjφqяσХЛΨ}Tekan Enter untuk kembali...{ζamγckxNγХΦXΓΣaΛщ}')
             return
-        if υ☏iXθМηЩЛAХЙkК☀y.path.exists(tηmOhγЬZФwμκσsσC):
+        if SΦьZФτWmΣvЕδФУ.path.exists(RkХшωwытдQWΖVlΒΓμ):
             try:
-                if υ☏iXθМηЩЛAХЙkК☀y.path.exists(☁Й☂☍τν☌ХκHЩ☇pR):
-                    ☂РAЬβ★δSVgЪzGsCАdw.rmtree(☁Й☂☍τν☌ХκHЩ☇pR, ignore_errors=True)
-                υ☏iXθМηЩЛAХЙkК☀y.rename(tηmOhγЬZФwμκσsσC, ☁Й☂☍τν☌ХκHЩ☇pR)
-                БVMζβKξδpЪГ☇☈gE = ☁Й☂☍τν☌ХκHЩ☇pR
-                print(f'{★jβБМВgνЛDηDθl☍βεO}[✓] Berhasil mengunduh!{XОρωθ☋Н☃ЭqζЪХr}')
+                if SΦьZФτWmΣvЕδФУ.path.exists(γπSыΘhКргRAьЬμηцЛ):
+                    ΥEкСжrvбшuρжWОEΔ.rmtree(γπSыΘhКргRAьЬμηцЛ, ignore_errors=True)
+                SΦьZФτWmΣvЕδФУ.rename(RkХшωwытдQWΖVlΒΓμ, γπSыΘhКргRAьЬμηцЛ)
+                нtpoFaωИQjкEЯngQ = γπSыΘhКргRAьЬμηцЛ
+                print(f'{ΛiYчoΗnκΧζРMШШDе}[✓] Berhasil mengunduh!{ζamγckxNγХΦXΓΣaΛщ}')
             except Exception as e:
-                print(f'{☎WοsξПιГНЕγР☇FyPπI}[!] Gagal rename folder, pakai nama asli: {☉W☈rιχBBuЗνШqω}{XОρωθ☋Н☃ЭqζЪХr}')
-                БVMζβKξδpЪГ☇☈gE = tηmOhγЬZФwμκσsσC
+                print(f'{цσзγяΞЕЕдUΧOс}[!] Gagal rename folder, pakai nama asli: {юэЮвjУcAяΖННΠrНВΓΦ}{ζamγckxNγХΦXΓΣaΛщ}')
+                нtpoFaωИQjкEЯngQ = RkХшωwытдQWΖVlΒΓμ
         else:
-            print(f'{TρМδЪhaOKlχLЗ☇}[!] Clone berhasil tapi folder tidak ditemukan.{XОρωθ☋Н☃ЭqζЪХr}')
-            input(f'\n{IeЛκlrοXlЗDnNbEρnA}Tekan Enter untuk kembali...{XОρωθ☋Н☃ЭqζЪХr}')
+            print(f'{ΜΩΦβλlυфЪzχαNΑφν}[!] Clone berhasil tapi folder tidak ditemukan.{ζamγckxNγХΦXΓΣaΛщ}')
+            input(f'\n{NШΕQцwεμgфjφqяσХЛΨ}Tekan Enter untuk kembali...{ζamγckxNγХΦXΓΣaΛщ}')
             return
-    λ☀s☆σxСБTρЗYψБWγ = υ☏iXθМηЩЛAХЙkК☀y.path.join(БVMζβKξδpЪГ☇☈gE, ЯomaοκgXШ☄☉βЬwЩqP[LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ')])
-    if not υ☏iXθМηЩЛAХЙkК☀y.path.exists(λ☀s☆σxСБTρЗYψБWγ):
-        YzШκr☏qЙ☀Aρ☌С = False
-        for r☎☋rPwνГЩWrHL, χE☋ЩOtЫНgθIjmФLξС☇, МA☆zNθImЙK☎Qa☆ in υ☏iXθМηЩЛAХЙkК☀y.walk(БVMζβKξδpЪГ☇☈gE):
-            if ЯomaοκgXШ☄☉βЬwЩqP[LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ')] in МA☆zNθImЙK☎Qa☆:
-                λ☀s☆σxСБTρЗYψБWγ = υ☏iXθМηЩЛAХЙkК☀y.path.join(r☎☋rPwνГЩWrHL, ЯomaοκgXШ☄☉βЬwЩqP[LЬYОDζ☌t☌UПfAЖK☉('Ù', '\x0e', 'ÒÛ')])
-                YzШκr☏qЙ☀Aρ☌С = True
+    ΟJsWφяλΜbsLВБй = SΦьZФτWmΣvЕδФУ.path.join(нtpoFaωИQjкEЯngQ, йAτoγЕюsтgQдщЙ[fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß')])
+    if not SΦьZФτWmΣvЕδФУ.path.exists(ΟJsWφяλΜbsLВБй):
+        μΥΗыКμJИсАЪΥЛYaЩ = False
+        for πXщцuznMΡкУдbеЧЩ, αxxвιЯуθФμXMШМэ, ΒxшЩЭaJчbумRlЕp in SΦьZФτWmΣvЕδФУ.walk(нtpoFaωИQjкEЯngQ):
+            if йAτoγЕюsтgQдщЙ[fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß')] in ΒxшЩЭaJчbумRlЕp:
+                ΟJsWφяλΜbsLВБй = SΦьZФτWmΣvЕδФУ.path.join(πXщцuznMΡкУдbеЧЩ, йAτoγЕюsтgQдщЙ[fzЪΤτКnCюΗΔτΨοYηу('+', 'ð', 'Öß')])
+                μΥΗыКμJИсАЪΥЛYaЩ = True
                 break
-        if not YzШκr☏qЙ☀Aρ☌С:
-            print(f"{TρМδЪhaOKlχLЗ☇}[!] File '{ЯomaοκgXШ☄☉βЬwЩqP['file']}' tidak ditemukan di {БVMζβKξδpЪГ☇☈gE}{XОρωθ☋Н☃ЭqζЪХr}")
+        if not μΥΗыКμJИсАЪΥЛYaЩ:
+            print(f"{ΜΩΦβλlυфЪzχαNΑφν}[!] File '{йAτoγЕюsтgQдщЙ['file']}' tidak ditemukan di {нtpoFaωИQjкEЯngQ}{ζamγckxNγХΦXΓΣaΛщ}")
             try:
-                ☄КQАТGyУXηUy = υ☏iXθМηЩЛAХЙkК☀y.listdir(БVMζβKξδpЪГ☇☈gE)
-                print(f'{☎WοsξПιГНЕγР☇FyPπI}[!] Isi folder: {☄КQАТGyУXηUy}{XОρωθ☋Н☃ЭqζЪХr}')
+                ьζKθΨdθрoзЯСАзСTD = SΦьZФτWmΣvЕδФУ.listdir(нtpoFaωИQjкEЯngQ)
+                print(f'{цσзγяΞЕЕдUΧOс}[!] Isi folder: {ьζKθΨdθрoзЯСАзСTD}{ζamγckxNγХΦXΓΣaΛщ}')
             except:
                 pass
-            input(f'\n{IeЛκlrοXlЗDnNbEρnA}Tekan Enter untuk kembali...{XОρωθ☋Н☃ЭqζЪХr}')
+            input(f'\n{NШΕQцwεμgфjφqяσХЛΨ}Tekan Enter untuk kembali...{ζamγckxNγХΦXΓΣaΛщ}')
             return
-    ☁РjСЛwπЭbτvy = bDЦβnVkЬМRποЫJЖc(КcVBρMФ☃jmξηqОc)
-    if fУMC☀tlDFSTKDIШbj in ☁РjСЛwπЭbτvy.get(LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ'), {}):
-        ☁РjСЛwπЭbτvy[LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ')][fУMC☀tlDFSTKDIШbj][LЬYОDζ☌t☌UПfAЖK☉('Ì', '\x04\x08', 'ÌÛ')] = ☁РjСЛwπЭbτvy[LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ')][fУMC☀tlDFSTKDIШbj].get(LЬYОDζ☌t☌UПfAЖK☉('Ì', '\x04\x08', 'ÌÛ'), 0) + 10
-        aAЦP☏LζaδλИVО☆Дhy(КcVBρMФ☃jmξηqОc, ☁РjСЛwπЭbτvy)
+    УmrYΒыпУОαΣПSХтηΛK = ЙоЩοyuπзХνpλ(ЫюДωJхρBРΑтйΙ)
+    if νQыβЙаgРьΨDΔaσ in УmrYΒыпУОαΣПSХтηΛK.get(fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ'), {}):
+        УmrYΒыпУОαΣПSХтηΛK[fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ')][νQыβЙаgРьΨDΔaσ][fzЪΤτКnCюΗΔτΨοYηу('>', 'úö', 'Èß')] = УmrYΒыпУОαΣПSХтηΛK[fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ')][νQыβЙаgРьΨDΔaσ].get(fzЪΤτКnCюΗΔτΨοYηу('>', 'úö', 'Èß'), 0) + 10
+        ΦЯξιΙbωZgЪfвзζtλ(ЫюДωJхρBРΑтйΙ, УmrYΒыпУОαΣПSХтηΛK)
     while True:
-        print(f'{★jβБМВgνЛDηDθl☍βεO}[✓] Sukses! Menjalankan tools...{XОρωθ☋Н☃ЭqζЪХr}\n')
-        ТЖeCgyrδ☄PuXtyxγf.sleep(1)
+        print(f'{ΛiYчoΗnκΧζРMШШDе}[✓] Sukses! Menjalankan tools...{ζamγckxNγХΦXΓΣaΛщ}\n')
+        ЧψНАKНQккπоЬоφБγN.sleep(1)
         try:
-            О☀tμDЫδχUKN★λЦπЯφN = SЪВЩιd☆ξ☎М☊wD.run([ПНFЩ☍ρχSωРЧЧКЖwβκ.executable, λ☀s☆σxСБTρЗYψБWγ], cwd=БVMζβKξδpЪГ☇☈gE)
-            if О☀tμDЫδχUKN★λЦπЯφN.returncode != 0:
-                print(f'\n{☎WοsξПιГНЕγР☇FyPπI}[!] Script selesai dengan exit code: {О☀tμDЫδχUKN★λЦπЯφN.returncode}{XОρωθ☋Н☃ЭqζЪХr}')
+            eθΘLqШNВъРБΟbMηVЗt = эаBвУСщpБyЖУN.run([MnVАЖтεфΓΤгТαЕю.executable, ΟJsWφяλΜbsLВБй], cwd=нtpoFaωИQjкEЯngQ)
+            if eθΘLqШNВъРБΟbMηVЗt.returncode != 0:
+                print(f'\n{цσзγяΞЕЕдUΧOс}[!] Script selesai dengan exit code: {eθΘLqШNВъРБΟbMηVЗt.returncode}{ζamγckxNγХΦXΓΣaΛщ}')
         except KeyboardInterrupt:
-            print(f'\n{☎WοsξПιГНЕγР☇FyPπI}[!] Script dihentikan oleh user.{XОρωθ☋Н☃ЭqζЪХr}')
+            print(f'\n{цσзγяΞЕЕдUΧOс}[!] Script dihentikan oleh user.{ζamγckxNγХΦXΓΣaΛщ}')
         except Exception as e:
-            print(f'\n{TρМδЪhaOKlχLЗ☇}[!] Terjadi Error: {☉W☈rιχBBuЗνШqω}{XОρωθ☋Н☃ЭqζЪХr}')
-        print(f'\n{sFBЙtyУuξgoR☏rn☂НШ}=================================================={XОρωθ☋Н☃ЭqζЪХr}')
-        tχ☊μУMЯD☇πАOXq☏Yko = input(f'\n{sFBЙtyУuξgoR☏rn☂НШ}Tekan ENTER untuk kembali...{XОρωθ☋Н☃ЭqζЪХr}').strip()
-        if tχ☊μУMЯD☇πАOXq☏Yko == LЬYОDζ☌t☌UПfAЖK☉('', '', '\x8e'):
-            YbeКgЧM☃tЦАЕТ()
-            ЬυPMЛr☁αSoKШzH()
-            ☍xλHHrγβdИ☍E(f"Memproses Ulang: {ЯomaοκgXШ☄☉βЬwЩqP['name']}", ★jβБМВgνЛDηDθl☍βεO)
+            print(f'\n{ΜΩΦβλlυфЪzχαNΑφν}[!] Terjadi Error: {юэЮвjУcAяΖННΠrНВΓΦ}{ζamγckxNγХΦXΓΣaΛщ}')
+        print(f'\n{нοфГιΛшζSfζБчЬЧТT}=================================================={ζamγckxNγХΦXΓΣaΛщ}')
+        нЬχMJΒπцΧψщкmШt = input(f'\n{нοфГιΛшζSfζБчЬЧТT}Tekan ENTER untuk kembali...{ζamγckxNγХΦXΓΣaΛщ}').strip()
+        if нЬχMJΒπцΧψщкmШt == fzЪΤτКnCюΗΔτΨοYηу('', '', '\x8a'):
+            МуΚΤоFКΧЖdΜIoM()
+            лЭвRtрЖшuΤμγοа()
+            ЖΙяνVкyЩΞиUХАτhШ(f"Memproses Ulang: {йAτoγЕюsтgQдщЙ['name']}", ΛiYчoΗnκΧζРMШШDе)
             continue
         else:
             break
-    BЫYШЭζ☊☇θψlrСcIЩK = 60 + 7
+    mvΛxПXΥδЬБZЖ = 44 + 81
 
 def main():
-    TνννОЕε☁ДiЩ☆Fwn☏Ec = bDЦβnVkЬМRποЫJЖc(ξ☃σЬxsЮ☂☀μCQπkπ)
-    if LЬYОDζ☌t☌UПfAЖK☉('ÊÌ', '\x02\x15\t', 'ßÓÛ') in TνννОЕε☁ДiЩ☆Fwn☏Ec:
-        ☁РjСЛwπЭbτvy = bDЦβnVkЬМRποЫJЖc(КcVBρMФ☃jmξηqОc)
-        if TνννОЕε☁ДiЩ☆Fwn☏Ec[LЬYОDζ☌t☌UПfAЖK☉('ÊÌ', '\x02\x15\t', 'ßÓÛ')] in ☁РjСЛwπЭbτvy.get(LЬYОDζ☌t☌UПfAЖK☉('Ê', '\x14\x02', 'ÌÍ'), {}):
-            ο☍e☀ηξOJУ☋KxλεnYJ()
-            ЪБЮ☄ЬМm☇jfOТ(TνννОЕε☁ДiЩ☆Fwn☏Ec[LЬYОDζ☌t☌UПfAЖK☉('ÊÌ', '\x02\x15\t', 'ßÓÛ')])
+    ЯвΦщЮAЫFΘπSωHΗ = ЙоЩοyuπзХνpλ(ζζSCσNуΝФьΘлцх)
+    if fzЪΤτКnCюΗΔτΨοYηу('8>', 'üë÷', 'Û×ß') in ЯвΦщЮAЫFΘπSωHΗ:
+        УmrYΒыпУОαΣПSХтηΛK = ЙоЩοyuπзХνpλ(ЫюДωJхρBРΑтйΙ)
+        if ЯвΦщЮAЫFΘπSωHΗ[fzЪΤτКnCюΗΔτΨοYηу('8>', 'üë÷', 'Û×ß')] in УmrYΒыпУОαΣПSХтηΛK.get(fzЪΤτКnCюΗΔτΨοYηу('8', 'êü', 'ÈÉ'), {}):
+            PζэМуъΑΕзeИлZс()
+            ΗЗlХεEViЫЫъmΛзПπU(ЯвΦщЮAЫFΘπSωHΗ[fzЪΤτКnCюΗΔτΨοYηу('8>', 'üë÷', 'Û×ß')])
             return
-        elif υ☏iXθМηЩЛAХЙkК☀y.path.exists(ξ☃σЬxsЮ☂☀μCQπkπ):
-            υ☏iXθМηЩЛAХЙkК☀y.remove(ξ☃σЬxsЮ☂☀μCQπkπ)
-    σC☍wNzDИCBλμЮЫρι()
-    λEFoδМ☆hεPЪjξУdnЩ = 98 + 73
-if __name__ == LЬYОDζ☌t☌UПfAЖK☉('àà', '\n\x06\x0e', 'Ðáá'):
-    εYRcЦ☊jБl★ξfpEФy()
+        elif SΦьZФτWmΣvЕδФУ.path.exists(ζζSCσNуΝФьΘлцх):
+            SΦьZФτWmΣvЕδФУ.remove(ζζSCσNуΝФьΘлцх)
+    IфΓllКQqmцVΗйVяiФ()
+    ФОτРВγлΘΕШНЖθв = 3 + 65
+if __name__ == fzЪΤτКnCюΗΔτΨοYηу('\x12\x12', 'ôøð', 'Ôåå'):
+    ΓjфδδΞйИtиwρЕО()
