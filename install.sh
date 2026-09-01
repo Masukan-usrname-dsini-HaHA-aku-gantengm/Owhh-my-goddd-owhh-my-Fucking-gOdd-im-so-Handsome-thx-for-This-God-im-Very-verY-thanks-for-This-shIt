@@ -3,6 +3,7 @@
 set -uo pipefail
 
 # Created by : Adrianzz ;)
+# ⚠️ SCRIPT INI DIBUAT TANPA AI APAPUN..!! MAKLUM KALO ERROR, WAJARLAH MANUSIA BUKAN NABI BOY 🤧✌️
 
 RED="\033[31m"
 GREEN="\033[32m"
