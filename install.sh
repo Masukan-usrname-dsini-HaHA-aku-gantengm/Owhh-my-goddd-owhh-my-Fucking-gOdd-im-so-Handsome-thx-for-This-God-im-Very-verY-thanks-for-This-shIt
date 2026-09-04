@@ -38,21 +38,47 @@ clear
 
 printf "${C_GREEN}[?] MENGECEK UPDATE..!!${C_RESET}\n"
 auto_update() {
-    if [ -d ".git" ]; then
-        printf "${C_CYAN}[!] Cek update Git dulu, siapa tau ada oleh-oleh baru..${C_RESET}\n"
-
-        git pull --quiet
-
-        if [ $? -eq 0 ]; then
-            printf "${C_GREEN}[✓] Repository udah di-update. Mantap.${C_RESET}\n"
-            printf "${C_YELLOW}[!] Restart bentar, biar versi barunya nggak nganggur..${C_RESET}\n"
-            sleep 1
-            exec bash "$0" "$@"
-        else
-            printf "${C_RED}[✗] Git pull gagal. Git-nya lagi ngambek kali..${C_RESET}\n"
-        fi
-    else
+    if [ ! -d ".git" ]; then
         printf "${C_WHITE}[✓] Bukan repository Git, update dilewati. Santai aja.${C_RESET}\n"
+        return 0
+    fi
+
+    printf "${C_CYAN}[!] Cek update Git dulu, siapa tau ada oleh-oleh baru..${C_RESET}\n"
+
+    local old_commit
+    local new_commit
+
+    old_commit=$(git rev-parse HEAD 2>/dev/null)
+
+    if [ -z "$old_commit" ]; then
+        printf "${C_RED}[✗] Gagal membaca commit Git.${C_RESET}\n"
+        return 0
+    fi
+
+    export GIT_TERMINAL_PROMPT=0
+    export GIT_EDITOR=true
+
+    if ! timeout "$TIMEOUT_SEC" git pull --ff-only --quiet >/dev/null 2>&1; then
+        printf "${C_RED}[✗] Git pull gagal atau timeout, update dilewati.${C_RESET}\n"
+        return 0
+    fi
+
+    new_commit=$(git rev-parse HEAD 2>/dev/null)
+
+    if [ -z "$new_commit" ]; then
+        printf "${C_RED}[✗] Gagal membaca commit Git setelah update.${C_RESET}\n"
+        return 0
+    fi
+
+    if [ "$old_commit" != "$new_commit" ]; then
+        printf "${C_GREEN}[✓] Update baru ditemukan.${C_RESET}\n"
+        printf "${C_YELLOW}[!] Restart agar versi terbaru aktif..${C_RESET}\n"
+
+        sleep 1
+
+        exec bash "$0" "$@"
+    else
+        printf "${C_GREEN}[✓] Sudah versi terbaru. Tidak perlu restart.${C_RESET}\n"
     fi
 }
 
