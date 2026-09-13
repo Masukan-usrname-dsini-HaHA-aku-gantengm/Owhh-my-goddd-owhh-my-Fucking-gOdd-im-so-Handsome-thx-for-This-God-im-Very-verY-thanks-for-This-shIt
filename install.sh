@@ -246,6 +246,8 @@ PKGS=(
     "jq"
     "make"
     "python-cryptography"
+    "which"
+    "boxes"
 )
 
 PIPS=(
