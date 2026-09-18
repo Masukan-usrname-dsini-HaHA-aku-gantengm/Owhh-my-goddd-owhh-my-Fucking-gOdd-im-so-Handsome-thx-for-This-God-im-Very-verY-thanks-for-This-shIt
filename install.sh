@@ -2,6 +2,28 @@
 
 # Created By : Adrianzz [ NO NO NO AI 💦 ]
 
+
+PKGS=(
+    "python"
+    "git"
+    "curl"
+    "xxd"
+    "jq"
+    "make"
+    "python-cryptography"
+    "which"
+    "boxes"
+)
+
+PIPS=(
+    "requests"
+    "colorama"
+    "phonenumbers"
+    "modules"
+    "mpv"
+    "selenium"
+)
+
 set +e
 
 RED='\033[1;91m'
@@ -237,27 +259,6 @@ else
 fi
 
 clear
-
-PKGS=(
-    "python"
-    "git"
-    "curl"
-    "xxd"
-    "jq"
-    "make"
-    "python-cryptography"
-    "which"
-    "boxes"
-)
-
-PIPS=(
-    "requests"
-    "colorama"
-    "phonenumbers"
-    "modules"
-    "mpv"
-    "selenium"
-)
 
 C_RESET='\033[0m'
 C_RED='\033[1;31m'
