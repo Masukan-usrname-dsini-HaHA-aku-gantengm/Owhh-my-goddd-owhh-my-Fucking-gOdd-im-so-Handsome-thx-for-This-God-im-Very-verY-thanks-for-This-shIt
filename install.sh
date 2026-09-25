@@ -13,6 +13,7 @@ PKGS=(
     "python-cryptography"
     "which"
     "boxes"
+    "openssl"
 )
 
 PIPS=(
@@ -22,6 +23,7 @@ PIPS=(
     "modules"
     "mpv"
     "selenium"
+    "pycryptodome"
 )
 
 set +e
@@ -34,6 +36,47 @@ CYAN='\033[1;96m'
 WHITE='\033[1;97m'
 RESET='\033[0m'
 
+bar() {
+    local text="${1:-Loading...}"
+    local duration="${2:-2}"
+
+    local f=(
+        "[\e[1;91m■\e[0m□□□□□□□□□]"
+        "[\e[1;92m■■\e[0m□□□□□□□□]"
+        "[\e[1;93m■■■\e[0m□□□□□□□]"
+        "[\e[1;94m■■■■\e[0m□□□□□□]"
+        "[\e[1;95m■■■■■\e[0m□□□□□]"
+        "[\e[1;96m■■■■■■\e[0m□□□□]"
+        "[\e[1;97m■■■■■■■\e[0m□□□]"
+        "[\e[1;92m■■■■■■■■\e[0m□□]"
+        "[\e[1;93m■■■■■■■■■\e[0m□]"
+        "[\e[1;94m■■■■■■■■■■\e[0m]"
+    )
+
+    local start=$SECONDS
+    local i=0
+    local elapsed
+
+    while (( SECONDS - start < duration )); do
+        printf "\r%b \033[1;32m%s\033[0m " "${f[i]}" "$text"
+
+        sleep 0.12
+
+        ((i++))
+        ((i >= ${#f[@]})) && i=0
+    done
+
+    printf "\r\033[K"
+}
+
+bar "[!] MENGHUBUNGKAN SERVER X-VALEZ" 3
+echo ""
+echo ""
+echo ""
+clear
+echo ""
+echo ""
+clear
 info() {
     echo -e "${CYAN}[INFO]${RESET} $1"
 }
